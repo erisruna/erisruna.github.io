@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Intensive Trimester</title>
+    <link>http://localhost:1313/tags/home/</link>
+    <description>Recent content in Home on Intensive Trimester</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Organizers:&lt;/strong&gt; P. Antonelli, G. Basti, G. Benomio, S. Cenatiempo, S. Daneri, L. De Rosa, N. Guglielmi, S. Modena, S. Olla, E. Runa, M. Simon, F. Tudisco, L. Xu&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Location &amp;amp; time:&lt;/strong&gt; Gran Sasso Science Institute, L&amp;rsquo;Aquila, Italy;  31 March &amp;ndash; 4 July 2025&lt;/p&gt;&#xA;&lt;p&gt;The aim of the trimester is to gather leading experts, graduate students and young researchers working on several topics at the crossroads of PDEs, Numerical Methods and Statistical Mechanics, including Fluids (in)stabilities, geometric variational problems, vortex dynamics, mixing, pattern formation in fluids or materials, solitary waves, scaling limits for interacting particle systems, structured dynamical systems, neural ODEs, model order reduction in high problems and parametric PDEs, data analysis and optimization.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

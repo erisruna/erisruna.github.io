@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshop on Intensive Trimester</title>
+    <link>http://localhost:1313/tags/workshop/</link>
+    <description>Recent content in Workshop on Intensive Trimester</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workshops</title>
+      <link>http://localhost:1313/workshop1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshop1/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&#xA;&#xA;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Date: 31 March 2025 - 4 April 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The aim of this workshop is to bring together mathematicians working on nonlocal variational models and PDEs which arise both in theoretical and applied physical problems. A wide range of problems arising in interconnected mathematical fields will be considered, ranging from geometric analysis and regularity theory, fracture mechanics, free boundary problems and pattern formation to shape optimization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Workshops</title>
+      <link>http://localhost:1313/workshop2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshop2/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&#xA;&#xA;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Date: 07 April 2025 - 11 April 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The aim of this workshop is to bring together mathematicians working on different theoretical aspects of fluid mechanics.&lt;/p&gt;&#xA;&lt;p&gt;Recent progress on fundamental questions for fluid models stem at a crossroad among different mathematical fields, combining traditional approaches to PDEs with tools from geometric measure theory, dynamical systems, harmonic analysis or probability.&lt;/p&gt;&#xA;&lt;p&gt;Topics that will be addresses include compressible and incompressible flows, hydrodynamic stability, mixing, instabilities and dissipation anomalies, non-uniqueness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Workshops</title>
+      <link>http://localhost:1313/workshop3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshop3/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&#xA;&#xA;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Date: 05 May 2025 - 09 May 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The workshop aims at gathering leading experts in the field of statistical mechanics with common interests of collective behaviours inout-of-equilibrium dynamics&lt;/p&gt;&#xA;&lt;p&gt;Confirmed speakers:&lt;/p&gt;&#xA;&lt;p&gt;Stella Brassesco, Gioia Carinci, Anna De Masi, Pablo A. Ferrari, Davide Gabrielli, Cristian Giardinà, Giovanni Jona-Lasinio, Claudio Landim, Eva Löcherbach, Frank Redig, Senya Shlosman, Dimitrios Tsagkarogiannis, Maria E. Vares.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Workshops</title>
+      <link>http://localhost:1313/workshop4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshop4/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&#xA;&#xA;&lt;br&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Date: 19 May 2025 - 23 May 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The workshop aims to bring together experts from various disciplines, including applied dynamical systems, optimization, and machine learning, to share the latest research advancements and address current challenges. By gathering specialists from different fields, the workshop seeks to create a friendly and welcoming environment that fosters innovative ideas, explores new research directions, and provides valuable opportunities forcollaboration and knowledge exchange, ultimately advancing the field ofnumerics for dynamical systems, optimization and scientific machine learning.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
