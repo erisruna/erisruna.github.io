@@ -1,13 +1,11 @@
 +++
-title = "Workshops"
+title = "Hidden structures in dynamical systems, optimization, and machine learning"
 draft = false
 tags = 'workshop'
 LinkTitle = 'Workshop 4'
 +++
 
 
-{{< br >}}
-{{< br >}}
 
 **Date: 19 May 2025 - 23 May 2025**
 

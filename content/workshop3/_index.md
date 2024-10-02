@@ -1,15 +1,13 @@
 +++
-title = "Workshops"
+title = "Emergent macroscopic phenomena in non-equilibrium statistical mechanics"
 draft = false
 tags = 'workshop'
 LinkTitle = 'Workshop 3'
 +++
 
 
-{{< br >}}
-{{< br >}}
-
 **Date: 05 May 2025 - 09 May 2025**
+
 
 
 The workshop aims at gathering leading experts in the field of statistical mechanics with common interests of collective behaviours inout-of-equilibrium dynamics

@@ -1,13 +1,10 @@
 +++
-title = "Workshops"
+title = "Coherent structures and (in)stabilities in fluids"
 draft = false
 LinkTitle = 'Workshop 2'
 tags = 'workshop'
 +++
 
-
-{{< br >}}
-{{< br >}}
 
 
 **Date: 07 April 2025 - 11 April 2025**

@@ -5,9 +5,6 @@ tags = 'fav'
 +++
 
 
-{{< br >}}
-{{< br >}}
-
 
 **4 Workshops**
 |               |                                             |

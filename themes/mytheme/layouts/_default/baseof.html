@@ -8,9 +8,13 @@
     {{ partial "navbar.html" . }}
 
 <body>
+
+{{ if in .Params.tags  "seminars" }}
+{{ else }}
 <header class="gssi-background text-white">
     {{ partial "header.html" . }}
 </header>
+{{end}}
   <main>
     {{ block "main" . }}{{ end }}
 </main>

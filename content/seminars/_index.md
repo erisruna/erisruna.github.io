@@ -1,0 +1,7 @@
++++
+title = "Upcoming Events"
++++
+
+
+
+{{< seminars >}}

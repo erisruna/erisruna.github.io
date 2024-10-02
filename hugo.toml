@@ -1,4 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
+relativeURLs = true
 languageCode = 'en-us'
-title = 'Intensive Trimester'
+title = 'Particles, Fluids and Patterns: Analytical and Computational Challenges'
 theme = 'mytheme'
+enableRobotsTXT = false

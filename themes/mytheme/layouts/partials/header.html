@@ -1,3 +1,5 @@
+{{ if in .Params.tags  "seminars" }}
+{{ else }}
     <div class="container px-4 text-center">
 
       <h1>
@@ -6,6 +8,11 @@
 {{ else }}
 {{ site.Title }}
 {{ end }}
-</title>
       </h1>
+
+{{ if .Params.subtitle }}
+<h2> {{ .Params.subtitle }} </h2>
+{{ end }}
+
     </div>
+    {{ end }}

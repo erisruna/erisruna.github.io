@@ -1,13 +1,11 @@
 +++
-title = "Workshops"
+title = "Nonlocal variational problems and PDEs"
 draft = false
 LinkTitle = 'Workshop 1'
 tags = 'workshop'
 +++
 
 
-{{< br >}}
-{{< br >}}
 
 **Date: 31 March 2025 - 4 April 2025**
 
