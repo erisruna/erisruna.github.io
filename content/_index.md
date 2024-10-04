@@ -9,10 +9,10 @@ tags = 'home'
 
 **Location & time:** Gran Sasso Science Institute, L'Aquila, Italy;  31 March -- 4 July 2025
 
-The aim of the trimester is to gather leading experts, graduate students and young researchers working on several topics at the crossroads of PDEs, Numerical Methods and Statistical Mechanics, including Fluids (in)stabilities, geometric variational problems, vortex dynamics, mixing, pattern formation in fluids or materials, solitary waves, scaling limits for interacting particle systems, structured dynamical systems, neural ODEs, model order reduction in high problems and parametric PDEs, data analysis and optimization.
+The aim of the trimester is to gather leading experts, graduate students and young researchers working on several topics at the crossroads of **PDEs**, **Numerical Methods** and **Statistical Mechanics**, including Fluids (in)stabilities, geometric variational problems, vortex dynamics, mixing, pattern formation in fluids or materials, solitary waves, scaling limits for interacting particle systems, structured dynamical systems, neural ODEs, model order reduction in high problems and parametric PDEs, data analysis and optimization.
 
 
-**Registration and Financial Support:** Registration is mandatory and available [here](https://indico.gssi.it/event/745/). The GSSI offers a limited amount of financial support for students and young researchers interested in attending the short courses during the trimester. The deadline to apply for financial support is 30 November 2024 (a motivation letter and a CV to be uploaded in the registration page and a letter of recommendation to be sent directly by the recommender to patterns at gssi.it will be required).
+**Registration and Financial Support:** Registration is mandatory and available [here](https://indico.gssi.it/event/745/). The GSSI offers a limited amount of financial support for students and young researchers interested in attending the short courses during the trimester. The deadline to apply for financial support is **30 November 2024** (a motivation letter and a CV to be uploaded in the registration page and a letter of recommendation to be sent directly by the recommender to patterns at gssi.it will be required).
 
 
 **4 Workshops**

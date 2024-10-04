@@ -3,64 +3,64 @@
 <link rel='stylesheet' href='https://fullcalendar.io/releases/timegrid/4.2.0/main.min.css'>
 <link rel='stylesheet' href='https://fullcalendar.io/releases/list/4.2.0/main.min.css'>
   
-<style>
-/*  Hide "all-day" texts from list view... */
-.fc-list-item-time {
-  display:none;
-}
-
-
-.fc-event {
-  background-color: #404060		;
-  border: none;
-}
-
-.fc-content {
-  padding: 3px;
-}
-
-.fc-event-dot {
-  background-color: #2aae2a;
-}
-
-.warning {
-  background-color: #ff6500;
-}
-.fc-list-item.warning {
-  background-color: rgba(255, 101, 0, 0.5);
-}
-
-.fc-list-item.warning .fc-event-dot {
-  background-color: #ff6500;
-}
-
-.error {
-  background-color: #ff0040;
-}
-
-.fc-list-item.error {
-  background-color: rgba(255, 0, 64, 0.4);
-}
-
-.fc-list-item.error .fc-event-dot {
-  background-color: #ff0040;
-}
-
-
-
-.float-right {
-  float: right;
-}
-
-a {
-  color: white;
-}
-</style>
-
-  <script>
-  window.console = window.console || function(t) {};
-</script>
-
+<!-- <style> -->
+<!-- /*  Hide "all-day" texts from list view... */ -->
+<!-- .fc-list-item-time { -->
+<!--   display:none; -->
+<!-- } -->
+<!---->
+<!---->
+<!-- .fc-event { -->
+<!--   background-color: #404060		; -->
+<!--   border: none; -->
+<!-- } -->
+<!---->
+<!-- .fc-content { -->
+<!--   padding: 3px; -->
+<!-- } -->
+<!---->
+<!-- .fc-event-dot { -->
+<!--   background-color: #2aae2a; -->
+<!-- } -->
+<!---->
+<!-- .warning { -->
+<!--   background-color: #ff6500; -->
+<!-- } -->
+<!-- .fc-list-item.warning { -->
+<!--   background-color: rgba(255, 101, 0, 0.5); -->
+<!-- } -->
+<!---->
+<!-- .fc-list-item.warning .fc-event-dot { -->
+<!--   background-color: #ff6500; -->
+<!-- } -->
+<!---->
+<!-- .error { -->
+<!--   background-color: #ff0040; -->
+<!-- } -->
+<!---->
+<!-- .fc-list-item.error { -->
+<!--   background-color: rgba(255, 0, 64, 0.4); -->
+<!-- } -->
+<!---->
+<!-- .fc-list-item.error .fc-event-dot { -->
+<!--   background-color: #ff0040; -->
+<!-- } -->
+<!---->
+<!---->
+<!---->
+<!-- .float-right { -->
+<!--   float: right; -->
+<!-- } -->
+<!---->
+<!-- a { -->
+<!--   color: white; -->
+<!-- } -->
+<!-- </style> -->
+<!---->
+<!--   <script> -->
+<!--   window.console = window.console || function(t) {}; -->
+<!-- </script> -->
+<!---->
   
   
 </head>
@@ -100,6 +100,21 @@ var events = [
         allDay: true
     },
 
+{{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "workshop" }}
+    { 
+      title: '{{ .Title }}',
+      start: dtToStr("{{ .Params.begin }} 2025 10:00:00 UTC+0200"),  
+      end: dtToStr("{{ .Params.end }} 2025 23:00:00  UTC+0200", 1),
+      allDay: true,
+      // extendedProps: {
+      //   department: 'BioChemistry'
+      // },
+      description: 'workshop',
+      color: '#dc1828',
+      url: {{ .Permalink }}
+     },
+{{ end }}
+
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
     {{ if in .Params.begin "TBA" }}
     {{ else }}
@@ -112,7 +127,7 @@ var events = [
       //   department: 'BioChemistry'
       // },
       description: 'Lecture',
-      event: '#FF7518	',
+      color: '#404060',
       url: {{ .Permalink }}
      },
      {{end}}
@@ -134,10 +149,10 @@ $(function () {
             //left: 'prevYear,prev, today next,nextYear',
             left: "prev,next, today",
             center: "title",
-            right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+            right: 'dayGridMonth,timeGridWeek,listMonth'
             // right: "dayGridMonth,listYear"
         },
-        defaultDate: "2025-04-01",
+        defaultDate: "2025-03-31",
         firstDay: 1,
         // weekNumbers: true,
         eventLimit: false,
