@@ -3744,6 +3744,8 @@ fieldset:disabled .btn {
   background-clip: padding-box;
   border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
   border-radius: var(--bs-dropdown-border-radius);
+  max-height: 55vh;
+  overflow-y: auto;
 }
 
 .dropdown-menu[data-bs-popper] {
