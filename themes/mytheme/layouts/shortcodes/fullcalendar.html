@@ -1,72 +1,10 @@
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
 <link rel='stylesheet' href='https://fullcalendar.io/releases/core/4.2.0/main.min.css'>
 <link rel='stylesheet' href='https://fullcalendar.io/releases/daygrid/4.2.0/main.min.css'>
 <link rel='stylesheet' href='https://fullcalendar.io/releases/timegrid/4.2.0/main.min.css'>
 <link rel='stylesheet' href='https://fullcalendar.io/releases/list/4.2.0/main.min.css'>
   
-<!-- <style> -->
-<!-- /*  Hide "all-day" texts from list view... */ -->
-<!-- .fc-list-item-time { -->
-<!--   display:none; -->
-<!-- } -->
-<!---->
-<!---->
-<!-- .fc-event { -->
-<!--   background-color: #404060		; -->
-<!--   border: none; -->
-<!-- } -->
-<!---->
-<!-- .fc-content { -->
-<!--   padding: 3px; -->
-<!-- } -->
-<!---->
-<!-- .fc-event-dot { -->
-<!--   background-color: #2aae2a; -->
-<!-- } -->
-<!---->
-<!-- .warning { -->
-<!--   background-color: #ff6500; -->
-<!-- } -->
-<!-- .fc-list-item.warning { -->
-<!--   background-color: rgba(255, 101, 0, 0.5); -->
-<!-- } -->
-<!---->
-<!-- .fc-list-item.warning .fc-event-dot { -->
-<!--   background-color: #ff6500; -->
-<!-- } -->
-<!---->
-<!-- .error { -->
-<!--   background-color: #ff0040; -->
-<!-- } -->
-<!---->
-<!-- .fc-list-item.error { -->
-<!--   background-color: rgba(255, 0, 64, 0.4); -->
-<!-- } -->
-<!---->
-<!-- .fc-list-item.error .fc-event-dot { -->
-<!--   background-color: #ff0040; -->
-<!-- } -->
-<!---->
-<!---->
-<!---->
-<!-- .float-right { -->
-<!--   float: right; -->
-<!-- } -->
-<!---->
-<!-- a { -->
-<!--   color: white; -->
-<!-- } -->
-<!-- </style> -->
-<!---->
-<!--   <script> -->
-<!--   window.console = window.console || function(t) {}; -->
-<!-- </script> -->
-<!---->
-  
-  
-</head>
-
-<body translate="no">
-  <div id="fullcalendar"></div>
+ <div id="fullcalendar"></div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js'></script>
 <script src='https://fullcalendar.io/releases/core/4.2.0/main.min.js'></script>
@@ -82,13 +20,13 @@ function dtToStr(dt, add_days=0) {
   let st = d.toISOString();
   return st.slice(0,-2);
 }
-
-{{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
-    {{ if in .Params.begin "TBA" }}
-    {{ else }}
-    console.log(dtToStr({{ .Params.begin }}))
-     {{end}}
-{{ end }}
+//
+// {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
+//     {{ if in .Params.begin "TBA" }}
+//     {{ else }}
+//     console.log(dtToStr({{ .Params.begin }}))
+//      {{end}}
+// {{ end }}
 
 
 var events = [
