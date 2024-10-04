@@ -11,7 +11,7 @@
 
 
 .fc-event {
-  background-color: #2aae2a;
+  background-color: #404060		;
   border: none;
 }
 
@@ -76,8 +76,9 @@ a {
       <script id="rendered-js" >
 "use strict";
 
-function dtToStr(dt) {
+function dtToStr(dt, add_days=0) {
   let d = new Date(Date.parse(dt));
+  d.setDate(d.getDate() + add_days);
   let st = d.toISOString();
   return st.slice(0,-2);
 }
@@ -91,24 +92,28 @@ function dtToStr(dt) {
 
 
 var events = [
-    // {
-    //     daysOfWeek: [0, 6],
-    //     rendering: "background",
-    //     color: "#eee",
-    //     overLap: false,
-    //     allDay: true
+    {
+        daysOfWeek: [0, 6],
+        rendering: "background",
+        color: "#eee",
+        overLap: false,
+        allDay: true
+    },
 
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
     {{ if in .Params.begin "TBA" }}
     {{ else }}
     { 
       title: 'Course by {{ .Params.author }}',
-      start: dtToStr("{{ .Params.begin }} 2025"),  
-      end: dtToStr("{{ .Params.end }} 2025"),
-      extendedProps: {
-        department: 'BioChemistry'
-      },
-      description: 'Lecture'
+      start: dtToStr("{{ .Params.begin }} 2025 10:00:00 UTC+0200"),  
+      end: dtToStr("{{ .Params.end }} 2025 23:00:00  UTC+0200", 1),
+      allDay: true,
+      // extendedProps: {
+      //   department: 'BioChemistry'
+      // },
+      description: 'Lecture',
+      event: '#FF7518	',
+      url: {{ .Permalink }}
      },
      {{end}}
 {{ end }}
@@ -122,19 +127,19 @@ $(function () {
     var calendarEl = document.getElementById("fullcalendar");
     var calendar = new FullCalendar.Calendar(calendarEl, {
         plugins: ["dayGrid", "timeGrid", "list", "interaction"],
-        timeZone: "UTC",
+        timeZone: "UTC+2",
         themeSystem: "standard",
         eventOrder: "start,title,-duration",
         header: {
             //left: 'prevYear,prev, today next,nextYear',
-            left: "prev,next today",
+            left: "prev,next, today",
             center: "title",
-            //right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
-            right: "dayGridMonth,listYear"
+            right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+            // right: "dayGridMonth,listYear"
         },
-        defaultDate: "2025-03-31",
+        defaultDate: "2025-04-01",
         firstDay: 1,
-        weekNumbers: true,
+        // weekNumbers: true,
         eventLimit: false,
         //events: 'https://fullcalendar.io/demo-events.json',
         events: events,
@@ -143,21 +148,21 @@ $(function () {
         eventResizableFromStart: true,
         eventResizableFromEnd: true,
         eventDurationEditable: true,
-        // eventRender: function (info) {
-        //     if (info.view.type === "listMonth") {
-        //         return;
-        //     }
-        //     let eventEl = info.el.querySelector(".fc-content");
-        //     let eventID = info.event.extendedProps.issueKey;
-        //     if (!eventID || !eventEl)
-        //         return;
-        //     let link = document.createElement("a");
-        //     link.innerHTML = eventID;
-        //     link.title = "Open in Jira";
-        //     link.href = "https://jira.dummyurl.com/browse/" + eventID;
-        //     link.classList.add("float-right");
-        //     eventEl.appendChild(link);
-        // }
+        eventRender: function (info) {
+            if (info.view.type === "listMonth") {
+                return;
+            }
+            let eventEl = info.el.querySelector(".fc-content");
+            let eventID = info.event.extendedProps.issueKey;
+            if (!eventID || !eventEl)
+                return;
+            let link = document.createElement("a");
+            link.innerHTML = eventID;
+            link.title = "Open in Jira";
+            link.href = "https://jira.dummyurl.com/browse/" + eventID;
+            link.classList.add("float-right");
+            eventEl.appendChild(link);
+        }
     });
     calendar.render();
 });
