@@ -12640,9 +12640,9 @@ section {
 
 div.relative {
   position: relative;
-  width: 400px;
-  height: 200px;
-  border: 3px solid #73AD21;
+    top: 4rem;
+    right: 0;
+  width: 290px;
 }
 
 div.absolute {

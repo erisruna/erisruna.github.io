@@ -76,6 +76,19 @@ a {
       <script id="rendered-js" >
 "use strict";
 
+function dtToStr(dt) {
+  let d = new Date(Date.parse(dt));
+  let st = d.toISOString();
+  return st.slice(0,-2);
+}
+
+{{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
+    {{ if in .Params.begin "TBA" }}
+    {{ else }}
+    console.log(dtToStr({{ .Params.begin }}))
+     {{end}}
+{{ end }}
+
 
 var events = [
     // {
@@ -84,28 +97,22 @@ var events = [
     //     color: "#eee",
     //     overLap: false,
     //     allDay: true
-    
-    {
-      title: 'BCH237',
-      start: '2024-03-31T10:30:00',
-      end: '2024-03-31T11:30:00',
-      extendedProps: {
-        department: 'BioChemistry'
-      },
-      description: 'Lecture'
-    },
 
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
     {{ if in .Params.begin "TBA" }}
     {{ else }}
     { 
       title: 'Course by {{ .Params.author }}',
-      start: Date("{{ .Params.begin }} 2025"),  
-      end: Date("{{ .Params.end }} 2025"),
-      description: "Lecture"
+      start: dtToStr("{{ .Params.begin }} 2025"),  
+      end: dtToStr("{{ .Params.end }} 2025"),
+      extendedProps: {
+        department: 'BioChemistry'
+      },
+      description: 'Lecture'
      },
      {{end}}
 {{ end }}
+
 
 ];
 
@@ -125,7 +132,7 @@ $(function () {
             //right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
             right: "dayGridMonth,listYear"
         },
-        defaultDate: "2024-03-31",
+        defaultDate: "2025-03-31",
         firstDay: 1,
         weekNumbers: true,
         eventLimit: false,
@@ -136,21 +143,21 @@ $(function () {
         eventResizableFromStart: true,
         eventResizableFromEnd: true,
         eventDurationEditable: true,
-        eventRender: function (info) {
-            if (info.view.type === "listMonth") {
-                return;
-            }
-            let eventEl = info.el.querySelector(".fc-content");
-            let eventID = info.event.extendedProps.issueKey;
-            if (!eventID || !eventEl)
-                return;
-            let link = document.createElement("a");
-            link.innerHTML = eventID;
-            link.title = "Open in Jira";
-            link.href = "https://jira.dummyurl.com/browse/" + eventID;
-            link.classList.add("float-right");
-            eventEl.appendChild(link);
-        }
+        // eventRender: function (info) {
+        //     if (info.view.type === "listMonth") {
+        //         return;
+        //     }
+        //     let eventEl = info.el.querySelector(".fc-content");
+        //     let eventID = info.event.extendedProps.issueKey;
+        //     if (!eventID || !eventEl)
+        //         return;
+        //     let link = document.createElement("a");
+        //     link.innerHTML = eventID;
+        //     link.title = "Open in Jira";
+        //     link.href = "https://jira.dummyurl.com/browse/" + eventID;
+        //     link.classList.add("float-right");
+        //     eventEl.appendChild(link);
+        // }
     });
     calendar.render();
 });
