@@ -1,9 +1,12 @@
 +++
 title = "Multiphase materials: phase coexistence, segregation and the emergence of microstructure"
 subtitle = "Course given by Prof. C. Muratov (Pisa)"
+author = "C. Muratov (Pisa)"
 draft = false
 LinkTitle = "muratov"
 tags = 'course'
+begin = "26 May"
+end = "30 May"
 +++
 
 

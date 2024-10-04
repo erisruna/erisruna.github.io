@@ -1,9 +1,12 @@
 +++
 title = "Regularity and small scale creation in equations of fluid"
 subtitle = "Course given by Prof. A. Kiselev (Duke)" 
+author = "A. Kiselev (Duke)" 
 draft = false
 LinkTitle = "kiselev"
 tags = 'course'
+begin = "16 June"
+end = "20 June"
 +++
 
 

@@ -5,7 +5,6 @@ LinkTitle = "calendar"
 tags = "seminars_long"
 +++
 
-[{{< fullcalendar >}} ]: #
 {{< br >}}
 {{< br >}}
 
