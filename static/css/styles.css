@@ -701,7 +701,9 @@ progress {
 }
 
 .gssi-background {
-  background-image: url("/fig4.jpg");
+  background-image: url("/fig6.jpg");
+  /*background-position: center center;*/
+  /*display: flex;*/
 }
 
 
@@ -12640,8 +12642,8 @@ section {
 
 div.relative {
   position: relative;
-    top: 4rem;
-    right: 0;
+  top: 4rem;
+  right: 0;
   width: 290px;
 }
 
