@@ -3,6 +3,8 @@ title = "Nonlocal variational problems and PDEs"
 draft = false
 LinkTitle = 'Workshop 1'
 tags = 'workshop'
+begin = "31 March"
+end = "4 April"
 +++
 
 

@@ -100,6 +100,21 @@ var events = [
         allDay: true
     },
 
+{{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "workshop" }}
+    { 
+      title: '{{ .Title }}',
+      start: dtToStr("{{ .Params.begin }} 2025 10:00:00 UTC+0200"),  
+      end: dtToStr("{{ .Params.end }} 2025 23:00:00  UTC+0200", 1),
+      allDay: true,
+      // extendedProps: {
+      //   department: 'BioChemistry'
+      // },
+      description: 'workshop',
+      color: '#dc1828',
+      url: {{ .Permalink }}
+     },
+{{ end }}
+
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
     {{ if in .Params.begin "TBA" }}
     {{ else }}
@@ -112,7 +127,7 @@ var events = [
       //   department: 'BioChemistry'
       // },
       description: 'Lecture',
-      event: '#FF7518	',
+      color: '#404060',
       url: {{ .Permalink }}
      },
      {{end}}
@@ -134,10 +149,10 @@ $(function () {
             //left: 'prevYear,prev, today next,nextYear',
             left: "prev,next, today",
             center: "title",
-            right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+            right: 'dayGridMonth,timeGridWeek,listMonth'
             // right: "dayGridMonth,listYear"
         },
-        defaultDate: "2025-04-01",
+        defaultDate: "2025-03-31",
         firstDay: 1,
         // weekNumbers: true,
         eventLimit: false,

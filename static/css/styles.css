@@ -702,7 +702,8 @@ progress {
 
 .gssi-background {
   background-image: url("/fig4.jpg");
-  /*background-position: center center;*/
+  /*background: url('/fig3.jpg') no-repeat;*/
+  /*background-size:100% 100%; */
   /*display: flex;*/
 }
 

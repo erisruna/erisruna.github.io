@@ -25,7 +25,7 @@
 
 <li><a class="dropdown-item" href="/all_courses/">All Courses</a></li>
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
-<li><a class="dropdown-item" href="{{ .Permalink  }} ">{{ .LinkTitle }}</a></li>
+<li><a class="dropdown-item" href="{{ .Permalink  }} ">{{ .Params.author }}</a></li>
 {{ end }}
           </ul>
 
@@ -45,8 +45,8 @@
         </li>
 
                   <!-- <li class="nav-item"><a class="nav-link" href="/calendar">Calendar</a></li> -->
-                  <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
                   <li class="nav-item"><a class="nav-link" href="/travel/">Travel</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
               </ul>
 
           </div>
