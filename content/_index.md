@@ -27,17 +27,17 @@ The aim of the trimester is to gather leading experts, graduate students and you
 {{</ table >}}
 
 
-**20 Courses given by:**
+**21 Courses given by:**
 {{< table >}}
 |                              |                                  |                         |
 |------------------------------|----------------------------------|-------------------------|
-|[J. Bedrossian (UCLA)](bedrossian)          |[M. Gubinelli (Oxford)](gubinelli)             |[F. Otto (MIS-MPG Leipzig)](otto)|
-|[O. Blondel (Lyon)](blondel)             |[A. Kiselev (Duke)](kiselev)                 |[B. Pehersthofer (NYU)](pehersthofer)    |
-|[M. Cicalese (TUM)](cicalese)             |[C. Lubich (Tübingen)](lubich)              |[M. Rodrigues (Rennes)](rodrigues)    |
-|[T. Gallay (Grenoble)](gallay)          |[A. Maspero (SISSA)](maspero)                |[L. Ryzhik (Stanford)](ryzhik)     |
-|[A. Giuliani (Rome)](giuliani)            |[W. Michiels (KULeuven)](michiels)            |[M. Sasada (Tokyo)](sasada)        |
-|[J. Gomez-Serrano (Brown)](gomez_serrano)      |[C. Muratov (Pisa)](muratov)                 |[Z. Xin (CUHK)](xin)            |
-|[G. M. Graf (ETH)](graf)             |[A. Nouy (Nantes)](nouy)| |
+|[J. Bedrossian (UCLA)](bedrossian)            |[C. Greif (UBC)](greif)                     |[A. Nouy (Nantes)](nouy)|
+|[O. Blondel (Lyon)](blondel)                  |[M. Gubinelli (Oxford)](gubinelli)          |[F. Otto (MIS-MPG Leipzig)](otto)|
+|[M. Cicalese (TUM)](cicalese)                 |[A. Kiselev (Duke)](kiselev)                |[B. Pehersthofer (NYU)](pehersthofer)    |
+|[T. Gallay (Grenoble)](gallay)                |[C. Lubich (Tübingen)](lubich)              |[M. Rodrigues (Rennes)](rodrigues)    |
+|[A. Giuliani (Rome)](giuliani)                |[A. Maspero (SISSA)](maspero)               |[L. Ryzhik (Stanford)](ryzhik)     |
+|[J. Gomez-Serrano (Brown)](gomez_serrano)     |[W. Michiels (KULeuven)](michiels)          |[M. Sasada (Tokyo)](sasada)        |
+|[G. M. Graf (ETH)](graf)                      |[C. Muratov (Pisa)](muratov)                |[Z. Xin (CUHK)](xin)            |
 {{</ table >}}
 
 
