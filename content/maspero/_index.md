@@ -30,5 +30,5 @@ pseudo-differential matrix valued operator with periodic coefficients.
 In this course I will present recent mathematically rigorous results about
 the band spectrum of the water waves equations linearized at the Stokes
 solitary waves.
-This material is based on joint works with A. Maspero, P. Ventura and L.
+This material is based on joint works with M. Berti, P. Ventura and L.
 Corsi.
