@@ -27,7 +27,7 @@ The aim of the trimester is to gather leading experts, graduate students and you
 {{</ table >}}
 
 
-**21 Courses given by:**
+**{{< num_courses >}} Courses given by:**
 {{< table >}}
 |                              |                                  |                         |
 |------------------------------|----------------------------------|-------------------------|
