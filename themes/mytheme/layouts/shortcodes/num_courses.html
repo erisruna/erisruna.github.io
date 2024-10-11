@@ -1,1 +1,2 @@
-{{ len (where .Site.Pages  ".Params.tags" "in" "course") }}
+{{ $num_courses :=  len (where .Site.Pages  ".Params.tags" "in" "course") }}
+{{ $num_courses }}

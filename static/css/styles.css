@@ -13144,3 +13144,67 @@ table.fc-border-separate {
 .fc-event-vert .ui-resizable-s {
   bottom: 0 !important;
 }
+
+
+
+.transpose {
+  display: -ms-grid;
+  -ms-grid-rows: auto auto;
+  -ms-grid-columns: auto auto;
+}
+.transpose thead {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+.transpose tbody {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+.transpose caption {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+}
+
+/* Everyone Else's Grid */
+@supports (display: grid) {
+   .transpose {
+     display: grid;
+     grid-template-columns: min-content min-content;
+     grid-template-rows: auto auto;
+     grid-template-areas:
+       "caption caption"
+       "head body";
+   }
+   .transpose thead {
+     grid-area: head;
+   }
+   .transpose tbody {
+     grid-area: body;
+   }
+   .transpose caption {
+     grid-area: caption; 
+   }
+}
+
+/* Flex - Cross Browser CSS */
+.transpose thead {
+  display: flex;
+  flex-shrink: 0;
+  min-width: min-content;
+}
+.transpose tbody {
+    display: flex;
+}
+.transpose tr {
+  display: flex;
+  flex-direction: column;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.transpose td, .transpose th {
+  display: block;
+}
+.transpose caption {
+  display: block;
+}
