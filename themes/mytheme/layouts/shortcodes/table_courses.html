@@ -1,7 +1,7 @@
 {{ $num_courses :=  len (where .Site.Pages  ".Params.tags" "in" "course") }}
 {{ $column_num := 3 }}
 {{ $column_len := math.Div $num_courses $column_num }}
-{{ $courses := (where .Site.Pages  ".Params.tags" "in" "course") }}
+{{ $courses := sort (where .Site.Pages  ".Params.tags" "in" "course") "LinkTitle" }}
 <div class="data-table" >
  <table class="transpose" style="margin-top: -1rem;margin-bottom: 2rem;margin-left:-10rem ">
   <thead>
