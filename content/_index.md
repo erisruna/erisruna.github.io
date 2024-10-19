@@ -28,5 +28,14 @@ The aim of the trimester is to gather leading experts, graduate students and you
 
 
 **{{< num_courses >}} Courses given by:**
-
-{{< table_courses >}}
+{{< table >}}
+|                              |                                  |                         |
+|------------------------------|----------------------------------|-------------------------|
+|[J. Bedrossian (UCLA)](bedrossian)            |[C. Greif (UBC)](greif)                     |[A. Nouy (Nantes)](nouy)|
+|[O. Blondel (Lyon)](blondel)                  |[M. Gubinelli (Oxford)](gubinelli)          |[F. Otto (MIS-MPG Leipzig)](otto)|
+|[M. Cicalese (TUM)](cicalese)                 |[A. Kiselev (Duke)](kiselev)                |[B. Pehersthofer (NYU)](pehersthofer)    |
+|[T. Gallay (Grenoble)](gallay)                |[C. Lubich (Tübingen)](lubich)              |[M. Rodrigues (Rennes)](rodrigues)    |
+|[A. Giuliani (Rome)](giuliani)                |[A. Maspero (SISSA)](maspero)               |[L. Ryzhik (Stanford)](ryzhik)     |
+|[J. Gomez-Serrano (Brown)](gomez_serrano)     |[W. Michiels (KULeuven)](michiels)          |[M. Sasada (Tokyo)](sasada)        |
+|[G. M. Graf (ETH)](graf)                      |[C. Muratov (Pisa)](muratov)                |[Z. Xin (CUHK)](xin)            |
+{{</ table >}}
