@@ -4,6 +4,6 @@ author = "M. Gubinelli (Oxford)"
 draft = false
 LinkTitle = "gubinelli"
 tags = 'course'
-begin = "TBA"
-end = "TBA"
+begin = "12 May"
+end = "16 May"
 +++
