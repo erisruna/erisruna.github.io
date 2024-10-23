@@ -2,7 +2,6 @@
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
 <style>
   html,
   body {
@@ -18,31 +17,27 @@
 </style>
 <div id="map" style="width: 100vw; height: 100vh;"></div>
 <script>
-
   const map = L.map('map').setView([42.345, 13.3982], 17);
-
   const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 20,
-    // attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
-
+  map.attributionControl.setPrefix('');
   // var popup = L.popup()
   //   .setLatLng([42.345, 13.397])
   //   .setContent("I am a standalone popup.")
   //   .openOn(map);
-
   var marker_isef = L.marker([42.34465, 13.3966]).addTo(map);
   var marker_mariani = L.marker([42.34507, 13.39685]).addTo(map);
   var marker_inps = L.marker([42.3452, 13.4002]).addTo(map);
   var marker_rettorato = L.marker([42.3443, 13.3978]).addTo(map);
   var marker_mensa = L.marker([42.34461, 13.39935]).addTo(map);
 
-
-
   marker_isef.bindPopup("<b>GSSI EX-ISEF</b> MLH");
-  marker_mariani.bindPopup("<b>GSSI EX-Mariani</b> Offices");
-  marker_inps.bindPopup("<b>GSSI EX-INPS</b> Faculty");
+  marker_mariani.bindPopup("<b>GSSI Mariani</b> Offices");
+  marker_inps.bindPopup("<b>GSSI EX-INPS</b> Faculty Offices");
   marker_rettorato.bindPopup("<b>GSSI Rectorate</b>");
   marker_mensa.bindPopup("<b>Mensa/Canteen</b>");
 
+  var group = new L.featureGroup([marker_isef, marker_mariani, marker_inps, marker_rettorato, marker_mensa]);
+  map.fitBounds(group.getBounds());
 </script>
