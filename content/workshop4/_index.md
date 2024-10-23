@@ -7,8 +7,7 @@ begin = "19 May"
 end = "23 May"
 +++
 
-
-##### **Date: 19 May 2025 - 23 May 2025**
+##### **Date: {{< param "begin" >}} 2025 - {{< param "end" >}} 2025**
 
 The workshop aims to bring together experts from various disciplines, including applied dynamical systems, optimization, and machine learning, to share the latest research advancements and address current challenges. By gathering specialists from different fields, the workshop seeks to create a friendly and welcoming environment that fosters innovative ideas, explores new research directions, and provides valuable opportunities for collaboration and knowledge exchange, ultimately advancing the field of numerics for dynamical systems, optimization and scientific machine learning.
 
@@ -39,11 +38,6 @@ Prospective participants are welcome to submit an extended abstract using the fo
 
 Abstracts accepted by the scientific committee will be assigned to either an oral or poster presentation (you can indicate your preference when [submitting your paper](https://sites.google.com/view/lrma25/home/abstract-submission#h.l1olxqd8rb4n)).
 
-
 Deadline for submission: **28 February 2025**.
 
-
 The workshop is organized as part of the intensive thematic semester on “hidden structures and pattern analysis” within the school of mathematics at GSSI.
-
-
-
