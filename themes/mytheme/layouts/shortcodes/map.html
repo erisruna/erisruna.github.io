@@ -31,12 +31,22 @@
   var marker_inps = L.marker([42.3452, 13.4002]).addTo(map);
   var marker_rettorato = L.marker([42.3443, 13.3978]).addTo(map);
   var marker_mensa = L.marker([42.34461, 13.39935]).addTo(map);
+// <a href="https://www.google.com/maps/dir//GSSI+-+Gran+Sasso+Science+Institute/@42.3448045,13.3960726"><b>GSSI EX-ISEF</b> MLH</a>
+  // marker_isef.bindPopup("<b>GSSI EX-ISEF</b> MLH");
 
-  marker_isef.bindPopup("<b>GSSI EX-ISEF</b> MLH");
-  marker_mariani.bindPopup("<b>GSSI Mariani</b> Offices");
-  marker_inps.bindPopup("<b>GSSI EX-INPS</b> Faculty Offices");
-  marker_rettorato.bindPopup("<b>GSSI Rectorate</b>");
-  marker_mensa.bindPopup("<b>Mensa/Canteen</b>");
+
+  // * [GSSI Ex-ISEF]    () (Main Lecture Hall is located here)
+  // * [GSSI Ex-INPS]    (<a href=\"https://www.google.com/maps/dir/Rettorato+GSSI+-+Palazzo+ex+GIL/@42.3448826,13.3971603\"> <b>GSSI EX-INPS</b> Faculty Offices</a>) (GSSI Faculty is mainly located here) 
+  // * [GSSI Rectorate]  (<a href=\"https://www.google.com/maps/dir/Rettorato+GSSI+-+Palazzo+ex+GIL/@42.3442241,13.3968818\"> <b>GSSI Rectorate</b> </a>) (Auditorium is located here)
+  // * [Mariani]         (<a href=\"https://www.google.com/maps/dir/GSSI+-+Mariani,+Viale+Francesco+Crispi,+3,+67100+L'Aquila+AQ,+Italy/@42.3448588,13.3965379\"> <b>GSSI Mariani</b> Offices <a>) (Some offices are located here)
+  // * [Mensa/Canteen]   (<a href=\"https://www.google.com/maps/dir//Mensa+Consiglio+Regionale+d'Abruzzo/@42.3452024,13.3963741> Mensa/Canteen   </a>)
+
+
+  marker_isef.bindPopup("<a href=\"https://www.google.com/maps/dir//GSSI+-+Gran+Sasso+Science+Institute/@42.3448045,13.3960726\">  <b>GSSI EX-ISEF</b> MLH </a>");
+  marker_mariani.bindPopup("<a href=\"https://www.google.com/maps/dir//GSSI+-+Mariani,+Viale+Francesco+Crispi,+3,+67100+L'Aquila+AQ,+Italy/@42.3448588,13.3965379\"> <b>GSSI Mariani</b> Offices <a>");
+  marker_inps.bindPopup("<a href=\"https://www.google.com/maps/dir//Gran+Sasso+Science+Institute+(Ex-INPS+Building)/@42.3452616,13.3175938\"> <b>GSSI EX-INPS</b> Faculty Offices</a>");
+  marker_rettorato.bindPopup("<a href=\"https://www.google.com/maps/dir//Rettorato+GSSI+-+Palazzo+ex+GIL/@42.3442241,13.3968818\"> <b>GSSI Rectorate</b> </a>");
+  marker_mensa.bindPopup("<a href=\"https://www.google.com/maps/dir//Mensa+Consiglio+Regionale+d'Abruzzo/@42.3452024,13.3963741\"> <b> Mensa/Canteen </b>  </a>");
 
   var group = new L.featureGroup([marker_isef, marker_mariani, marker_inps, marker_rettorato, marker_mensa]);
   map.fitBounds(group.getBounds());
