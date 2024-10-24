@@ -10,3 +10,4 @@ draft = false
 * [Mensa/Canteen](https://www.google.com/maps/dir//Mensa+Consiglio+Regionale+d'Abruzzo/@42.3452024,13.3963741)
 
 {{< map >}}
+{{< br >}}
