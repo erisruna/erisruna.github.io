@@ -9,8 +9,6 @@ end = "11 April"
 
 
 
-**Date: 07 April 2025 - 11 April 2025**
-
 The aim of this workshop is to bring together mathematicians working on different theoretical aspects of fluid mechanics. 
 
 Recent progress on fundamental questions for fluid models stem at a crossroad among different mathematical fields, combining traditional approaches to PDEs with tools from geometric measure theory, dynamical systems, harmonic analysis or probability.

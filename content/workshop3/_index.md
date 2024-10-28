@@ -8,9 +8,6 @@ end = "9 May"
 +++
 
 
-**Date: 05 May 2025 - 09 May 2025**
-
-
 
 The workshop aims at gathering leading experts in the field of statistical mechanics with common interests of collective behaviours inout-of-equilibrium dynamics
 

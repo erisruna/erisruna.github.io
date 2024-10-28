@@ -13,6 +13,19 @@
 {{ if .Params.subtitle }}
 <h2> {{ .Params.subtitle }} </h2>
 {{ end }}
+
+<br>
+{{ if or (in .Params.tags  "course")  (in .Params.tags  "workshop")  }}
+<h3 id="Date">
+{{ if in .Params.begin "TBA" }}
+Date: {{ .Params.begin }} <code>&#8212;</code> {{ .Params.end }}
+{{ else }}
+Date: {{ .Params.begin }} 2025 <code>&mdash;</code> {{ .Params.end }} 2025
+{{ end }}
+</h3>
+{{ end }}
+
+
     </div>
 <div class="relative">
 
