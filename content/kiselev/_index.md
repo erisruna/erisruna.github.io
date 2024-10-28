@@ -8,9 +8,6 @@ tags = 'course'
 begin = "16 June"
 end = "20 June"
 +++
-
-
-
 ### Abstract:
 
 I will discuss several recent themes in research on regularity and small

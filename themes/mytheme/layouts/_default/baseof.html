@@ -16,6 +16,22 @@
 </header>
 {{end}}
   <main>
+<br>
+{{ if or (in .Params.tags  "course")  (in .Params.tags  "workshop")  }}
+{{ if in .Params.begin "TBA" }}
+<h4>
+<center>
+Date: {{ .Params.begin }} - {{ .Params.end }}
+</center>
+</h4>
+{{ else }}
+<h4>
+<center>
+Date: {{ .Params.begin }} 2025 - {{ .Params.end }} 2025
+</center>
+</h4>
+{{ end }}
+{{ end }}
     {{ block "main" . }}{{ end }}
 </main>
 <footer>
