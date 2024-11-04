@@ -4,3 +4,5 @@ languageCode = 'en-us'
 title = 'Particles, Fluids and Patterns: Analytical and Computational Challenges'
 theme = 'mytheme'
 enableRobotsTXT = false
+[outputs]
+   home = [ "HTML", "JSON" ]

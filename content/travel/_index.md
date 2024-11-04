@@ -21,9 +21,6 @@ width="90%"
 
 
 
-
-
-
 ## By plane: 
 
 Arrive in Rome Fiumicino or Rome Ciampino airport and then take a bus to L'Aquila. The main companies going from the airports to L'Aquila are Gaspari Bus and Flixbus. They stop at ex Hotel Amiternum and from there you can take a taxi to reach L'Aquila (before midnight).
@@ -31,5 +28,4 @@ Arrive in Rome Fiumicino or Rome Ciampino airport and then take a bus to L'Aquil
 
 * [Gaspari Bus](https://www.gasparionline.it/en/)
 * [FlixBus](https://www.flixbus.com/?noRedirect=true)
-
 

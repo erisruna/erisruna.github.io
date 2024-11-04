@@ -1,6 +1,6 @@
 +++
 title = "Course given by Prof. M. Cicalese (TUM)"
-subtitle = "Course given by Prof. M. Cicalese (TUM)"
+subtitle = ""
 author = "M. Cicalese (TUM)"
 draft = false
 LinkTitle = "cicalese"

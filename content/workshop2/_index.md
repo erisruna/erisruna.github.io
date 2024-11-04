@@ -1,8 +1,8 @@
 +++
 title = "Coherent structures and (in)stabilities in fluids"
 draft = false
-LinkTitle = 'Workshop 2'
-tags = 'workshop'
+LinkTitle = "Workshop 2"
+tags = "workshop"
 begin = "7 April"
 end = "11 April"
 +++
