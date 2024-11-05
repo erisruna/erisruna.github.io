@@ -1,7 +1,8 @@
 +++
 title = "Workshops"
 draft = false
-tags = 'fav'
+tags = "fav"
+keywords="all,workshop"
 +++
 
 

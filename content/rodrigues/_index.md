@@ -4,7 +4,8 @@ subtitle = "Course given by Prof. M. Rodrigues (Rennes)"
 author = "M. Rodrigues (Rennes)"
 draft = false
 LinkTitle = "rodrigues"
-tags = 'course'
+tags = "course"
+keywords = ""
 begin = "14 April"
 end = "18 April"
 +++

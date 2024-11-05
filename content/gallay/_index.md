@@ -4,7 +4,8 @@ subtitle = "Course given by Prof. T. Gallay (Grenoble)"
 author = "T. Gallay (Grenoble)"
 draft = false
 LinkTitle = "gallay"
-tags = 'course'
+tags = "course"
+keywords = ""
 begin = "14 April"
 end = "18 April"
 +++

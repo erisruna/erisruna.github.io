@@ -4,7 +4,8 @@ subtitle = "Course given by Prof. A. Kiselev (Duke)"
 author = "A. Kiselev (Duke)" 
 draft = false
 LinkTitle = "kiselev"
-tags = 'course'
+tags = "course"
+keywords="fluids,pdes,singular,course"
 begin = "16 June"
 end = "20 June"
 +++

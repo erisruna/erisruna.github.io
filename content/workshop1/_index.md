@@ -5,6 +5,7 @@ LinkTitle = "Workshop 1"
 tags = "workshop"
 begin = "31 March"
 end = "4 April"
+keywords="pde,pdes,non,non-local,var,calc,calcvar,var,workshop"
 +++
 
 

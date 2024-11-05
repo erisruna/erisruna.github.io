@@ -1,7 +1,8 @@
 +++
-subtitle = 'Intensive Trimester'
+subtitle = "Intensive Trimester"
 draft = false
-tags = 'home'
+tags = "home"
+keywords="home"
 +++
 
 

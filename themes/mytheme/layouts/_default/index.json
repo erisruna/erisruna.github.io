@@ -5,9 +5,9 @@
 {{- $index := slice -}}
 {{- range $results -}}
  {{- if isset .Params "subtitle"  -}}
-    {{- $index = $index | append (dict "title" ((printf "%s %s %s" .Title .Params.subtitle .Content ) | plainify) "url" .Permalink "tags" .Params.tags ) -}}
+    {{- $index = $index | append (dict "title" ((printf "%s %s %s %s %s" .Title .Params.subtitle .Content .Params.keywords .Params.tags) | plainify) "url" .Permalink "tags" .Params.tags ) -}}
 {{- else -}}
-    {{- $index = $index | append (dict "title" ((printf "%s  %s" .Title  .Content ) | plainify) "url" .Permalink "tags" .Params.tags ) -}}
+    {{- $index = $index | append (dict "title" ((printf "%s %s %s %s" .Title  .Params.keywords .Params.tags .Content ) | plainify) "url" .Permalink "tags" .Params.tags ) -}}
 {{- end -}}
 {{- end -}}
 {{- $index | jsonify -}}

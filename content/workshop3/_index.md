@@ -5,6 +5,7 @@ tags = "workshop"
 LinkTitle = "Workshop 3"
 begin = "5 May"
 end = "9 May"
+keywords="stat,mech,workshop"
 +++
 
 

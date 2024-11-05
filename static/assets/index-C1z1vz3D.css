@@ -144,7 +144,7 @@ html[data-theme=dark] {
   position: fixed;
   top: 0;
   width: 100vw;
-  z-index: 99999;
+  z-index: 999999;
 }
 
 .docsearch-modal {

@@ -1,5 +1,5 @@
 +++
-title = 'Courses'
+title = "Courses"
 draft = false
 LinkTitle = "all_courses"
 +++
