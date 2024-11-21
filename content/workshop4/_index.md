@@ -25,6 +25,7 @@ The workshop will include invited presentations and contributed talks.
   *   Des Higham (University of Edinburgh)
   *   Christian Lubich (University of Tuebingen, Germany)
   *   Benjamin Peherstorfer (Courant Institute of Mathematical Sciences, NY, USA)
+  *   Michael Overton (Courant Institute of Mathematical Sciences, NY, USA)
   *   Marco Mondelli (Institute of Science and Technology, Austria)
   *   Holger Rauhut (TUM, Germany)
   *   Nicolas Gillis (University of Mons, Belgium)
