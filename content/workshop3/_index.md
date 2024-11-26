@@ -10,9 +10,20 @@ keywords="stat,mech,workshop"
 
 
 
-The workshop aims at gathering leading experts in the field of statistical mechanics with common interests of collective behaviours inout-of-equilibrium dynamics
+The workshop aims at gathering leading experts in the field of statistical mechanics with common interests of collective behaviours in out-of-equilibrium dynamics
 
 
-Confirmed speakers:
+##### **Confirmed speakers:**
 
-Stella Brassesco, Gioia Carinci, Anna De Masi, Pablo A. Ferrari, Davide Gabrielli, Cristian Giardinà, Giovanni Jona-Lasinio, Claudio Landim, Eva Löcherbach, Frank Redig, Senya Shlosman, Dimitrios Tsagkarogiannis, Maria E. Vares.
+* Stella Brassesco
+* Gioia Carinci
+* Anna De Masi
+* Pablo A. Ferrari
+* Davide Gabrielli
+* Cristian Giardinà
+* Giovanni Jona-Lasinio
+* Claudio Landim
+* Frank Redig
+* Senya Shlosman
+* Dimitrios Tsagkarogiannis
+* Maria E. Vares
