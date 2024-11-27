@@ -27,6 +27,7 @@ The workshop will include invited presentations and contributed talks.
   *   Benjamin Peherstorfer (Courant Institute of Mathematical Sciences, NY, USA)
   *   Michael Overton (Courant Institute of Mathematical Sciences, NY, USA)
   *   Marco Mondelli (Institute of Science and Technology, Austria)
+  *   Nikos Pitsianis (Aristotle University of Thessaloniki and Duke University)
   *   Holger Rauhut (TUM, Germany)
   *   Nicolas Gillis (University of Mons, Belgium)
   *   Ivan Markovsky (International Centre for Numerical Methods in Engineering, Barcelona, Spain)
