@@ -13,26 +13,26 @@ The workshop aims to bring together experts from various disciplines, including 
 
 The workshop will include invited presentations and contributed talks.
 
-##### **Invited talks:**
+##### **Invited Speakers:**
 
-  *   Lars Ruthotto (Emory University, USA)
-  *   Karsten Urban (Ulm University, Germany)
-  *   Beatrice Meini (University of Pisa, Italy)
-  *   Matthew Colbrook (University of Cambridge, UK)
   *   Michele Buzzicotti (University of Rome Tor Vergata, Italy)
-  *   Francesco Regazzoni (Politecnico Milano, Italy)
-  *   Olga Mula (TU/Eindhoven, The Netherlands)
+  *   Matthew Colbrook (University of Cambridge, UK)
+  *   Nicolas Gillis (University of Mons, Belgium)
   *   Des Higham (University of Edinburgh)
+  *   Jonas Latz (University of Manchester, UK)
   *   Christian Lubich (University of Tuebingen, Germany)
-  *   Benjamin Peherstorfer (Courant Institute of Mathematical Sciences, NY, USA)
-  *   Michael Overton (Courant Institute of Mathematical Sciences, NY, USA)
   *   Peter Markovich (University of Vienna and Kaust)
+  *   Ivan Markovsky (International Centre for Numerical Methods in Engineering, Barcelona, Spain)
+  *   Beatrice Meini (University of Pisa, Italy)
   *   Marco Mondelli (Institute of Science and Technology, Austria)
+  *   Olga Mula (TU/Eindhoven, The Netherlands)
+  *   Michael Overton (Courant Institute of Mathematical Sciences, NY, USA)
+  *   Benjamin Peherstorfer (Courant Institute of Mathematical Sciences, NY, USA)
   *   Nikos Pitsianis (Aristotle University of Thessaloniki and Duke University)
   *   Holger Rauhut (TUM, Germany)
-  *   Nicolas Gillis (University of Mons, Belgium)
-  *   Ivan Markovsky (International Centre for Numerical Methods in Engineering, Barcelona, Spain)
-  *   Jonas Latz (University of Manchester, UK)
+  *   Francesco Regazzoni (Politecnico Milano, Italy)
+  *   Lars Ruthotto (Emory University, USA)
+  *   Karsten Urban (Ulm University, Germany)
   *   Konstantin Usevich (Nancy, France)
 
 ##### **Contributed talks:**
