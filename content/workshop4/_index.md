@@ -26,6 +26,7 @@ The workshop will include invited presentations and contributed talks.
   *   Christian Lubich (University of Tuebingen, Germany)
   *   Benjamin Peherstorfer (Courant Institute of Mathematical Sciences, NY, USA)
   *   Michael Overton (Courant Institute of Mathematical Sciences, NY, USA)
+  *   Peter Markovich (University of Vienna and Kaust)
   *   Marco Mondelli (Institute of Science and Technology, Austria)
   *   Nikos Pitsianis (Aristotle University of Thessaloniki and Duke University)
   *   Holger Rauhut (TUM, Germany)
