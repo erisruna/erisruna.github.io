@@ -19,6 +19,7 @@ The workshop will include invited presentations and contributed talks.
   *   Matthew Colbrook (University of Cambridge, UK)
   *   Nicolas Gillis (University of Mons, Belgium)
   *   Des Higham (University of Edinburgh)
+  *   Anders Karlsson\* (Université de Genève)
   *   Jonas Latz (University of Manchester, UK)
   *   Christian Lubich (University of Tuebingen, Germany)
   *   Peter Markovich (University of Vienna and Kaust)
