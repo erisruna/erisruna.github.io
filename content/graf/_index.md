@@ -6,8 +6,8 @@ draft = false
 LinkTitle = "graf"
 tags = "course"
 keywords = ""
-begin = "TBA"
-end = "TBA"
+begin = "3 June"
+end = "6 June"
 +++
 
 
