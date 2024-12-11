@@ -5,6 +5,6 @@ draft = false
 LinkTitle = "giuliani"
 tags = "course"
 keywords = ""
-begin = "TBA"
-end = "TBA"
+begin = "28 April"
+end = "2 May"
 +++
