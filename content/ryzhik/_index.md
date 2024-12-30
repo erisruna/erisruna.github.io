@@ -5,6 +5,6 @@ draft = false
 LinkTitle = "ryzhik"
 tags = "course"
 keywords = ""
-begin = "14 April"
-end = "18 April"
+begin = "9 June"
+end = "13 June"
 +++
