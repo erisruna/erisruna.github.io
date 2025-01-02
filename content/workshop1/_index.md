@@ -19,8 +19,8 @@ The aim of this workshop is to bring together mathematicians working on nonlocal
 * Cristiana De Filippis (University of Parma)
 * Lucia De Luca  (IAC-CNR, Rome)
 * Guido De Philippis  (Courant Institute, New York)
-* Serena Dipierro\* (University of Western Australia)
 * Matteo Focardi (University of Florence)
+* Federico Glaudo\* (Institute for Advanced Study)
 * Adriana Garroni  (University La Sapienza, Rome)
 * Andre Guerra (ETH, Zurich)
 * Jonas Hirsch (University of Leipzig)
@@ -33,6 +33,6 @@ The aim of this workshop is to bring together mathematicians working on nonlocal
 * Emanuele Spadaro\* (University La Sapienza, Rome)
 * Salvatore Stuvard (University of Milan)
 * Riccardo Tione (University of Turin)
-* Enrico Valdinoci\* (University of Western Australia)
+* Bozhidar Velichkov (University of Pisa)
 
 \* = to be confirmed
