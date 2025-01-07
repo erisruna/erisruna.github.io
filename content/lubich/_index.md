@@ -5,6 +5,6 @@ draft = false
 LinkTitle = "lubich"
 tags = "course"
 keywords = ""
-begin = "26 May"
-end = "30 May"
+begin = "28 April"
+end = "30 April"
 +++

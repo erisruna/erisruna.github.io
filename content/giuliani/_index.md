@@ -6,5 +6,5 @@ LinkTitle = "giuliani"
 tags = "course"
 keywords = ""
 begin = "28 April"
-end = "2 May"
+end = "30 April"
 +++
