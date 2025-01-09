@@ -17,21 +17,8 @@
 {{ end }}
           </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Courses
-          </a>
-          <ul class="dropdown-menu">
 
-<li><a class="dropdown-item" href="/all_courses/">All Courses</a></li>
-{{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
-<li><a class="dropdown-item" href="{{ .Permalink  }} ">{{ .Params.author }}</a></li>
-{{ end }}
-          </ul>
-
-
-        </li>
-
+        <li class="nav-item"><a class="nav-link" href="/all_courses/">Courses</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Events
