@@ -5,6 +5,6 @@ draft = false
 LinkTitle = "bedrossian"
 tags = "course"
 keywords = ""
-begin = "TBA"
-end = "TBA"
+begin = "16 June"
+end = "20 June"
 +++
