@@ -53,6 +53,18 @@ var events = [
      },
 {{ end }}
 
+{{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
+    { 
+      title: '{{ .Params.speaker }}',
+      start: dtToStr("{{ .Params.begin }} UTC+0000"),  
+      end: dtToStr("{{ .Params.end }} UTC+0000", 1),
+      allDay: false,
+      description: '{{ .Title }}',
+      color: '#dc1828',
+      url: {{ .Permalink }}
+     },
+{{ end }}
+
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
     {{ if in .Params.begin "TBA" }}
     {{ else }}

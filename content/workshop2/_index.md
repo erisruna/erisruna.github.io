@@ -22,6 +22,7 @@ Topics that will be addressed include compressible and incompressible flows, hyd
 
 * Stefano Bianchini (SISSA, Trieste)
 * Paolo Bonicatto  (University of Trento)
+* Yann Brenier (CNRS, LMO, Université Paris-Saclay)
 * Elia Brué (Bocconi, Milano)
 * Jan Burczak (University of Leipzig)
 * Diego Cordoba (Instituto de Ciencias Matemáticas, Madrid)
