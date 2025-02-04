@@ -20,6 +20,17 @@ function dtToStr(dt, add_days=0) {
   let st = d.toISOString();
   return st.slice(0,-2);
 }
+
+function getMinMaxDate(fixedDate) {
+    const today = new Date();
+    const fixed = new Date(fixedDate);
+
+    // Get the maximum (latest) date
+    const maxDate = today > fixed ? today : fixed;
+
+    // Format to YYYY-MM-DD
+    return maxDate.toISOString().split('T')[0];
+}
 //
 // {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
 //     {{ if in .Params.begin "TBA" }}
@@ -103,7 +114,7 @@ $(function () {
             right: 'dayGridMonth,listMonth'
             // right: "dayGridMonth,listYear"
         },
-        defaultDate: "2025-03-31",
+        defaultDate: getMinMaxDate("2025-03-31"),
         firstDay: 1,
         // weekNumbers: true,
         eventLimit: false,
