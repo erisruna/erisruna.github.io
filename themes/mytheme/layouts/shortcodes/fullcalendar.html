@@ -31,14 +31,6 @@ function getMinMaxDate(fixedDate) {
     // Format to YYYY-MM-DD
     return maxDate.toISOString().split('T')[0];
 }
-//
-// {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
-//     {{ if in .Params.begin "TBA" }}
-//     {{ else }}
-//     console.log(dtToStr({{ .Params.begin }}))
-//      {{end}}
-// {{ end }}
-
 
 var events = [
     {
@@ -115,6 +107,7 @@ $(function () {
             // right: "dayGridMonth,listYear"
         },
         defaultDate: getMinMaxDate("2025-03-31"),
+        defaultView: "listMonth",
         firstDay: 1,
         // weekNumbers: true,
         eventLimit: false,
