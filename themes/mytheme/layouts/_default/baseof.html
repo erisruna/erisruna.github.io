@@ -23,7 +23,7 @@
   {{ .Params.datetime }}
 </center>
 <center>
-  {{ .Params.location }}
+{{ with .Params.location }}{{ . | safeHTML }}{{ end }}
 </center>
 </h4>
 {{ end }}

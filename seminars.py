@@ -16,6 +16,22 @@ def get_data(url):
     df["Workshop #"] = df["Workshop #"].str.lower()
     return df
 
+
+def get_google_link(name: str)-> str:
+    tmp_name = name.lower()
+    url = ""
+    if 'isef' in tmp_name or 'main lecture hall' in tmp_name:
+        url = "https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408"
+    elif 'inps' in tmp_name:
+        url = "https://www.google.com/maps/dir//Gran+Sasso+Science+Institute+(Ex-INPS+Building),+Viale+Luigi+Rendina,+26-28,+67100+L'Aquila+AQ,+Italy/@42.3451348,13.3177662"
+    elif 'rectorate' in tmp_name or "auditorium" in tmp_name:
+        url = "https://www.google.com/maps/dir//Rettorato+GSSI+-+Palazzo+ex+GIL,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3443938,13.3153852"
+    if url:
+        return f"<a href='{url}'>{name}</a>"
+    else:
+        return name
+
+
 def sanitize(speaker: str) -> str:
     speaker = speaker.strip().lower()
     speaker = speaker.replace(" ", "_").replace("*", "")
@@ -66,7 +82,7 @@ speaker = "{row['Speaker']}"
 begin = "{row['StartTime']}"
 end = "{row['EndTime']}"
 datetime = "{dt.strftime("%H:%M")} {datetime_to_header(row['StartTime'])}"
-location = "{row['SeminarLocation']}"
+location = "{get_google_link(row['SeminarLocation'])}"
 tags = "a_s_w"
 +++
 
@@ -90,7 +106,9 @@ def create_single_seminar_page_info(row):
     Speaker = sanitize(Speaker)
     workshop = row['Workshop #']
     txt = row_to_md(row)
-    with open(f"content/{workshop}/{Speaker}.md", "w") as f:
+    fname = f"content/{workshop}/{Speaker}.md"
+    with open(fname, "w") as f:
+        print(f"Creating {fname}")
         _ = f.write(txt)
 
 
@@ -104,7 +122,7 @@ def clean_built_files():
                 txt = f.read()
 
             if 'tags = "a_s_w"' in txt:
-                print(fname)
+                print(f"Removing {fname}")
                 os.remove(fname)
 
 
@@ -143,7 +161,9 @@ tags = "a_s_w"
     res += "\n{{< br >}}"
     print(res)
 
-    with open(f"content/{workshop}/schedule.md", "w") as f:
+    fname = f"content/{workshop}/schedule.md"
+    with open(fname, "w") as f:
+        print(f"Creating {fname}")
         f.write(res)
 
 
@@ -159,14 +179,14 @@ def clean():
 def build():
     clean_built_files()
     build_single(1, ignore_use=True)
-    build_single(2, ignore_use=True)
+    build_single(2)
     build_single(3)
     build_single(4)
 
 if __name__ == "__main__":
-    # cli()
-    clean_built_files()
-    build_single(1, ignore_use=True)
+    cli()
+    # clean_built_files()
+    # build_single(1, ignore_use=True)
     # build_single(2)
     # build_single(3)
     # build_single(4)
