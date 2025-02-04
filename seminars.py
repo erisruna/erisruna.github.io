@@ -1,111 +1,172 @@
-import os
+import click
+import sys
+import re
 import pdb
+import datetime
 import pandas as pd
+from functools import cache
 
-url = "https://docs.google.com/spreadsheets/d/1THM-kbxazn22yNlZoufK-KvEvmduqzvwdtC7DyIe6-A/export?gid=0#gid=0&format=xlsx"
-#
-seminar_directory = "content/seminars"
-TAG = 'tags = "seminars'
+url = "https://docs.google.com/spreadsheets/d/1hsAkaOYdDQ5tc3cYlUxSEZpnGJ6-Fn95MK7dkMOmKDA/export?gid=0#gid=0&format=xlsx"
 
 
-def clean_item(x):
-    x = x if x else ""
-    return x
 
-def get_text_short(row):
-    res = {}
-    row = row.to_dict()
-    for k in row:
-        res[k] = clean_item(row[k])
-    abstract = res['Abstract']
-    title = res['Title']
-    if not abstract:
-        abstract = "TBA"
+@cache
+def get_data(url):
+    df = pd.read_excel(url)
+    df["Workshop #"] = df["Workshop #"].str.lower()
+    return df
+
+def sanitize(speaker: str) -> str:
+    speaker = speaker.strip().lower()
+    speaker = speaker.replace(" ", "_").replace("*", "")
+    return speaker
+
+def empty_str_if_na(s: str) -> str:
+    if not pd.isna(s):
+        return s
+    return ""
+
+def get_title_workshop(idx: int):
+    dir_workshop = f"content/workshop{idx}"
+    with open(dir_workshop+"/_index.md", 'r') as f:
+        txt = f.read()
+    res = re.findall(r"""\ntitle *= +['"](.*)['"]""", txt)[0]
+    return res
 
 
-    if not title:
-        title = "TBA"
-    abstract.replace(r'\n', ' '*4 + r"\n")
+def row_to_line(row: dict) -> str:
+    dt_start = pd.to_datetime(row['StartTime'])
+    dt_end = pd.to_datetime(row['EndTime'])
+    Speaker = empty_str_if_na(row['Speaker'])
+    workshop = empty_str_if_na(row['Workshop #'])
+    Affiliation = f"({row['Affiliation']})" if  not pd.isna(row['Affiliation']) else ""
+    Title = f"{empty_str_if_na(row['Title'])}"
+    if not Title:
+        Title = "TBA"
+    Title = f"*{Title}*"
+    if Speaker + Affiliation:
+        res = f"""|{dt_start.strftime('%H:%M')}-{dt_end.strftime('%H:%M')}|{Speaker} {Affiliation}|
+|  |[{Title}](/{workshop}/{sanitize(Speaker)})|"""
+    else:
+        res = f"""|{dt_start.strftime('%H:%M')}-{dt_end.strftime('%H:%M')}| {Title}|"""
+    return res
 
+def row_to_md(row: dict) -> str:
+    dt = pd.to_datetime(row['StartTime'])
+    Title = empty_str_if_na(row['Title'])
+    if not Title:
+        Title = "TBA"
+    Abstract = empty_str_if_na(row['Abstract'])
+    if not Abstract:
+        Abstract = "TBA"
     txt = f"""+++
-title = "{title}"
-speaker = "{res['Speaker']}"
-date = "{res['Date']}"
-publishDate = 2023-10-19T00:40:04-07:00
-{TAG}_short"
+title = "{Title}"
+subtitle = "by Prof. {row['Speaker']}"
+speaker = "{row['Speaker']}"
+begin = "{row['StartTime']}"
+end = "{row['EndTime']}"
+datetime = "{dt.strftime("%H:%M")} {datetime_to_header(row['StartTime'])}"
+location = "{row['SeminarLocation']}"
+tags = "a_s_w"
 +++
 
-* {res['Date']}, {res['Place']}
-* Speaker: __{res['Speaker']}__ ({res['University']})
-* Abstract: {abstract}
-
+### Abstract
+{Abstract}
 """
     return txt
 
 
-def get_text_long(row):
+def datetime_to_header(_d) -> str:
+    res = f"{_d.strftime("%A")}, {_d.day} {_d.strftime("%B")} {_d.strftime("%Y")}"
+    return res
 
-    row = row.to_dict()
-    res = {}
-    for k in row:
-        res[k] = clean_item(row[k])
 
-    abstract = res.get('Abstract', "")
-    title = res['Title']
-    if not abstract:
-        abstract = "TBA"
-    abstract.replace(r'\n', ' '*4 + r"\n")
 
-    txt = f"""+++
-title = "{title}"
-speaker = "{res['Speaker']}"
-date = "{res['Date']}"
-publishDate = 2023-10-19T00:40:04-07:00
-{TAG}_long"
+
+def create_single_seminar_page_info(row):
+    Speaker = row['Speaker'] if not pd.isna(row['Speaker']) else ""
+    if not Speaker:
+        return
+    Speaker = sanitize(Speaker)
+    workshop = row['Workshop #']
+    txt = row_to_md(row)
+    with open(f"content/{workshop}/{Speaker}.md", "w") as f:
+        _ = f.write(txt)
+
+
+def clean_built_files():
+    import os
+    for idx in range(1,5):
+        dir_name = f"content/workshop{idx}"
+        for l in os.listdir(dir_name):
+            fname = f"{dir_name}/{l}"
+            with open(fname) as f:
+                txt = f.read()
+
+            if 'tags = "a_s_w"' in txt:
+                print(fname)
+                os.remove(fname)
+
+
+def build_single(idx, ignore_use=False):
+    df = get_data(url)
+    mask = df["Workshop #"] == f"workshop{idx}"
+    if any(mask) is False:
+        return
+    ddf  = df.loc[mask]
+
+    if any(ddf.Use  == "NO") and ignore_use == False:
+        return
+
+    workshop = ddf['Workshop #'].values[0]
+    for _, row in ddf.iterrows():
+        create_single_seminar_page_info(row)
+
+    res = f"""+++
+title = "{get_title_workshop(idx)}"
+subtitle = "Schedule"
+tags = "a_s_w"
 +++
-
-{{{{< br >}}}}
-# {res['Title']}
-#### Speaker: __{res['Speaker']}__ ({res['University']})
-*    __{res['Date']}, {res['Place']}__
-*    Abstract: {abstract}
-
 """
-    return txt
+    for _d, _df in ddf.groupby([ddf['StartTime'].dt.date]):
+        _d = _d[0]
+        res +=  "\n\n#####  " + datetime_to_header(_d)+"\n"
+        _df.sort_values('StartTime', inplace=True)
+        res += """
+{{< table2 >}}
+|   |   |
+|---|---|"""
+        for _, row in _df.iterrows():
+            row = row.to_dict()
+            res += f"\n" + row_to_line(row) 
+        res+="\n{{</ table2 >}}"
+    res += "\n{{< br >}}"
+    print(res)
+
+    with open(f"content/{workshop}/schedule.md", "w") as f:
+        f.write(res)
 
 
-def get_fname(row, appendix):
-    return f"{seminar_directory}/{row['ShortName'].lower().replace(' ', '_')}_{appendix}"
+@click.group
+def cli():
+    pass
 
+@cli.command()
 def clean():
-    lista = os.listdir(seminar_directory)
-    for l in lista:
-        fname = os.path.join(seminar_directory, l)
-        with open(fname, 'r') as f:
-            tmp = f.read()
-        if TAG in tmp:
-            print(fname)
-            os.remove(fname)
+    clean_built_files()
 
+@cli.command()
+def build():
+    clean_built_files()
+    build_single(1, ignore_use=True)
+    build_single(2, ignore_use=True)
+    build_single(3)
+    build_single(4)
 
-def generate(df):
-    df.fillna("", inplace=True)
-    for idx, row in df.iterrows():
-        ##
-        txt_short = get_text_short(row)
-        txt_long = get_text_long(row)
-        # print(txt_short)
-        ##
-        fname_short = f"{get_fname(row, idx)}_short.md"
-        fname_long = f"{get_fname(row, idx)}.md"
-        ##
-        with open(fname_short, "w") as f:
-            f.write(txt_short)
-
-        with open(fname_long, "w") as f:
-            f.write(txt_long)
-
-if __name__ == '__main__':
-    # df = pd.read_excel(url)
-    clean()
-    # generate(df)
+if __name__ == "__main__":
+    # cli()
+    clean_built_files()
+    build_single(1, ignore_use=True)
+    # build_single(2)
+    # build_single(3)
+    # build_single(4)

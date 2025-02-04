@@ -17,6 +17,16 @@
 {{end}}
   <main>
 <br>
+{{ if (in .Params.tags  "a_s_w")  }}
+<h4>
+<center>
+  {{ .Params.datetime }}
+</center>
+<center>
+  {{ .Params.location }}
+</center>
+</h4>
+{{ end }}
 {{ if or (in .Params.tags  "course")  (in .Params.tags  "workshop")  }}
 {{ if in .Params.begin "TBA" }}
 <h4>
@@ -32,6 +42,13 @@ Date: {{ .Params.begin }} 2025 - {{ .Params.end }} 2025
 </h4>
 {{ end }}
 {{ end }}
+{{ if (in .Params.schedule "True") }}
+<h4>
+<center>
+  <a href="/{{ .Params.customlink }}/schedule">Schedule</a>
+</center>
+</h4>
+{{end }}
     {{ block "main" . }}{{ end }}
 </main>
 <footer>

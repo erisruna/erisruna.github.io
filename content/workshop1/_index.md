@@ -2,6 +2,8 @@
 title = "Nonlocal variational problems and PDEs"
 draft = false
 LinkTitle = "Workshop 1"
+customLink = "workshop1"
+schedule = "False"
 tags = "workshop"
 begin = "31 March"
 end = "4 April"
@@ -30,7 +32,7 @@ The aim of this workshop is to bring together mathematicians working on nonlocal
 * Alessandra Pluda (University of Pisa)
 * Berardo Ruffini (University of Bologna)
 * Emanuele Spadaro\* (University La Sapienza, Rome)
-* Stefan Schieffer\* (Max Planck Institute, Leipzig)
+* Stefan Schiffer (Max Planck Institute, Leipzig)
 * Salvatore Stuvard (University of Milan)
 * Riccardo Tione (University of Turin)
 * Bozhidar Velichkov (University of Pisa)
