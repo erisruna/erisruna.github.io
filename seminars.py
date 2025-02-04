@@ -179,7 +179,7 @@ tags = "a_s_w"
     fname = f"content/{workshop}/schedule.md"
     with open(fname, "w") as f:
         print(f"Creating {fname}")
-        f.write(res)
+        _ = f.write(res)
 
 
 @click.group
