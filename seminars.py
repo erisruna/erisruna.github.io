@@ -16,6 +16,18 @@ def get_data(url):
     df["Workshop #"] = df["Workshop #"].str.lower()
     return df
 
+def switch_schedule(idx: int, how):
+    dir_name = f"content/workshop{idx}"
+    fname = f"{dir_name}/_index.md"
+    with open(fname, 'r') as f:
+        txt = f.read()
+    if how is True:
+        txt = re.sub(r'\nschedule *= *"\w*"', r'\nschedule = "True"' , txt)
+    elif how is False:
+        txt = re.sub(r'\nschedule *= *"\w*"', r'\nschedule = "False"' , txt)
+    with open(fname, 'w') as f:
+        _ = f.write(txt)
+
 
 def get_google_link(name: str)-> str:
     tmp_name = name.lower()
@@ -132,10 +144,13 @@ def build_single(idx, ignore_use=False):
     if any(mask) is False:
         return
     ddf  = df.loc[mask]
+    ddf.loc[:, "Use"] = ddf['Use'].str.upper()
 
     if any(ddf.Use  == "NO") and ignore_use == False:
+        switch_schedule(idx, False)
         return
 
+    switch_schedule(idx, True)
     workshop = ddf['Workshop #'].values[0]
     for _, row in ddf.iterrows():
         create_single_seminar_page_info(row)
@@ -178,15 +193,10 @@ def clean():
 @cli.command()
 def build():
     clean_built_files()
-    build_single(1, ignore_use=True)
+    build_single(1)
     build_single(2)
     build_single(3)
     build_single(4)
 
 if __name__ == "__main__":
     cli()
-    # clean_built_files()
-    # build_single(1, ignore_use=True)
-    # build_single(2)
-    # build_single(3)
-    # build_single(4)
