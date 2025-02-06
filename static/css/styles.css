@@ -13213,13 +13213,34 @@ table.fc-border-separate {
 }
 
 
+.mycontainer-top {
+  position: absolute;
+  align-items: center; 
+  float: left;
+  top: 55px;
+  left: 0;
+  
+}
+
 .mycontainer {
   align-items: center; 
   float: left;
 }
 
+
 .myimage{
     float: left;
-    padding-top: -50px;
+    padding-top: -50vw;
+    padding: 5px
+}
+
+
+.mycontainer-right {
+  align-items: center; 
+  float: right;
+}
+.myimage-right{
+    float: right;
+    padding-top: -50vw;
     padding: 5px
 }
