@@ -12648,9 +12648,12 @@ section {
 
 div.relative {
   position: relative;
-  top: 4rem;
-  right: 0;
-  width: 290px;
+  left: .1rem;
+  bottom: -5.5rem;
+  right: auto;
+  padding: 0;
+  /*border: 30px solid red;*/
+}
 }
 
 div.absolute {
@@ -13207,4 +13210,16 @@ table.fc-border-separate {
 }
 .transpose caption {
   display: block;
+}
+
+
+.mycontainer {
+  align-items: center; 
+  float: left;
+}
+
+.myimage{
+    float: left;
+    padding-top: -50px;
+    padding: 5px
 }
