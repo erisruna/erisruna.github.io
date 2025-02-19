@@ -17,9 +17,9 @@ The workshop aims at gathering leading experts in the field of statistical mecha
 
 ##### **Confirmed speakers:**
 
+* Lorenzo Bertini
 * Stella Brassesco
 * Gioia Carinci
-* Anna De Masi
 * Pablo A. Ferrari
 * Davide Gabrielli
 * Cristian Giardinà
