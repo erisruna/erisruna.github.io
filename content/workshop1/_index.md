@@ -25,7 +25,7 @@ The aim of this workshop is to bring together mathematicians working on nonlocal
 * Federico Glaudo\* (Institute for Advanced Study)
 * Andre Guerra (ETH, Zurich)
 * Jonas Hirsch (University of Leipzig)
-* Gianpaolo Leonardi  (University of Trento)
+* Gian Paolo Leonardi  (University of Trento)
 * Maria Giovanna Mora  (University of Pavia)
 * Massimiliano Morini (University of Parma)
 * Matteo Novaga  (University of Pisa)
