@@ -22,7 +22,6 @@ The aim of this workshop is to bring together mathematicians working on nonlocal
 * Lucia De Luca  (IAC-CNR, Rome)
 * Matteo Focardi (University of Florence)
 * Adriana Garroni  (University La Sapienza, Rome)
-* Federico Glaudo\* (Institute for Advanced Study)
 * Andre Guerra (ETH, Zurich)
 * Jonas Hirsch (University of Leipzig)
 * Gian Paolo Leonardi  (University of Trento)
