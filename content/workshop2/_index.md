@@ -21,16 +21,13 @@ Topics that will be addressed include compressible and incompressible flows, hyd
 ##### **Confirmed Speakers**
 
 * Stefano Bianchini (SISSA, Trieste)
-* Paolo Bonicatto  (University of Trento)
 * Yann Brenier (CNRS, LMO, Université Paris-Saclay)
 * Elia Brué (Bocconi, Milano)
-* Jan Burczak (University of Leipzig)
 * Diego Cordoba (Instituto de Ciencias Matemáticas, Madrid)
 * Michele Coti Zelati (Imperial College, London)
 * Alberto Enciso (Instituto de Ciencias Matemáticas, Madrid)
 * Thierry Gallay (Institut Fourier, Grenoble)
 * Vikram Giri (ETH Zurich)
-* Mahir Hadzic (University College London)
 * Elio Marconi (University of Padova)
 * Anna Mazzucato (Penn State University)
 * Jaemin Park (Yonsei University)

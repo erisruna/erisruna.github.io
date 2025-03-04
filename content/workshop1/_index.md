@@ -30,10 +30,9 @@ The aim of this workshop is to bring together mathematicians working on nonlocal
 * Matteo Novaga  (University of Pisa)
 * Alessandra Pluda (University of Pisa)
 * Berardo Ruffini (University of Bologna)
-* Emanuele Spadaro\* (University La Sapienza, Rome)
+* Emanuele Spadaro (University La Sapienza, Rome)
 * Stefan Schiffer (Max Planck Institute, Leipzig)
 * Salvatore Stuvard (University of Milan)
 * Riccardo Tione (University of Turin)
 * Bozhidar Velichkov (University of Pisa)
 
-\* = to be confirmed
