@@ -25,6 +25,7 @@ Topics that will be addressed include compressible and incompressible flows, hyd
 * Elia Brué (Bocconi, Milano)
 * Diego Cordoba (Instituto de Ciencias Matemáticas, Madrid)
 * Michele Coti Zelati (Imperial College, London)
+* Michele Dolce (EPFL, Lausanne)
 * Alberto Enciso (Instituto de Ciencias Matemáticas, Madrid)
 * Thierry Gallay (Institut Fourier, Grenoble)
 * Vikram Giri (ETH Zurich)
@@ -36,3 +37,4 @@ Topics that will be addressed include compressible and incompressible flows, hyd
 * Laszlo Szekelyhidi (Max Planck Institute, Leipzig)
 * Emil Wiedemann (University of Erlangen-Nuremberg)
 * Zhouping Xin (Chinese University of Hong Kong)
+* Martina Zizza (Max Planck Institute, Leipzig)

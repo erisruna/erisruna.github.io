@@ -12,7 +12,6 @@ There will be 4 Workshops during the trimester. There is no fee to attend the tr
 {{< table >}}
 |               |                                             |   Register by       |
 |---------------|---------------------------------------------|----------|
-|	|   |     |
 |**31.03-04.04**	|[Nonlocal variational problems and PDEs](/workshop1)| 16 March|
 |**07.04-11.04**	| [Coherent structures and (in)stabilities in fluids](/workshop2) | 23 March|
 |**05.05-09.05**	| [Emergent macroscopic phenomena in non-equilibrium statistical mechanics](/workshop3) | 20 April|
