@@ -18,7 +18,9 @@ Recent progress on fundamental questions for fluid models stem at a crossroad am
 
 Topics that will be addressed include compressible and incompressible flows, hydrodynamic stability, mixing, instabilities and dissipation anomalies, non-uniqueness.
 
-##### **Confirmed Speakers**
+The workshop will start on Monday 7{{< sup "th" >}} at 08:45 and end on Friday 11{{< sup "th">}} at 11:30.
+
+##### **Invited Speakers**
 
 * Stefano Bianchini (SISSA, Trieste)
 * Yann Brenier (CNRS, LMO, Université Paris-Saclay)
