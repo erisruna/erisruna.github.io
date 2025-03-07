@@ -93,7 +93,7 @@
 }
 
 main {
-  width: min(900px, 90%);
+  width: min(1250px, 90%);
   margin-right: auto;
   margin-left: auto;
 }

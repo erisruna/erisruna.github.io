@@ -49,6 +49,15 @@ def sanitize(speaker: str) -> str:
     speaker = speaker.replace(" ", "_").replace("*", "")
     return speaker
 
+def escape_string(s: str) -> str:
+    try:
+        s = s.replace("\\", "\\\\")
+        return s
+    except:
+        return s
+
+
+
 def empty_str_if_na(s: str) -> str:
     if not pd.isna(s):
         return s
@@ -68,7 +77,7 @@ def row_to_line(row: dict) -> str:
     Speaker = empty_str_if_na(row['Speaker'])
     workshop = empty_str_if_na(row['Workshop #'])
     Affiliation = f"({row['Affiliation']})" if  not pd.isna(row['Affiliation']) else ""
-    Title = f"{empty_str_if_na(row['Title'])}"
+    Title = f"{empty_str_if_na(escape_string(row['Title']))}"
     if not Title:
         Title = "TBA"
     Title = f"*{Title}*"
@@ -81,7 +90,7 @@ def row_to_line(row: dict) -> str:
 
 def row_to_md(row: dict) -> str:
     dt = pd.to_datetime(row['StartTime'])
-    Title = empty_str_if_na(row['Title'])
+    Title = empty_str_if_na(escape_string(row['Title']))
     if not Title:
         Title = "TBA"
     Abstract = empty_str_if_na(row['Abstract'])
