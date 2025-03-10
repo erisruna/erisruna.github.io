@@ -70,6 +70,11 @@ def get_title_workshop(idx: int):
     res = re.findall(r"""\ntitle *= +['"](.*)['"]""", txt)[0]
     return res
 
+def strf_f_dt(dt: datetime.datetime) -> str:
+    if pd.isna(dt):
+        return ""
+    return dt.strftime('%H:%M')
+
 
 def row_to_line(row: dict) -> str:
     dt_start = pd.to_datetime(row['StartTime'])
@@ -82,10 +87,10 @@ def row_to_line(row: dict) -> str:
         Title = "TBA"
     Title = f"*{Title}*"
     if Speaker + Affiliation:
-        res = f"""|{dt_start.strftime('%H:%M')}-{dt_end.strftime('%H:%M')}|{Speaker} {Affiliation}|
+        res = f"""|{dt_start.strftime('%H:%M')}-{strf_f_dt(dt_end)}|{Speaker} {Affiliation}|
 |  |[{Title}](/{workshop}/{sanitize(Speaker)})|"""
     else:
-        res = f"""|{dt_start.strftime('%H:%M')}-{dt_end.strftime('%H:%M')}| {Title}|"""
+        res = f"""|{dt_start.strftime('%H:%M')}-{strf_f_dt(dt_end)}| {Title}|"""
     return res
 
 def row_to_md(row: dict) -> str:
