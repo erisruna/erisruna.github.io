@@ -1,3 +1,4 @@
+from typing import Any
 import click
 import sys
 import re
@@ -76,7 +77,7 @@ def strf_f_dt(dt: datetime.datetime) -> str:
     return dt.strftime('%H:%M')
 
 
-def row_to_line(row: dict) -> str:
+def row_to_line(row: dict[str, Any]) -> str:
     dt_start = pd.to_datetime(row['StartTime'])
     dt_end = pd.to_datetime(row['EndTime'])
     Speaker = empty_str_if_na(row['Speaker'])

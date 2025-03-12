@@ -32,12 +32,11 @@ The aim of the trimester is to gather leading experts, graduate students and you
 {{< table >}}
 |                                         |                                  |                                     |
 |-----------------------------------------|----------------------------------|-------------------------------------|
-|    [J. Bedrossian (UCLA)](bedrossian)   |      [C. Greif (UBC)](greif)     |       [A. Nouy (Nantes)](nouy)      |
-|       [O. Blondel (Lyon)](blondel)      |[M. Gubinelli (Oxford)](gubinelli)|  [F. Otto (MIS-MPG Leipzig)](otto)  |
-|      [M. Cicalese (TUM)](cicalese)      |   [A. Kiselev (Duke)](kiselev)   |[B. Pehersthofer (NYU)](pehersthofer)|
-|      [T. Gallay (Grenoble)](gallay)     |  [C. Lubich (Tübingen)](lubich)  |  [M. Rodrigues (Rennes)](rodrigues) |
-|      [A. Giuliani (Rome)](giuliani)     |   [A. Maspero (SISSA)](maspero)  |    [L. Ryzhik (Stanford)](ryzhik)   |
-|[J. Gomez-Serrano (Brown)](gomez_serrano)|[W. Michiels (KULeuven)](michiels)|     [M. Sasada (Tokyo)](sasada)     |
-|         [G. M. Graf (ETH)](graf)        |   [C. Muratov (Pisa)](muratov)   |         [Z. Xin (CUHK)](xin)        |
-
+| [J. Bedrossian (UCLA)](bedrossian)        | [M. Gubinelli (Oxford)](gubinelli) | [A. Nouy (Nantes)](nouy)              |
+| [O. Blondel (Lyon)](blondel)              | [A. Kiselev (Duke)](kiselev)       | [F. Otto (MIS-MPG Leipzig)](otto)     |
+| [M. Cicalese (TUM)](cicalese)             | [C. Lubich (Tübingen)](lubich)     | [B. Pehersthofer (NYU)](pehersthofer) |
+| [T. Gallay (Grenoble)](gallay)            | [A. Maspero (SISSA)](maspero)      | [M. Rodrigues (Rennes)](rodrigues)    |
+| [A. Giuliani (Rome)](giuliani)            | [G. M. Graf (ETH)](graf)           | [L. Ryzhik (Stanford)](ryzhik)        |
+| [J. Gomez-Serrano (Brown)](gomez_serrano) | [C. Muratov (Pisa)](muratov)       | [M. Sasada (Tokyo)](sasada)           |
+| [C. Greif (UBC)](greif)                   |                                    |                                       |
 {{</ table >}}
