@@ -28,6 +28,7 @@ The workshop will consist of invited talks and  a contributed talk session by se
 * Dimitrios Tsagkarogiannis, University of L’Aquila
 * Hayate Suda, Tokyo Institute of Technology
 * Maria E. Vares, Federal University of Rio De Janeiro
+
 ##### **Contributed talks:**
 Prospective participants are welcome to apply for a contributed talk by sending the title, abstract as well as your brief CV to Lu Xu (lu(dot)xu(at)gssi(dot)it) before April 15th, 2025.
 
