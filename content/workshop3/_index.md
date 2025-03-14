@@ -10,22 +10,34 @@ end = "9 May"
 keywords="stat,mech,workshop"
 +++
 
+The workshop aims to present the state of the art in understanding of the emergence of collective phenomena starting from particle systems, with a focus on non-equilibrium statistical mechanics. We provide a space for scientific exchanges among experts, PhD students and early-career researchers with common interests in the field of statistical mechanics.
 
+The workshop will consist of invited talks and  a contributed talk session by selected young participants.
 
-The workshop aims at gathering leading experts in the field of statistical mechanics with common interests of collective behaviours in out-of-equilibrium dynamics
+##### **Invited Speakers:**
+* Lorenzo Bertini, Sapienza University of Rome
+* Stella Brassesco, Venezuelan Institute for Scientific Research
+* Gioia Carinci, University of Modena and Reggio Emilia
+* Pablo A. Ferrari, University of Buenos Aires
+* Davide Gabrielli, University of L’Aquila
+* Cristian Giardinà, University of Modena and Reggio Emilia
+* Kohei Hayashi, RIKEN, Tokyo
+* Claudio Landim, IMPA, Rio de Janeiro
+* Frank Redig, Delft University of Technology
+* Senya Shlosman,  Krichever Center of Advance Studies, Moscow
+* Dimitrios Tsagkarogiannis, University of L’Aquila
+* Hayate Suda, Tokyo Institute of Technology
+* Maria E. Vares, Federal University of Rio De Janeiro
+##### **Contributed talks:**
+Prospective participants are welcome to apply for a contributed talk by sending the title, abstract as well as your brief CV to Lu Xu (lu(dot)xu(at)gssi(dot)it) before April 15th, 2025.
 
+##### **Registration:**
 
-##### **Confirmed speakers:**
+Registration to the workshop is free but mandatory (deadline: April 20th, 2025) through the web form: https://indico.gssi.it/event/745/
 
-* Lorenzo Bertini
-* Stella Brassesco
-* Gioia Carinci
-* Pablo A. Ferrari
-* Davide Gabrielli
-* Cristian Giardinà
-* Giovanni Jona-Lasinio
-* Claudio Landim
-* Frank Redig
-* Senya Shlosman
-* Dimitrios Tsagkarogiannis
-* Maria E. Vares
+##### **Organizers:**
+* Serena Cenatiempo
+* Alessia Nota
+* Stefano Olla
+* Marielle Simon
+* Lu Xu
