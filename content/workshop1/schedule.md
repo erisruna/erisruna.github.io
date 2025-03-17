@@ -76,8 +76,8 @@ tags = "a_s_w"
 |15:00-16:00|Lucia De Luca (IAC-CNR, Rome)|
 |  |[*Minimization of fractional seminars on the real line and applications to misfit dislocations*](/workshop1/lucia_de_luca)|
 |16:00-16:30| *Coffee Break *|
-|16:30-17:30|Bozhidar Velichkov (University of Pisa)|
-|  |[*Cohesive fracture models: Variational approximation via phase-field functionals, and softening law reconstruction*](/workshop1/bozhidar_velichkov)|
+|16:30-17:30|Matteo Focardi (University of Florence)|
+|  |[*Cohesive fracture models: Variational approximation via phase-field functionals, and softening law reconstruction*](/workshop1/matteo_focardi)|
 {{</ table2 >}}
 
 #####  Friday, 4 April 2025
@@ -85,8 +85,8 @@ tags = "a_s_w"
 {{< table2 >}}
 |   |   |
 |---|---|
-|09:00-10:00|Matteo Focardi (University of Florence)|
-|  |[*TBA*](/workshop1/matteo_focardi)|
+|09:00-10:00|Bozhidar Velichkov (University of Pisa)|
+|  |[*TBA*](/workshop1/bozhidar_velichkov)|
 |10:00-10:30| *Coffee Break*|
 |10:30-11:30|Emanuele Spadaro (University La Sapienza, Rome)|
 |  |[*The asymptotics of volume preserving geometric flows and a sharp quantitative Alexandrov inequality*](/workshop1/emanuele_spadaro)|
