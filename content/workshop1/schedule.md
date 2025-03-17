@@ -33,13 +33,13 @@ tags = "a_s_w"
 |  |[*Nonlocal systems and partial regularity*](/workshop1/cristiana_de_filippis)|
 |09:30-10:30|Salvatore Stuvard (University of Milan)|
 |  |[*Surface tension revisited: from minimal surfaces to the soap films capillarity model*](/workshop1/salvatore_stuvard)|
-|10:30-11:00| *Coffe Break *|
+|10:30-11:00| *Coffe Break*|
 |11:00-12:00|Stefan Schiffer (Max Planck Institute, Leipzig)|
 |  |[*$A$-free truncation, extension and applications*](/workshop1/stefan_schiffer)|
 |12:00-14:30| *Lunch*|
 |14:30-15:30|Filippo Cagnetti (University of Parma)|
 |  |[*Best approximation of Lebesgue measure by discrete lattice measures in the Wasserstein metric*](/workshop1/filippo_cagnetti)|
-|15:30-16:00| *Coffe Break *|
+|15:30-16:00| *Coffe Break*|
 |16:00-17:00|Jonas Hirsch (University of Leipzig)|
 |  |[*TBA*](/workshop1/jonas_hirsch)|
 {{</ table2 >}}
