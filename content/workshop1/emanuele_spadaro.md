@@ -10,4 +10,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
- I will present a study on the asymptotic behavior of the volume preserving mean curvature and of the Mullins-Sekerka flat ﬂows in the three dimensional space. These are nonlocal geometric flows for the evolutions of interfaces in material science, preserving the mass of the system. One of the main ingredients in our approach is a sharp quantitative version of the Alexandrov inequality for sets with bounded perimeter.
+I will present a study on the asymptotic behavior of the volume preserving mean curvature and of the Mullins-Sekerka flat ﬂows in the three dimensional space. These are nonlocal geometric flows for the evolutions of interfaces in material science, preserving the mass of the system. One of the main ingredients in our approach is a sharp quantitative version of the Alexandrov inequality for sets with bounded perimeter.

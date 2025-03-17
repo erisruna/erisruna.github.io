@@ -10,4 +10,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
- We introduce some energies  where an aggregating term, as Dirichlet type energies or perimeter-like energies are in competition with a repulsive one. Such models motivated in literature fine analysis of the regimes where one expects to obtain minimizers or not. In the talk I will introduce some of these energies and related results and I will focus on a precise one, the reduced Hartree energy. The talk is based on a series of works with D. Mazzoleni (Università di Pavia) and C. B. Muratov (Università di Pisa).
+We introduce some energies  where an aggregating term, as Dirichlet type energies or perimeter-like energies are in competition with a repulsive one. Such models motivated in literature fine analysis of the regimes where one expects to obtain minimizers or not. In the talk I will introduce some of these energies and related results and I will focus on a precise one, the reduced Hartree energy. The talk is based on a series of works with D. Mazzoleni (Università di Pavia) and C. B. Muratov (Università di Pisa).
