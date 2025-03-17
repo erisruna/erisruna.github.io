@@ -61,7 +61,7 @@ def escape_string(s: str) -> str:
 
 def empty_str_if_na(s: str) -> str:
     if not pd.isna(s):
-        return s
+        return s.strip()
     return ""
 
 def get_title_workshop(idx: int):
