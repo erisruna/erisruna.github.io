@@ -86,7 +86,7 @@ def row_to_line(row: dict[str, Any]) -> str:
     Title = f"{empty_str_if_na(escape_string(row['Title']))}"
     if not Title:
         Title = "TBA"
-    Title = f"*{Title}*"
+    Title = f"*{Title.strip()}*"
     if Speaker + Affiliation:
         res = f"""|{dt_start.strftime('%H:%M')}-{strf_f_dt(dt_end)}|{Speaker} {Affiliation}|
 |  |[{Title}](/{workshop}/{sanitize(Speaker)})|"""
