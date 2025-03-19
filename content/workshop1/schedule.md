@@ -35,7 +35,7 @@ tags = "a_s_w"
 |  |[*Surface tension revisited: from minimal surfaces to the soap films capillarity model*](/workshop1/salvatore_stuvard)|
 |10:30-11:00| *Coffe Break*|
 |11:00-12:00|Stefan Schiffer (Max Planck Institute, Leipzig)|
-|  |[*$A$-free truncation, extension and applications*](/workshop1/stefan_schiffer)|
+|  |[*$\\mathcal{A}$-free truncation, extension and applications*](/workshop1/stefan_schiffer)|
 |12:00-14:30| *Lunch*|
 |14:30-15:30|Filippo Cagnetti (University of Parma)|
 |  |[*Best approximation of Lebesgue measure by discrete lattice measures in the Wasserstein metric*](/workshop1/filippo_cagnetti)|
