@@ -70,7 +70,7 @@ tags = "a_s_w"
 |10:30-11:00| *Coffee Break*|
 |11:00-12:00|Gian Paolo Leonardi (University of Trento)|
 |  |[*Free-boundary regularity for almost-minimizers in non-smooth domains*](/workshop1/gian_paolo_leonardi)|
-|12:00-14:30| *Lunch*|
+|12:00-14:00| *Lunch*|
 |14:00-15:00|Adriana Garroni (University La Sapienza, Rome)|
 |  |[*Emergence of defects at grain boundaries: Variational analysis*](/workshop1/adriana_garroni)|
 |15:00-16:00|Lucia De Luca (IAC-CNR, Rome)|
