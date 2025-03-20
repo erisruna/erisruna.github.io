@@ -41,7 +41,7 @@ tags = "a_s_w"
 |  |[*Best approximation of Lebesgue measure by discrete lattice measures in the Wasserstein metric*](/workshop1/filippo_cagnetti)|
 |15:30-16:00| *Coffe Break*|
 |16:00-17:00|Jonas Hirsch (University of Leipzig)|
-|  |[*"A Nash-Kuiper theorem for isometric immersions beyond Borisov's exponent”*](/workshop1/jonas_hirsch)|
+|  |[*A Nash-Kuiper theorem for isometric immersions beyond Borisov's exponent*](/workshop1/jonas_hirsch)|
 {{</ table2 >}}
 
 #####  Wednesday, 2 April 2025

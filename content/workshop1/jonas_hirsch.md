@@ -1,5 +1,5 @@
 +++
-title = ""A Nash-Kuiper theorem for isometric immersions beyond Borisov's exponent”"
+title = "A Nash-Kuiper theorem for isometric immersions beyond Borisov's exponent"
 subtitle = "by Prof. Jonas Hirsch"
 speaker = "Jonas Hirsch"
 begin = "2025-04-01 16:00:00"
