@@ -25,6 +25,7 @@ The workshop will start on Monday 7{{< sup "th" >}} at 08:45 and end on Friday 1
 * Stefano Bianchini (SISSA, Trieste)
 * Yann Brenier (CNRS, LMO, Université Paris-Saclay)
 * Elia Brué (Bocconi, Milano)
+* Gennaro Ciampa (University of L'Aquila)
 * Diego Cordoba (Instituto de Ciencias Matemáticas, Madrid)
 * Michele Coti Zelati (Imperial College, London)
 * Michele Dolce (EPFL, Lausanne)
@@ -38,5 +39,4 @@ The workshop will start on Monday 7{{< sup "th" >}} at 08:45 and end on Friday 1
 * Laura Spinolo (CNR-IMATI, Pavia)
 * Laszlo Szekelyhidi (Max Planck Institute, Leipzig)
 * Emil Wiedemann (University of Erlangen-Nuremberg)
-* Zhouping Xin (Chinese University of Hong Kong)
 * Martina Zizza (Max Planck Institute, Leipzig)
