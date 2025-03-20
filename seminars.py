@@ -52,7 +52,7 @@ def sanitize(speaker: str) -> str:
 
 def escape_string(s: str) -> str:
     try:
-        s = s.replace("\\", "\\\\")
+        s = s.replace("\\", "\\\\").replace("”", "\"")
         return s
     except:
         return s
