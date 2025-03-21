@@ -35,5 +35,4 @@ The workshop will start on Monday 31{{< sup "st" >}} at 08:45 and end on Friday 
 * Stefan Schiffer (Max Planck Institute, Leipzig)
 * Salvatore Stuvard (University of Milan)
 * Riccardo Tione (University of Turin)
-* Bozhidar Velichkov (University of Pisa)
 
