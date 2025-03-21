@@ -1,5 +1,5 @@
 +++
-title = "$\\mathcal{A}$-free truncation, extension and applications"
+title = "$A$-free truncation, extension and applications"
 subtitle = "by Prof. Stefan Schiffer"
 speaker = "Stefan Schiffer"
 begin = "2025-04-01 11:00:00"
