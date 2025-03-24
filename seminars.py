@@ -159,7 +159,8 @@ def build_single(idx, ignore_use=False):
     if any(mask) is False:
         return
     ddf  = df.loc[mask]
-    ddf.loc[:, "Use"] = ddf['Use'].str.upper()
+    use_col = df.columns[0]
+    ddf.loc[:, use_col] = ddf[use_col].str.upper()
 
     if any(ddf.Use  == "NO") and ignore_use == False:
         switch_schedule(idx, False)

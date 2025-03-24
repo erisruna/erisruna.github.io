@@ -70,14 +70,12 @@ tags = "a_s_w"
 |10:30-11:00| *Coffee Break*|
 |11:00-12:00|Gian Paolo Leonardi (University of Trento)|
 |  |[*Free-boundary regularity for almost-minimizers in non-smooth domains*](/workshop1/gian_paolo_leonardi)|
-|12:00-14:00| *Lunch*|
-|14:00-15:00|Adriana Garroni (University La Sapienza, Rome)|
+|12:00-14:30| *Lunch*|
+|14:30-15:30|Adriana Garroni (University La Sapienza, Rome)|
 |  |[*Emergence of defects at grain boundaries: Variational analysis*](/workshop1/adriana_garroni)|
-|15:00-16:00|Lucia De Luca (IAC-CNR, Rome)|
+|15:30-16:00| *Coffee Break*|
+|16:00-17:00|Lucia De Luca (IAC-CNR, Rome)|
 |  |[*Minimization of fractional seminars on the real line and applications to misfit dislocations*](/workshop1/lucia_de_luca)|
-|16:00-16:30| *Coffee Break*|
-|16:30-17:30|Matteo Focardi (University of Florence)|
-|  |[*Cohesive fracture models: Variational approximation via phase-field functionals, and softening law reconstruction*](/workshop1/matteo_focardi)|
 {{</ table2 >}}
 
 #####  Friday, 4 April 2025
@@ -85,6 +83,8 @@ tags = "a_s_w"
 {{< table2 >}}
 |   |   |
 |---|---|
+|09:00-10:00|Matteo Focardi (University of Florence)|
+|  |[*Cohesive fracture models: Variational approximation via phase-field functionals, and softening law reconstruction*](/workshop1/matteo_focardi)|
 |10:00-10:30| *Coffee Break*|
 |10:30-11:30|Emanuele Spadaro (University La Sapienza, Rome)|
 |  |[*The asymptotics of volume preserving geometric flows and a sharp quantitative Alexandrov inequality*](/workshop1/emanuele_spadaro)|

@@ -3,7 +3,7 @@ title = "Coherent structures and (in)stabilities in fluids"
 draft = false
 LinkTitle = "Workshop 2"
 customLink = "workshop2"
-schedule = "False"
+schedule = "True"
 tags = "workshop"
 begin = "7 April"
 end = "11 April"
@@ -22,7 +22,6 @@ The workshop will start on Monday 7{{< sup "th" >}} at 08:45 and end on Friday 1
 
 ##### **Invited Speakers**
 
-* Stefano Bianchini (SISSA, Trieste)
 * Yann Brenier (CNRS, LMO, Université Paris-Saclay)
 * Elia Brué (Bocconi, Milano)
 * Gennaro Ciampa (University of L'Aquila)
