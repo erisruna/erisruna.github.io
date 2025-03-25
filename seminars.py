@@ -174,7 +174,6 @@ def build_single(idx, ignore_use=False):
     res = f"""+++
 title = "{get_title_workshop(idx)}"
 subtitle = "Schedule"
-tags = "a_s_w"
 +++
 """
     for _d, _df in ddf.groupby([ddf['StartTime'].dt.date]):

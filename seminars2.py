@@ -334,10 +334,10 @@ def build_calendar():
             title = check_if_recrational(row)
             if title:
                 if pd.isna(row['EndTime']):
-                    end_time = ''
+                    end_time = row['StartTime'].to_pydatetime() + datetime.timedelta(hours=2)
+                    end_time = pd.Timestamp(end_time)
                 else:
                     end_time = row['EndTime']
-                    # __import__("pdb").set_trace()
                 inject_txt += rf"""
             {{ 
               title: '{title}',

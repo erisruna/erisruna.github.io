@@ -10,4 +10,8 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-Variational theories for cohesive fracture models hinge on free discontinuity energies having surface densities that are bounded and concave functions of the jump amplitude. Their phase-field approximation using Ambrosio and Tortorelli type functionals has been extensively studied both analytically and numerically in the last few years.
+Variational theories for cohesive fracture models hinge on free discontinuity energies having surface densities that are bounded and concave functions of the jump amplitude. Their phase-field approximation using Ambrosio and Tortorelli type functionals has been extensively studied both analytically and numerically in the last few years. 
+
+I will first discuss some recent developments on the latter problem (and related issues). Building upon such an analysis, then I will address the question of how to construct  the phase-field model in order to assign a (suitable) cohesive law as surface energy density in the Gamma-limit. 
+    
+The talk is based on joint works with Sergio Conti and Flaviana Iurlano, and with Roberto Alessi and Francesco Colasanto.

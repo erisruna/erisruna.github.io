@@ -1,7 +1,6 @@
 +++
 title = "Nonlocal variational problems and PDEs"
 subtitle = "Schedule"
-tags = "a_s_w"
 +++
 
 
@@ -14,8 +13,8 @@ tags = "a_s_w"
 |09:30-10:30|Giovanni Alberti (University of Pisa)|
 |  |[*TBA*](/workshop1/giovanni_alberti)|
 |10:30-11:00| *Coffee Break*|
-|11:00-12:00|Andre Guerra (ETH, Zurich)|
-|  |[*Harmonic maps and the vectorial obstacle problem*](/workshop1/andre_guerra)|
+|11:00-12:00|André Guerra (ETH, Zurich)|
+|  |[*Harmonic maps and the vectorial obstacle problem*](/workshop1/andré_guerra)|
 |12:00-14:30| *Lunch*|
 |14:30-15:30|Alessandra Pluda (University of Pisa)|
 |  |[*One thousand and one ... flows*](/workshop1/alessandra_pluda)|
@@ -35,7 +34,7 @@ tags = "a_s_w"
 |  |[*Surface tension revisited: from minimal surfaces to the soap films capillarity model*](/workshop1/salvatore_stuvard)|
 |10:30-11:00| *Coffe Break*|
 |11:00-12:00|Stefan Schiffer (Max Planck Institute, Leipzig)|
-|  |[*$A$-free truncation, extension and applications*](/workshop1/stefan_schiffer)|
+|  |[*A-free truncation, extension and applications*](/workshop1/stefan_schiffer)|
 |12:00-14:30| *Lunch*|
 |14:30-15:30|Filippo Cagnetti (University of Parma)|
 |  |[*Best approximation of Lebesgue measure by discrete lattice measures in the Wasserstein metric*](/workshop1/filippo_cagnetti)|
