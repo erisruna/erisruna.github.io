@@ -3,7 +3,7 @@
 <link rel='stylesheet' href='https://fullcalendar.io/releases/daygrid/4.2.0/main.min.css'>
 <link rel='stylesheet' href='https://fullcalendar.io/releases/timegrid/4.2.0/main.min.css'>
 <link rel='stylesheet' href='https://fullcalendar.io/releases/list/4.2.0/main.min.css'>
-  
+
  <div id="fullcalendar"></div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js'></script>
@@ -38,8 +38,10 @@ var events = [
         rendering: "background",
         color: "#eee",
         overLap: false,
-        allDay: true
+        allDay: false
     },
+
+    // >>>>>>>>>>>>>>>>>>>>>> FOR1
 
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "workshop" }}
     { 
@@ -47,20 +49,19 @@ var events = [
       start: dtToStr("{{ .Params.begin }} 2025 10:00:00 UTC+0200"),  
       end: dtToStr("{{ .Params.end }} 2025 23:00:00  UTC+0200", 1),
       allDay: true,
-      // extendedProps: {
-      //   department: 'BioChemistry'
-      // },
       description: 'workshop',
       color: '#dc1828',
       url: {{ .Permalink }}
      },
 {{ end }}
+    // <<<<<<<<<<<<<<<<<<<<<< FOR1
 
+    // >>>>>>>>>>>>>>>>>>>>>> FOR2
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
     { 
       title: '{{ .Params.speaker }}',
       start: dtToStr("{{ .Params.begin }} UTC+0000"),  
-      end: dtToStr("{{ .Params.end }} UTC+0000", 1),
+      end: dtToStr("{{ .Params.end }} UTC+0000", 0),
       allDay: false,
       description: '{{ .Title }}',
       color: '#dc1828',
@@ -68,25 +69,276 @@ var events = [
      },
 {{ end }}
 
-{{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
-    {{ if in .Params.begin "TBA" }}
-    {{ else }}
+    // <<<<<<<<<<<<<<<<<<<<<< FOR2
+
+    // >>>>>>>>>>>>>>>>>>>>>> FOR3
+
+
+    // <<<<<<<<<<<<<<<<<<<<<< FOR3
+
+    // >>>>>>>>>>>>>>>>>>>>>> FOR4
+
     { 
-      title: 'Course by {{ .Params.author }}',
-      start: dtToStr("{{ .Params.begin }} 2025 10:00:00 UTC+0200"),  
-      end: dtToStr("{{ .Params.end }} 2025 23:00:00  UTC+0200", 1),
-      allDay: true,
-      // extendedProps: {
-      //   department: 'BioChemistry'
-      // },
+      title: 'Course by Prof. Thierry Gallay',
+      start: dtToStr("2025-04-14 10:45:00 UTC+0000", 0),  
+      end: dtToStr("2025-04-14 12:15:00 UTC+0000", 0),  
+      allDay: false,
       description: 'Lecture',
       color: '#404060',
-      url: {{ .Permalink }}
+      url: '/gallay'
      },
-     {{end}}
-{{ end }}
-
-
+    
+    { 
+      title: 'Course by Prof. Thierry Gallay',
+      start: dtToStr("2025-04-15 09:00:00 UTC+0000", 0),  
+      end: dtToStr("2025-04-15 10:30:00 UTC+0000", 0),  
+      allDay: false,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/gallay'
+     },
+    
+    { 
+      title: 'Course by Prof. Thierry Gallay',
+      start: dtToStr("2025-04-17 10:45:00 UTC+0000", 0),  
+      end: dtToStr("2025-04-17 12:15:00 UTC+0000", 0),  
+      allDay: false,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/gallay'
+     },
+    
+    { 
+      title: 'Course by Prof. Thierry Gallay',
+      start: dtToStr("2025-04-16 14:15:00 UTC+0000", 0),  
+      end: dtToStr("2025-04-16 15:45:00 UTC+0000", 0),  
+      allDay: false,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/gallay'
+     },
+    
+    { 
+      title: 'Course by Prof. Luis Miguel Rodrigues',
+      start: dtToStr("2025-04-14 14:15:00 UTC+0000", 0),  
+      end: dtToStr("2025-04-14 15:45:00 UTC+0000", 0),  
+      allDay: false,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/rodrigues'
+     },
+    
+    { 
+      title: 'Course by Prof. Luis Miguel Rodrigues',
+      start: dtToStr("2025-04-15 10:45:00 UTC+0000", 0),  
+      end: dtToStr("2025-04-15 12:15:00 UTC+0000", 0),  
+      allDay: false,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/rodrigues'
+     },
+    
+    { 
+      title: 'Course by Prof. Luis Miguel Rodrigues',
+      start: dtToStr("2025-04-16 09:00:00 UTC+0000", 0),  
+      end: dtToStr("2025-04-16 10:30:00 UTC+0000", 0),  
+      allDay: false,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/rodrigues'
+     },
+    
+    { 
+      title: 'Course by Prof. Luis Miguel Rodrigues',
+      start: dtToStr("2025-04-17 14:15:00 UTC+0000", 0),  
+      end: dtToStr("2025-04-17 15:45:00 UTC+0000", 0),  
+      allDay: false,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/rodrigues'
+     },
+    
+    { 
+      title: 'Course given by Prof. C. Muratov (Pisa)',
+      start: dtToStr("26 May 2025 UTC+0000", 0),  
+      end: dtToStr("30 May 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/muratov'
+     },
+    
+    { 
+      title: 'Course given by Prof. A. Kiselev (Duke)',
+      start: dtToStr("16 June 2025 UTC+0000", 0),  
+      end: dtToStr("20 June 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/kiselev'
+     },
+    
+    { 
+      title: 'Course given by Prof. A. Maspero (SISSA)',
+      start: dtToStr("9 June 2025 UTC+0000", 0),  
+      end: dtToStr("13 June 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/maspero'
+     },
+    
+    { 
+      title: 'Course given by Prof. O. Blondel (Lyon)',
+      start: dtToStr("28 April 2025 UTC+0000", 0),  
+      end: dtToStr("02 May 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/blondel'
+     },
+    
+    { 
+      title: 'Course given by Prof. F. Otto (MIS-MPG Leipzig)',
+      start: dtToStr("23 June 2025 UTC+0000", 0),  
+      end: dtToStr("27 June 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/otto'
+     },
+    
+    { 
+      title: 'Course given by Prof. B. Pehersthofer (NYU)',
+      start: dtToStr("12 May 2025 UTC+0000", 0),  
+      end: dtToStr("16 May 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/pehersthofer'
+     },
+    
+    { 
+      title: 'Course given by Prof. W. Michiels (KULeuven)',
+      start: dtToStr("26 May 2025 UTC+0000", 0),  
+      end: dtToStr("30 May 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/michiels'
+     },
+    
+    { 
+      title: 'Course given by Prof. M. Cicalese (TUM)',
+      start: dtToStr("23 June 2025 UTC+0000", 0),  
+      end: dtToStr("27 June 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/cicalese'
+     },
+    
+    { 
+      title: 'Course given by Prof. M. Sasada (Tokyo)',
+      start: dtToStr("14 April 2025 UTC+0000", 0),  
+      end: dtToStr("17 April 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/sasada'
+     },
+    
+    { 
+      title: 'Course given by Prof. A. Giuliani (Roma Tre University)',
+      start: dtToStr("28 April 2025 UTC+0000", 0),  
+      end: dtToStr("30 April 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/giuliani'
+     },
+    
+    { 
+      title: 'Course given by Prof. L. Ryzhik (Stanford)',
+      start: dtToStr("9 June 2025 UTC+0000", 0),  
+      end: dtToStr("13 June 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/ryzhik'
+     },
+    
+    { 
+      title: 'Course given by Prof. A. Nouy (Nantes)',
+      start: dtToStr("2 June 2025 UTC+0000", 0),  
+      end: dtToStr("6 June 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/nouy'
+     },
+    
+    { 
+      title: 'Course given by Prof. G. M. Graf (ETH)',
+      start: dtToStr("3 June 2025 UTC+0000", 0),  
+      end: dtToStr("6 June 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/graf'
+     },
+    
+    { 
+      title: 'Course given by Prof. F. Poloni (Pisa)',
+      start: dtToStr("26 May 2025 UTC+0000", 0),  
+      end: dtToStr("30 May 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/poloni'
+     },
+    
+    { 
+      title: 'Course given by Prof. C. Lubich (Tübingen)',
+      start: dtToStr("28 April 2025 UTC+0000", 0),  
+      end: dtToStr("30 April 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/lubich'
+     },
+    
+    { 
+      title: 'Course given by Prof. J. Gomez-Serrano (Brown)',
+      start: dtToStr("9 June 2025 UTC+0000", 0),  
+      end: dtToStr("13 June 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/gomez_serrano'
+     },
+    
+    { 
+      title: 'Course given by Prof. M. Gubinelli (Oxford)',
+      start: dtToStr("12 May 2025 UTC+0000", 0),  
+      end: dtToStr("16 May 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/gubinelli'
+     },
+    
+    { 
+      title: 'Course given by Prof. J. Bedrossian (UCLA)',
+      start: dtToStr("16 June 2025 UTC+0000", 0),  
+      end: dtToStr("20 June 2025 UTC+0000", 0),  
+      allDay: true,
+      description: 'Lecture',
+      color: '#404060',
+      url: '/bedrossian'
+     },
+    
+    // <<<<<<<<<<<<<<<<<<<<<< FOR4
 ];
 
 
