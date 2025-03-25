@@ -9,7 +9,10 @@ import datetime
 import pandas as pd
 from functools import cache
 
-from trimestre1.tr_test.seminars import build
+
+coffe_break_color = "#2C5F2D"
+workshop_color = "#2F3C7E"
+course_color = "#990011"
 
 url = "https://docs.google.com/spreadsheets/d/1hsAkaOYdDQ5tc3cYlUxSEZpnGJ6-Fn95MK7dkMOmKDA/export?gid=0#gid=0&format=xlsx"
 
@@ -23,30 +26,30 @@ def get_tags(fname):
     return ""
 
 
-df = get_data(url)
-mask =  ~df["Workshop #"].isna() &df["Workshop #"].str.contains("week")
-ddf = df.loc[mask]
-
-inject_txt = ""
-for idx, row in ddf.iterrows():
-    if pd.isna(row['StartTime']):
-        continue
-    relative_url = f"/{row['Speaker'].strip().split(" ")[-1].lower()}"
-    inject_txt += rf"""
-    {{ 
-      title: 'Course by Prof. {row['Speaker']}',
-      start: dtToStr("{str(row['StartTime'])} UTC+0200"),  
-      end: dtToStr("{str(row['EndTime'])} UTC+0200"),  
-      allDay: false,
-      description: 'Lecture',
-      color: '#404060',
-      url: '{relative_url}'
-     }},
-    """
-
-txt = template.replace("HEREHEREHERE", inject_txt)
-with open("/home/runa/trimestre1/tr_test/themes/mytheme/layouts/shortcodes/fullcalendar.html", 'w') as f:
-    f.write(txt)
+# df = get_data(url)
+# mask =  ~df["Workshop #"].isna() &df["Workshop #"].str.contains("week")
+# ddf = df.loc[mask]
+#
+# inject_txt = ""
+# for idx, row in ddf.iterrows():
+#     if pd.isna(row['StartTime']):
+#         continue
+#     relative_url = f"/{row['Speaker'].strip().split(" ")[-1].lower()}"
+#     inject_txt += rf"""
+#     {{ 
+#       title: 'Course by Prof. {row['Speaker']}',
+#       start: dtToStr("{str(row['StartTime'])} UTC+0200"),  
+#       end: dtToStr("{str(row['EndTime'])} UTC+0200"),  
+#       allDay: false,
+#       description: 'Lecture',
+#       color: '#404060',
+#       url: '{relative_url}'
+#      }},
+#     """
+#
+# txt = template.replace("HEREHEREHERE", inject_txt)
+# with open("/home/runa/trimestre1/tr_test/themes/mytheme/layouts/shortcodes/fullcalendar.html", 'w') as f:
+#     f.write(txt)
 
 
 
@@ -157,7 +160,7 @@ var events = [
       end: dtToStr("{{ .Params.end }} 2025 23:00:00  UTC+0200", 1),
       allDay: true,
       description: 'workshop',
-      color: '#dc1828',
+      color: 'workshop_color',
       url: {{ .Permalink }}
      },
 {{ end }}
@@ -171,7 +174,7 @@ var events = [
       end: dtToStr("{{ .Params.end }} UTC+0000", 0),
       allDay: false,
       description: '{{ .Title }}',
-      color: '#dc1828',
+      color: 'workshop_color',
       url: {{ .Permalink }}
      },
 {{ end }}
@@ -238,7 +241,28 @@ $(function () {
 //# sourceURL=pen.js
     </script>
 <div id="fullcalendar"></div>
-"""
+""".replace("workshop_color", workshop_color)
+
+
+
+
+
+
+def empty_str_if_na(s: str) -> str:
+    if not pd.isna(s):
+        return s.strip()
+    return ""
+
+
+def check_if_recrational(row):
+    recreational_activity = "lunch,coffee,tea,dinner,opening,registration"
+    title = empty_str_if_na(row['Title'])
+    for s in recreational_activity.split(","):
+        for ss in title.split(" "):
+            if s.lower() == ss.lower():
+                print(f"{s} --> {title}")
+                return title
+    return ""
 
 
 
@@ -251,22 +275,26 @@ def build_calendar():
     ddf = df.loc[mask]
 
     inject_txt = ""
-    for idx, row in ddf.iterrows():
-        if pd.isna(row['StartTime']):
+    for _, _df in ddf.groupby("Speaker"):
+        if any(_df[use_col] == "NO"):
             continue
-        relative_url = f"/{row['Speaker'].strip().split(" ")[-1].lower()}"
-        inject_txt += rf"""
-        {{ 
-          title: 'Course by Prof. {row['Speaker']}',
-          start: dtToStr("{str(row['StartTime'])} UTC+0000", 0),  
-          end: dtToStr("{str(row['EndTime'])} UTC+0000", 0),  
-          allDay: false,
-          description: 'Lecture',
-          color: '#404060',
-          url: '{relative_url}'
-         }},
-        """
-        valid_speakers.append(relative_url[1:])
+
+        for _, row in _df.iterrows():
+            if pd.isna(row['StartTime']):
+                continue
+            relative_url = f"/{row['Speaker'].strip().split(" ")[-1].lower()}"
+            inject_txt += rf"""
+            {{ 
+              title: 'Course by Prof. {row['Speaker']}',
+              start: dtToStr("{str(row['StartTime'])} UTC+0000", 0),  
+              end: dtToStr("{str(row['EndTime'])} UTC+0000", 0),  
+              allDay: false,
+              description: 'Lecture',
+              color: '{course_color}',
+              url: '{relative_url}'
+             }},
+            """
+            valid_speakers.append(relative_url[1:])
 
     fnames = get_fnames()
 
@@ -286,15 +314,42 @@ def build_calendar():
             cal_title = get_title(fname)
         inject_txt += rf"""
         {{ 
-          title: '{cal_title}',
+          title: '{cal_title.replace("given by", "by")}',
           start: dtToStr("{str(get_begin(fname))} 2025 UTC+0000", 0),  
           end: dtToStr("{str(get_end(fname))} 2025 UTC+0000", 0),  
           allDay: true,
           description: 'Lecture',
-          color: '#404060',
+          color: '{course_color}',
           url: '/{linktitle}'
          }},
         """
+
+    use_col = df.columns[0]
+    activity_col = df.columns[1]
+
+    for _, _df in df.groupby(activity_col):
+        if any(_df[use_col].str.upper() == "NO"):
+            continue
+        for _, row in _df.iterrows():
+            title = check_if_recrational(row)
+            if title:
+                if pd.isna(row['EndTime']):
+                    end_time = ''
+                else:
+                    end_time = row['EndTime']
+                    # __import__("pdb").set_trace()
+                inject_txt += rf"""
+            {{ 
+              title: '{title}',
+              start: dtToStr("{row['StartTime']} UTC+0000", 0),  
+              end: dtToStr("{end_time} UTC+0000", 0),  
+              allDay: false,
+              description: '',
+              color: '{coffe_break_color}',
+              url: ''
+             }},
+            """
+
 
 
     # {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
@@ -315,7 +370,7 @@ def build_calendar():
 
     txt = template.replace("HEREHEREHERE", inject_txt)
     print(txt)
-    with open("/home/runa/trimestre1/tr_test/themes/mytheme/layouts/shortcodes/fullcalendar.html", 'w') as f:
+    with open("themes/mytheme/layouts/shortcodes/fullcalendar.html", 'w') as f:
         f.write(txt)
 
 

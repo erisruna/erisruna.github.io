@@ -36,6 +36,6 @@ The workshop will start on Monday 7{{< sup "th" >}} at 08:45 and end on Friday 1
 * Jaemin Park (Yonsei University)
 * Luis Miguel Rodrigues (University of Rennes)
 * Laura Spinolo (CNR-IMATI, Pavia)
-* Laszlo Szekelyhidi (Max Planck Institute, Leipzig)
+* László Székelyhidi Jr. (Max Planck Institute, Leipzig)
 * Emil Wiedemann (University of Erlangen-Nuremberg)
 * Martina Zizza (Max Planck Institute, Leipzig)
