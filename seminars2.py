@@ -215,25 +215,11 @@ $(function () {
         eventLimit: false,
         //events: 'https://fullcalendar.io/demo-events.json',
         events: events,
-        // timeFormat: 'H:mm',
-         eventTimeFormat: { // like '14:30:00'
-            hour: '2-digit',
-            minute: '2-digit',
-            meridiem: false
-          },
         //editable: true,
         droppable: true,
         eventResizableFromStart: true,
         eventResizableFromEnd: true,
         eventDurationEditable: true,
-        // eventRender: function(info) {
-        //     var tooltip = new Tooltip(info.el, {
-        //       title: info.event.extendedProps.description,
-        //       placement: 'top',
-        //       trigger: 'hover',
-        //       container: 'body'
-        //     });,
-        //     },
         eventRender: function (info) {
             if (info.view.type === "listMonth") {
                 return;
@@ -244,8 +230,8 @@ $(function () {
                 return;
             let link = document.createElement("a");
             link.innerHTML = eventID;
-            // link.title = "Open in Jira";
-            // link.href = "https://jira.dummyurl.com/browse/" + eventID;
+            link.title = "Open in Jira";
+            link.href = "https://jira.dummyurl.com/browse/" + eventID;
             link.classList.add("float-right");
             eventEl.appendChild(link);
         }
@@ -296,12 +282,10 @@ def build_calendar():
         for _, row in _df.iterrows():
             if pd.isna(row['StartTime']):
                 continue
-            start_dt = row["StartTime"].to_pydatetime()
-            end_dt = row["EndTime"].to_pydatetime()
             relative_url = f"/{row['Speaker'].strip().split(" ")[-1].lower()}"
             inject_txt += rf"""
             {{ 
-              title: '-{end_dt.strftime("%H:%M")} {row['Speaker'].strip().split(" ")[-1]}',
+              title: 'Course by Prof. {row['Speaker']}',
               start: dtToStr("{str(row['StartTime'])} UTC+0000", 0),  
               end: dtToStr("{str(row['EndTime'])} UTC+0000", 0),  
               allDay: false,
@@ -330,7 +314,7 @@ def build_calendar():
             cal_title = get_title(fname)
         inject_txt += rf"""
         {{ 
-          title: '{cal_title.replace("given by", "by").replace("Prof.", "")}',
+          title: '{cal_title.replace("given by", "by")}',
           start: dtToStr("{str(get_begin(fname))} 2025 UTC+0000", 0),  
           end: dtToStr("{str(get_end(fname))} 2025 UTC+0000", 0),  
           allDay: true,
