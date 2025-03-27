@@ -96,6 +96,7 @@ def row_to_line(row: dict[str, Any]) -> str:
 
 def row_to_md(row: dict) -> str:
     dt = pd.to_datetime(row['StartTime'])
+    dt_end = pd.to_datetime(row['EndTime'])
     Title = empty_str_if_na(escape_string(row['Title']))
     if not Title:
         Title = "TBA"
@@ -108,7 +109,7 @@ subtitle = "by Prof. {row['Speaker']}"
 speaker = "{row['Speaker']}"
 begin = "{row['StartTime']}"
 end = "{row['EndTime']}"
-datetime = "{dt.strftime("%H:%M")} {datetime_to_header(row['StartTime'])}"
+datetime = "{dt.strftime("%H:%M")}-{dt_end.strftime("%H:%M")} {datetime_to_header(row['StartTime'])}"
 location = "{get_google_link(row['SeminarLocation'])}"
 tags = "a_s_w"
 +++
@@ -148,26 +149,27 @@ def clean_built_files():
             with open(fname) as f:
                 txt = f.read()
 
-            if 'tags = "a_s_w"' in txt:
+            if 'tags = "a_s_w"' in txt or 'subtitle = "Schedule"' in txt:
                 print(f"Removing {fname}")
                 os.remove(fname)
 
 
 def build_single(idx, ignore_use=False):
     df = get_data(url)
-    mask = df["Workshop #"] == f"workshop{idx}"
+    activity_type = df.columns[1]
+    mask = df[activity_type] == f"workshop{idx}"
     if any(mask) is False:
         return
     ddf  = df.loc[mask]
     use_col = df.columns[0]
     ddf.loc[:, use_col] = ddf[use_col].str.upper()
 
-    if any(ddf.Use  == "NO") and ignore_use == False:
+    if any(ddf[use_col].str.lower()  == "no") and ignore_use == False:
         switch_schedule(idx, False)
         return
 
     switch_schedule(idx, True)
-    workshop = ddf['Workshop #'].values[0]
+    workshop = ddf[activity_type].values[0]
     for _, row in ddf.iterrows():
         create_single_seminar_page_info(row)
 
