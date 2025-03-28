@@ -9,7 +9,8 @@ subtitle = "Schedule"
 {{< table2 >}}
 |   |   |
 |---|---|
-|08:45-09:30| *Registration and Opening*|
+|08:45-09:15| *Registration*|
+|09:15-09:30| *Opening*|
 |09:30-10:30|Giovanni Alberti (University of Pisa)|
 |  |[*TBA*](/workshop1/giovanni_alberti)|
 |10:30-11:00| *Coffee Break*|
