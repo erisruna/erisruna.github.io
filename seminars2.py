@@ -38,8 +38,8 @@ def get_tags(fname):
 #     inject_txt += rf"""
 #     {{ 
 #       title: 'Course by Prof. {row['Speaker']}',
-#       start: dtToStr("{str(row['StartTime'])} UTC+0200"),  
-#       end: dtToStr("{str(row['EndTime'])} UTC+0200"),  
+#       start: strToDT("{str(row['StartTime'])} UTC+0200"),  
+#       end: strToDT("{str(row['EndTime'])} UTC+0200"),  
 #       allDay: false,
 #       description: 'Lecture',
 #       color: '#404060',
@@ -124,11 +124,10 @@ template = r"""<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/ind
       <script id="rendered-js" >
 "use strict";
 
-function dtToStr(dt, add_days=0) {
+function strToDT(dt, add_days=0) {
   let d = new Date(Date.parse(dt));
   d.setDate(d.getDate() + add_days);
-  let st = d.toISOString();
-  return st.slice(0,-2);
+  return d
 }
 
 function getMinMaxDate(fixedDate) {
@@ -156,8 +155,8 @@ var events = [
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "workshop" }}
     { 
       title: '{{ .Title }}',
-      start: dtToStr("{{ .Params.begin }} 2025 10:00:00 UTC+0200"),  
-      end: dtToStr("{{ .Params.end }} 2025 23:00:00  UTC+0200", 1),
+      start: strToDT("{{ .Params.begin }} 2025 10:00:00 UTC+0200"),  
+      end: strToDT("{{ .Params.end }} 2025 23:00:00  UTC+0200", 1),
       allDay: true,
       description: 'workshop',
       color: 'workshop_color',
@@ -170,8 +169,8 @@ var events = [
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
     { 
       title: '{{ .Params.speaker }}',
-      start: dtToStr("{{ .Params.begin }} UTC+0000"),  
-      end: dtToStr("{{ .Params.end }} UTC+0000", 0),
+      start: strToDT("{{ .Params.begin }} UTC+0000"),  
+      end: strToDT("{{ .Params.end }} UTC+0000", 0),
       allDay: false,
       description: '{{ .Title }}',
       color: 'workshop_color',
@@ -293,8 +292,8 @@ def build_calendar():
             inject_txt += rf"""
             {{ 
               title: '-{end_dt.strftime("%H:%M")} {row['Speaker'].strip().split(" ")[-1]}',
-              start: dtToStr("{str(row['StartTime'])} UTC+0000", 0),  
-              end: dtToStr("{str(row['EndTime'])} UTC+0000", 0),  
+              start: strToDT("{str(row['StartTime'])} UTC+0000", 0),  
+              end: strToDT("{str(row['EndTime'])} UTC+0000", 0),  
               allDay: false,
               description: 'Lecture',
               color: '{course_color}',
@@ -322,8 +321,8 @@ def build_calendar():
         inject_txt += rf"""
         {{ 
           title: '{cal_title.replace("given by", "by").replace("Prof.", "")}',
-          start: dtToStr("{str(get_begin(fname))} 2025 UTC+0000", 0),  
-          end: dtToStr("{str(get_end(fname))} 2025 UTC+0000", 0),  
+          start: strToDT("{str(get_begin(fname))} 2025 UTC+0000", 0),  
+          end: strToDT("{str(get_end(fname))} 2025 UTC+0000", 0),  
           allDay: true,
           description: 'Lecture',
           color: '{course_color}',
@@ -348,8 +347,8 @@ def build_calendar():
                 inject_txt += rf"""
             {{ 
               title: '{title}',
-              start: dtToStr("{row['StartTime']} UTC+0000", 0),  
-              end: dtToStr("{end_time} UTC+0000", 0),  
+              start: strToDT("{row['StartTime']} UTC+0000", 0),  
+              end: strToDT("{end_time} UTC+0000", 0),  
               allDay: false,
               description: '',
               color: '{coffe_break_color}',
@@ -364,8 +363,8 @@ def build_calendar():
     #     {{ else }}
     #     { 
     #       title: 'Course by {{ .Params.author }}',
-    #       start: dtToStr("{{ .Params.begin }} 2025 10:00:00 UTC+0000"),  
-    #       end: dtToStr("{{ .Params.end }} 2025 23:00:00  UTC+0-00", 1),
+    #       start: strToDT("{{ .Params.begin }} 2025 10:00:00 UTC+0000"),  
+    #       end: strToDT("{{ .Params.end }} 2025 23:00:00  UTC+0-00", 1),
     #       allDay: true,
     #       description: 'Lecture',
     #       color: '#404060',
