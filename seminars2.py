@@ -1,4 +1,5 @@
 from typing import Any
+from dateutil.parser import parse
 import os
 import re
 import click
@@ -25,43 +26,20 @@ def get_tags(fname):
         return res[0]
     return ""
 
-
-# df = get_data(url)
-# mask =  ~df["Workshop #"].isna() &df["Workshop #"].str.contains("week")
-# ddf = df.loc[mask]
-#
-# inject_txt = ""
-# for idx, row in ddf.iterrows():
-#     if pd.isna(row['StartTime']):
-#         continue
-#     relative_url = f"/{row['Speaker'].strip().split(" ")[-1].lower()}"
-#     inject_txt += rf"""
-#     {{ 
-#       title: 'Course by Prof. {row['Speaker']}',
-#       start: strToDT("{str(row['StartTime'])} UTC+0200"),  
-#       end: strToDT("{str(row['EndTime'])} UTC+0200"),  
-#       allDay: false,
-#       description: 'Lecture',
-#       color: '#404060',
-#       url: '{relative_url}'
-#      }},
-#     """
-#
-# txt = template.replace("HEREHEREHERE", inject_txt)
-# with open("/home/runa/trimestre1/tr_test/themes/mytheme/layouts/shortcodes/fullcalendar.html", 'w') as f:
-#     f.write(txt)
+def format_time(data: str):
+    data = str(data)
+    dt = parse(data)
+    res = dt.strftime("%Y/%m/%d  %H:%M:%S")
+    return  res
 
 
-
-
-
-def get_fnames():
+def get_fnames() -> list[str]:
     fnames = []
     for x,y,z in os.walk("content"):
         fnames +=[os.path.join(x,t) for t in z if '.md' in t] 
     return fnames
 
-def get_link_title(fname):
+def get_link_title(fname: str) -> str:
     with open(fname, 'r') as f:
         tmp = f.read()
     res=  re.findall(r"""LinkTitle.*=.*['"](\w*)['"]""", tmp)
@@ -155,8 +133,8 @@ var events = [
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "workshop" }}
     { 
       title: '{{ .Title }}',
-      start: strToDT("{{ .Params.begin }} 2025 10:00:00 UTC+0200"),  
-      end: strToDT("{{ .Params.end }} 2025 23:00:00  UTC+0200", 1),
+      start: strToDT("{{ .Params.begin }} 2025 10:00:00"),  
+      end: strToDT("{{ .Params.end }} 2025 23:00:00", 1),
       allDay: true,
       description: 'workshop',
       color: 'workshop_color',
@@ -169,8 +147,8 @@ var events = [
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
     { 
       title: '{{ .Params.speaker }}',
-      start: strToDT("{{ .Params.begin }} UTC+0000"),  
-      end: strToDT("{{ .Params.end }} UTC+0000", 0),
+      start: strToDT("{{ .Params.begin }}"),  
+      end: strToDT("{{ .Params.end }}", 0),
       allDay: false,
       description: '{{ .Title }}',
       color: 'workshop_color',
@@ -292,8 +270,8 @@ def build_calendar():
             inject_txt += rf"""
             {{ 
               title: '-{end_dt.strftime("%H:%M")} {row['Speaker'].strip().split(" ")[-1]}',
-              start: strToDT("{str(row['StartTime'])} UTC+0000", 0),  
-              end: strToDT("{str(row['EndTime'])} UTC+0000", 0),  
+              start: strToDT("{format_time(str(row['StartTime']))}", 0),  
+              end: strToDT("{format_time(str(row['EndTime']))}", 0),  
               allDay: false,
               description: 'Lecture',
               color: '{course_color}',
@@ -321,8 +299,8 @@ def build_calendar():
         inject_txt += rf"""
         {{ 
           title: '{cal_title.replace("given by", "by").replace("Prof.", "")}',
-          start: strToDT("{str(get_begin(fname))} 2025 UTC+0000", 0),  
-          end: strToDT("{str(get_end(fname))} 2025 UTC+0000", 0),  
+          start: strToDT("{str(get_begin(fname))} 2025", 0),  
+          end: strToDT("{str(get_end(fname))} 2025", 0),  
           allDay: true,
           description: 'Lecture',
           color: '{course_color}',
@@ -347,33 +325,14 @@ def build_calendar():
                 inject_txt += rf"""
             {{ 
               title: '{title}',
-              start: strToDT("{row['StartTime']} UTC+0000", 0),  
-              end: strToDT("{end_time} UTC+0000", 0),  
+              start: strToDT("{format_time(row['StartTime'])}", 0),  
+              end: strToDT("{format_time(end_time)}", 0),  
               allDay: false,
               description: '',
               color: '{coffe_break_color}',
               url: ''
              }},
             """
-
-
-
-    # {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "course" }}
-    #     {{ if in .Params.begin "TBA" }}
-    #     {{ else }}
-    #     { 
-    #       title: 'Course by {{ .Params.author }}',
-    #       start: strToDT("{{ .Params.begin }} 2025 10:00:00 UTC+0000"),  
-    #       end: strToDT("{{ .Params.end }} 2025 23:00:00  UTC+0-00", 1),
-    #       allDay: true,
-    #       description: 'Lecture',
-    #       color: '#404060',
-    #       url: {{ .Permalink }}
-    #      },
-    #      {{end}}
-    # {{ end }}
-    #
-
     txt = template.replace("HEREHEREHERE", inject_txt)
     print(txt)
     with open("themes/mytheme/layouts/shortcodes/fullcalendar.html", 'w') as f:
