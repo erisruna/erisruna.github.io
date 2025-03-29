@@ -1,5 +1,5 @@
 +++
-title = "The asymptotics of volume preserving geometric flows and a sharp quantitative Alexandrov inequality"
+title = "Generic Configurations in 2D Strongly Competing Systems: Only 3-points survive!"
 subtitle = "by Prof. Emanuele Spadaro"
 speaker = "Emanuele Spadaro"
 begin = "2025-04-04 10:30:00"
@@ -10,4 +10,5 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-I will present a study on the asymptotic behavior of the volume preserving mean curvature and of the Mullins-Sekerka flat ﬂows in the three dimensional space. These are nonlocal geometric flows for the evolutions of interfaces in material science, preserving the mass of the system. One of the main ingredients in our approach is a sharp quantitative version of the Alexandrov inequality for sets with bounded perimeter.
+In this seminar, I will present qualitative properties of a well-known free boundary problem modeling strong segregation among N competing populations in planar domains. The central result establishes that, generically, the domain partitions into subdomains characterized exclusively by triple junctions – meaning that no more than three populations coexist at any point along the free boundary.
+This is a joint work with F. Lanzara, E. Montefusco and V. Nesi (Sapienza).
