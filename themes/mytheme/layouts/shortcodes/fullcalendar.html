@@ -6,9 +6,11 @@
   
  <div id="fullcalendar"></div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js'></script>
 <script src='https://fullcalendar.io/releases/core/4.2.0/main.min.js'></script>
 <script src='https://fullcalendar.io/releases/daygrid/4.2.0/main.min.js'></script>
 <script src='https://fullcalendar.io/releases/timegrid/4.2.0/main.min.js'></script>
+<script src='https://fullcalendar.io/releases/list/4.2.0/main.min.js'></script>
       <script id="rendered-js" >
 "use strict";
 
@@ -43,8 +45,8 @@ var events = [
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "workshop" }}
     { 
       title: '{{ .Title }}',
-      start: strToDT("{{ .Params.begin }} 2025 10:00:00"),  
-      end: strToDT("{{ .Params.end }} 2025 23:00:00", 1),
+      start: strToDT("{{ .Params.begin }} 2025 10:00:00  UTC+0200"),  
+      end: strToDT("{{ .Params.end }} 2025 23:00:00 UTC+0200", 1),
       allDay: true,
       description: 'workshop',
       color: '#2F3C7E',
@@ -57,8 +59,8 @@ var events = [
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
     { 
       title: '{{ .Params.speaker }}',
-      start: strToDT("{{ .Params.begin }}"),  
-      end: strToDT("{{ .Params.end }}", 0),
+      start: strToDT("{{ .Params.begin }} UTC+0200"),  
+      end: strToDT("{{ .Params.end }} UTC+0200", 0),
       allDay: false,
       description: '{{ .Title }}',
       color: '#2F3C7E',
@@ -77,8 +79,8 @@ var events = [
 
             { 
               title: '-17:45 Giuliani',
-              start: strToDT("2025/04/28  16:15:00", 0),  
-              end: strToDT("2025/04/28  17:45:00", 0),  
+              start: strToDT("2025/04/28  16:15:00  UTC+0200", 0),  
+              end: strToDT("2025/04/28  17:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -87,8 +89,8 @@ var events = [
             
             { 
               title: '-17:45 Giuliani',
-              start: strToDT("2025/04/29  16:15:00", 0),  
-              end: strToDT("2025/04/29  17:45:00", 0),  
+              start: strToDT("2025/04/29  16:15:00  UTC+0200", 0),  
+              end: strToDT("2025/04/29  17:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -97,8 +99,8 @@ var events = [
             
             { 
               title: '-12:15 Giuliani',
-              start: strToDT("2025/04/30  10:45:00", 0),  
-              end: strToDT("2025/04/30  12:15:00", 0),  
+              start: strToDT("2025/04/30  10:45:00  UTC+0200", 0),  
+              end: strToDT("2025/04/30  12:15:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -107,8 +109,8 @@ var events = [
             
             { 
               title: '-15:45 Giuliani',
-              start: strToDT("2025/04/30  14:15:00", 0),  
-              end: strToDT("2025/04/30  15:45:00", 0),  
+              start: strToDT("2025/04/30  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/04/30  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -117,8 +119,8 @@ var events = [
             
             { 
               title: '-10:45 Nouy',
-              start: strToDT("2025/06/03  09:00:00", 0),  
-              end: strToDT("2025/06/03  10:45:00", 0),  
+              start: strToDT("2025/06/03  09:00:00  UTC+0200", 0),  
+              end: strToDT("2025/06/03  10:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -127,8 +129,8 @@ var events = [
             
             { 
               title: '-12:15 Nouy',
-              start: strToDT("2025/06/03  10:45:00", 0),  
-              end: strToDT("2025/06/03  12:15:00", 0),  
+              start: strToDT("2025/06/03  10:45:00  UTC+0200", 0),  
+              end: strToDT("2025/06/03  12:15:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -137,8 +139,8 @@ var events = [
             
             { 
               title: '-15:45 Nouy',
-              start: strToDT("2025/06/04  14:15:00", 0),  
-              end: strToDT("2025/06/04  15:45:00", 0),  
+              start: strToDT("2025/06/04  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/06/04  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -147,8 +149,8 @@ var events = [
             
             { 
               title: '-17:45 Nouy',
-              start: strToDT("2025/06/04  16:15:00", 0),  
-              end: strToDT("2025/06/04  17:45:00", 0),  
+              start: strToDT("2025/06/04  16:15:00  UTC+0200", 0),  
+              end: strToDT("2025/06/04  17:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -157,8 +159,8 @@ var events = [
             
             { 
               title: '-10:45 Lubich',
-              start: strToDT("2025/04/28  09:00:00", 0),  
-              end: strToDT("2025/04/28  10:45:00", 0),  
+              start: strToDT("2025/04/28  09:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/28  10:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -167,8 +169,8 @@ var events = [
             
             { 
               title: '-15:45 Lubich',
-              start: strToDT("2025/04/28  14:15:00", 0),  
-              end: strToDT("2025/04/28  15:45:00", 0),  
+              start: strToDT("2025/04/28  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/04/28  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -177,8 +179,8 @@ var events = [
             
             { 
               title: '-12:15 Lubich',
-              start: strToDT("2025/04/29  10:45:00", 0),  
-              end: strToDT("2025/04/29  12:15:00", 0),  
+              start: strToDT("2025/04/29  10:45:00  UTC+0200", 0),  
+              end: strToDT("2025/04/29  12:15:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -187,8 +189,8 @@ var events = [
             
             { 
               title: '-10:45 Lubich',
-              start: strToDT("2025/04/30  09:00:00", 0),  
-              end: strToDT("2025/04/30  10:45:00", 0),  
+              start: strToDT("2025/04/30  09:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/30  10:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -197,8 +199,8 @@ var events = [
             
             { 
               title: '-15:45 Graf',
-              start: strToDT("2025/06/03  14:15:00", 0),  
-              end: strToDT("2025/06/03  15:45:00", 0),  
+              start: strToDT("2025/06/03  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/06/03  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -207,8 +209,8 @@ var events = [
             
             { 
               title: '-15:45 Graf',
-              start: strToDT("2025/06/05  14:15:00", 0),  
-              end: strToDT("2025/06/05  15:45:00", 0),  
+              start: strToDT("2025/06/05  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/06/05  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -217,8 +219,8 @@ var events = [
             
             { 
               title: '-10:45 Graf',
-              start: strToDT("2025/06/06  09:00:00", 0),  
-              end: strToDT("2025/06/06  10:45:00", 0),  
+              start: strToDT("2025/06/06  09:00:00  UTC+0200", 0),  
+              end: strToDT("2025/06/06  10:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -227,8 +229,8 @@ var events = [
             
             { 
               title: '-15:45 Graf',
-              start: strToDT("2025/06/06  14:15:00", 0),  
-              end: strToDT("2025/06/06  15:45:00", 0),  
+              start: strToDT("2025/06/06  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/06/06  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -237,8 +239,8 @@ var events = [
             
             { 
               title: '-15:45 Rodrigues',
-              start: strToDT("2025/04/14  14:15:00", 0),  
-              end: strToDT("2025/04/14  15:45:00", 0),  
+              start: strToDT("2025/04/14  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/04/14  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -247,8 +249,8 @@ var events = [
             
             { 
               title: '-12:15 Rodrigues',
-              start: strToDT("2025/04/15  10:45:00", 0),  
-              end: strToDT("2025/04/15  12:15:00", 0),  
+              start: strToDT("2025/04/15  10:45:00  UTC+0200", 0),  
+              end: strToDT("2025/04/15  12:15:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -257,8 +259,8 @@ var events = [
             
             { 
               title: '-10:30 Rodrigues',
-              start: strToDT("2025/04/16  09:00:00", 0),  
-              end: strToDT("2025/04/16  10:30:00", 0),  
+              start: strToDT("2025/04/16  09:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/16  10:30:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -267,8 +269,8 @@ var events = [
             
             { 
               title: '-15:45 Rodrigues',
-              start: strToDT("2025/04/17  14:15:00", 0),  
-              end: strToDT("2025/04/17  15:45:00", 0),  
+              start: strToDT("2025/04/17  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/04/17  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -277,8 +279,8 @@ var events = [
             
             { 
               title: '-10:30 Sasada',
-              start: strToDT("2025/04/14  09:00:00", 0),  
-              end: strToDT("2025/04/14  10:30:00", 0),  
+              start: strToDT("2025/04/14  09:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/14  10:30:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -287,8 +289,8 @@ var events = [
             
             { 
               title: '-15:45 Sasada',
-              start: strToDT("2025/04/15  14:15:00", 0),  
-              end: strToDT("2025/04/15  15:45:00", 0),  
+              start: strToDT("2025/04/15  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/04/15  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -297,8 +299,8 @@ var events = [
             
             { 
               title: '-12:15 Sasada',
-              start: strToDT("2025/04/16  10:45:00", 0),  
-              end: strToDT("2025/04/16  12:15:00", 0),  
+              start: strToDT("2025/04/16  10:45:00  UTC+0200", 0),  
+              end: strToDT("2025/04/16  12:15:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -307,8 +309,8 @@ var events = [
             
             { 
               title: '-10:30 Sasada',
-              start: strToDT("2025/04/17  09:00:00", 0),  
-              end: strToDT("2025/04/17  10:30:00", 0),  
+              start: strToDT("2025/04/17  09:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/17  10:30:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -317,8 +319,8 @@ var events = [
             
             { 
               title: '-12:15 Blondel',
-              start: strToDT("2025/04/28  10:45:00", 0),  
-              end: strToDT("2025/04/28  12:15:00", 0),  
+              start: strToDT("2025/04/28  10:45:00  UTC+0200", 0),  
+              end: strToDT("2025/04/28  12:15:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -327,8 +329,8 @@ var events = [
             
             { 
               title: '-10:30 Blondel',
-              start: strToDT("2025/04/29  09:00:00", 0),  
-              end: strToDT("2025/04/29  10:30:00", 0),  
+              start: strToDT("2025/04/29  09:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/29  10:30:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -337,8 +339,8 @@ var events = [
             
             { 
               title: '-15:45 Blondel',
-              start: strToDT("2025/04/29  14:15:00", 0),  
-              end: strToDT("2025/04/29  15:45:00", 0),  
+              start: strToDT("2025/04/29  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/04/29  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -347,8 +349,8 @@ var events = [
             
             { 
               title: '-17:45 Blondel',
-              start: strToDT("2025/04/30  16:15:00", 0),  
-              end: strToDT("2025/04/30  17:45:00", 0),  
+              start: strToDT("2025/04/30  16:15:00  UTC+0200", 0),  
+              end: strToDT("2025/04/30  17:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -357,8 +359,8 @@ var events = [
             
             { 
               title: '-12:15 Gallay',
-              start: strToDT("2025/04/14  10:45:00", 0),  
-              end: strToDT("2025/04/14  12:15:00", 0),  
+              start: strToDT("2025/04/14  10:45:00  UTC+0200", 0),  
+              end: strToDT("2025/04/14  12:15:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -367,8 +369,8 @@ var events = [
             
             { 
               title: '-10:30 Gallay',
-              start: strToDT("2025/04/15  09:00:00", 0),  
-              end: strToDT("2025/04/15  10:30:00", 0),  
+              start: strToDT("2025/04/15  09:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/15  10:30:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -377,8 +379,8 @@ var events = [
             
             { 
               title: '-12:15 Gallay',
-              start: strToDT("2025/04/17  10:45:00", 0),  
-              end: strToDT("2025/04/17  12:15:00", 0),  
+              start: strToDT("2025/04/17  10:45:00  UTC+0200", 0),  
+              end: strToDT("2025/04/17  12:15:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -387,8 +389,8 @@ var events = [
             
             { 
               title: '-15:45 Gallay',
-              start: strToDT("2025/04/16  14:15:00", 0),  
-              end: strToDT("2025/04/16  15:45:00", 0),  
+              start: strToDT("2025/04/16  14:15:00  UTC+0200", 0),  
+              end: strToDT("2025/04/16  15:45:00 UTC+0200", 0),  
               allDay: false,
               description: 'Lecture',
               color: '#990011',
@@ -397,8 +399,8 @@ var events = [
             
         { 
           title: 'Course by  C. Muratov (Pisa)',
-          start: strToDT("26 May 2025", 0),  
-          end: strToDT("30 May 2025", 0),  
+          start: strToDT("26 May 2025 UTC+0200", 0),  
+          end: strToDT("30 May 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -407,8 +409,8 @@ var events = [
         
         { 
           title: 'Course by  A. Kiselev (Duke)',
-          start: strToDT("16 June 2025", 0),  
-          end: strToDT("20 June 2025", 0),  
+          start: strToDT("16 June 2025 UTC+0200", 0),  
+          end: strToDT("20 June 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -417,8 +419,8 @@ var events = [
         
         { 
           title: 'Course by  A. Maspero (SISSA)',
-          start: strToDT("9 June 2025", 0),  
-          end: strToDT("13 June 2025", 0),  
+          start: strToDT("9 June 2025 UTC+0200", 0),  
+          end: strToDT("13 June 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -427,8 +429,8 @@ var events = [
         
         { 
           title: 'Course by  F. Otto (MIS-MPG Leipzig)',
-          start: strToDT("23 June 2025", 0),  
-          end: strToDT("27 June 2025", 0),  
+          start: strToDT("23 June 2025 UTC+0200", 0),  
+          end: strToDT("27 June 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -437,8 +439,8 @@ var events = [
         
         { 
           title: 'Course by  B. Pehersthofer (NYU)',
-          start: strToDT("12 May 2025", 0),  
-          end: strToDT("16 May 2025", 0),  
+          start: strToDT("12 May 2025 UTC+0200", 0),  
+          end: strToDT("16 May 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -447,8 +449,8 @@ var events = [
         
         { 
           title: 'Course by  W. Michiels (KULeuven)',
-          start: strToDT("26 May 2025", 0),  
-          end: strToDT("30 May 2025", 0),  
+          start: strToDT("26 May 2025 UTC+0200", 0),  
+          end: strToDT("30 May 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -457,8 +459,8 @@ var events = [
         
         { 
           title: 'Course by  M. Cicalese (TUM)',
-          start: strToDT("23 June 2025", 0),  
-          end: strToDT("27 June 2025", 0),  
+          start: strToDT("23 June 2025 UTC+0200", 0),  
+          end: strToDT("27 June 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -467,8 +469,8 @@ var events = [
         
         { 
           title: 'Course by  L. Ryzhik (Stanford)',
-          start: strToDT("9 June 2025", 0),  
-          end: strToDT("13 June 2025", 0),  
+          start: strToDT("9 June 2025 UTC+0200", 0),  
+          end: strToDT("13 June 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -477,8 +479,8 @@ var events = [
         
         { 
           title: 'Course by  F. Poloni (Pisa)',
-          start: strToDT("26 May 2025", 0),  
-          end: strToDT("30 May 2025", 0),  
+          start: strToDT("26 May 2025 UTC+0200", 0),  
+          end: strToDT("30 May 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -487,8 +489,8 @@ var events = [
         
         { 
           title: 'Course by  J. Gomez-Serrano (Brown)',
-          start: strToDT("9 June 2025", 0),  
-          end: strToDT("13 June 2025", 0),  
+          start: strToDT("9 June 2025 UTC+0200", 0),  
+          end: strToDT("13 June 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -497,8 +499,8 @@ var events = [
         
         { 
           title: 'Course by  M. Gubinelli (Oxford)',
-          start: strToDT("12 May 2025", 0),  
-          end: strToDT("16 May 2025", 0),  
+          start: strToDT("12 May 2025 UTC+0200", 0),  
+          end: strToDT("16 May 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -507,8 +509,8 @@ var events = [
         
         { 
           title: 'Course by  J. Bedrossian (UCLA)',
-          start: strToDT("16 June 2025", 0),  
-          end: strToDT("20 June 2025", 0),  
+          start: strToDT("16 June 2025 UTC+0200", 0),  
+          end: strToDT("20 June 2025 UTC+0200", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
@@ -517,8 +519,8 @@ var events = [
         
             { 
               title: 'Registration',
-              start: strToDT("2025/03/31  08:45:00", 0),  
-              end: strToDT("2025/03/31  09:15:00", 0),  
+              start: strToDT("2025/03/31  08:45:00  UTC+0200", 0),  
+              end: strToDT("2025/03/31  09:15:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -527,8 +529,8 @@ var events = [
             
             { 
               title: 'Opening',
-              start: strToDT("2025/03/31  09:15:00", 0),  
-              end: strToDT("2025/03/31  09:30:00", 0),  
+              start: strToDT("2025/03/31  09:15:00  UTC+0200", 0),  
+              end: strToDT("2025/03/31  09:30:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -537,8 +539,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/03/31  10:30:00", 0),  
-              end: strToDT("2025/03/31  11:00:00", 0),  
+              start: strToDT("2025/03/31  10:30:00  UTC+0200", 0),  
+              end: strToDT("2025/03/31  11:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -547,8 +549,8 @@ var events = [
             
             { 
               title: 'Lunch',
-              start: strToDT("2025/03/31  12:00:00", 0),  
-              end: strToDT("2025/03/31  14:30:00", 0),  
+              start: strToDT("2025/03/31  12:00:00  UTC+0200", 0),  
+              end: strToDT("2025/03/31  14:30:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -557,8 +559,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/03/31  15:30:00", 0),  
-              end: strToDT("2025/03/31  16:00:00", 0),  
+              start: strToDT("2025/03/31  15:30:00  UTC+0200", 0),  
+              end: strToDT("2025/03/31  16:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -567,8 +569,8 @@ var events = [
             
             { 
               title: 'Lunch',
-              start: strToDT("2025/04/01  12:00:00", 0),  
-              end: strToDT("2025/04/01  14:30:00", 0),  
+              start: strToDT("2025/04/01  12:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/01  14:30:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -577,8 +579,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/02  10:30:00", 0),  
-              end: strToDT("2025/04/02  11:00:00", 0),  
+              start: strToDT("2025/04/02  10:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/02  11:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -587,8 +589,8 @@ var events = [
             
             { 
               title: 'Lunch',
-              start: strToDT("2025/04/02  12:00:00", 0),  
-              end: strToDT("2025/04/02  14:00:00", 0),  
+              start: strToDT("2025/04/02  12:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/02  14:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -597,8 +599,8 @@ var events = [
             
             { 
               title: 'Social Dinner',
-              start: strToDT("2025/04/02  19:30:00", 0),  
-              end: strToDT("2025/04/02  21:30:00", 0),  
+              start: strToDT("2025/04/02  19:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/02  21:30:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -607,8 +609,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/03  10:30:00", 0),  
-              end: strToDT("2025/04/03  11:00:00", 0),  
+              start: strToDT("2025/04/03  10:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/03  11:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -617,8 +619,8 @@ var events = [
             
             { 
               title: 'Lunch',
-              start: strToDT("2025/04/03  12:00:00", 0),  
-              end: strToDT("2025/04/03  14:30:00", 0),  
+              start: strToDT("2025/04/03  12:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/03  14:30:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -627,8 +629,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/03  15:30:00", 0),  
-              end: strToDT("2025/04/03  16:00:00", 0),  
+              start: strToDT("2025/04/03  15:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/03  16:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -637,8 +639,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/04  10:00:00", 0),  
-              end: strToDT("2025/04/04  10:30:00", 0),  
+              start: strToDT("2025/04/04  10:00:00  UTC+0200", 0),  
+              end: strToDT("2025/04/04  10:30:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -647,8 +649,8 @@ var events = [
             
             { 
               title: 'Registration and Opening',
-              start: strToDT("2025/04/07  08:45:00", 0),  
-              end: strToDT("2025/04/07  09:30:00", 0),  
+              start: strToDT("2025/04/07  08:45:00  UTC+0200", 0),  
+              end: strToDT("2025/04/07  09:30:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -657,8 +659,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/07  10:30:00", 0),  
-              end: strToDT("2025/04/07  11:00:00", 0),  
+              start: strToDT("2025/04/07  10:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/07  11:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -667,8 +669,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/07  15:30:00", 0),  
-              end: strToDT("2025/04/07  16:00:00", 0),  
+              start: strToDT("2025/04/07  15:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/07  16:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -677,8 +679,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/08  10:30:00", 0),  
-              end: strToDT("2025/04/08  11:00:00", 0),  
+              start: strToDT("2025/04/08  10:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/08  11:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -687,8 +689,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/08  15:30:00", 0),  
-              end: strToDT("2025/04/08  16:00:00", 0),  
+              start: strToDT("2025/04/08  15:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/08  16:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -697,8 +699,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/09  10:30:00", 0),  
-              end: strToDT("2025/04/09  11:00:00", 0),  
+              start: strToDT("2025/04/09  10:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/09  11:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -707,8 +709,8 @@ var events = [
             
             { 
               title: 'Social Dinner',
-              start: strToDT("2025/04/09  19:30:00", 0),  
-              end: strToDT("2025/04/09  21:30:00", 0),  
+              start: strToDT("2025/04/09  19:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/09  21:30:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -717,8 +719,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/10  10:30:00", 0),  
-              end: strToDT("2025/04/10  11:00:00", 0),  
+              start: strToDT("2025/04/10  10:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/10  11:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -727,8 +729,8 @@ var events = [
             
             { 
               title: 'Coffee Break',
-              start: strToDT("2025/04/10  15:30:00", 0),  
-              end: strToDT("2025/04/10  16:00:00", 0),  
+              start: strToDT("2025/04/10  15:30:00  UTC+0200", 0),  
+              end: strToDT("2025/04/10  16:00:00 UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -744,7 +746,7 @@ $(function () {
     var calendarEl = document.getElementById("fullcalendar");
     var calendar = new FullCalendar.Calendar(calendarEl, {
         plugins: ["dayGrid", "timeGrid", "list", "interaction"],
-        timeZone: "UTC+2",
+        // timeZone: "UTC-2",
         themeSystem: "standard",
         eventOrder: "start,title,-duration",
         header: {
