@@ -9,6 +9,13 @@ from functools import cache
 
 url = "https://docs.google.com/spreadsheets/d/1hsAkaOYdDQ5tc3cYlUxSEZpnGJ6-Fn95MK7dkMOmKDA/export?gid=0#gid=0&format=xlsx"
 
+def format_time(data: str):
+    data = str(data)
+    dt = parse(data)
+    res = dt.strftime("%Y/%m/%d  %H:%M:%S")
+    return  res
+
+
 
 
 @cache
@@ -107,8 +114,8 @@ def row_to_md(row: dict) -> str:
 title = "{Title}"
 subtitle = "by Prof. {row['Speaker']}"
 speaker = "{row['Speaker']}"
-begin = "{row['StartTime']}"
-end = "{row['EndTime']}"
+begin = "{format_time(row['StartTime'])}"
+end = "{format_time(row['EndTime'])}"
 datetime = "{dt.strftime("%H:%M")}-{dt_end.strftime("%H:%M")} {datetime_to_header(row['StartTime'])}"
 location = "{get_google_link(row['SeminarLocation'])}"
 tags = "a_s_w"

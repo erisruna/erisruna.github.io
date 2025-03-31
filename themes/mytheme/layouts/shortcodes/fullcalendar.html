@@ -59,8 +59,8 @@ var events = [
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
     { 
       title: '{{ .Params.speaker }}',
-      start: strToDT("{{ .Params.begin }} UTC+0200"),  
-      end: strToDT("{{ .Params.end }} UTC+0200", 0),
+      start: strToDT("{{ .Params.begin }} 2025 UTC+0200"),  
+      end: strToDT("{{ .Params.end }} 2025 UTC+0200", 0),
       allDay: false,
       description: '{{ .Title }}',
       color: '#2F3C7E',
