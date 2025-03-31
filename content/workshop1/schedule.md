@@ -12,7 +12,7 @@ subtitle = "Schedule"
 |08:45-09:15| *Registration*|
 |09:15-09:30| *Opening*|
 |09:30-10:30|Giovanni Alberti (University of Pisa)|
-|  |[*TBA*](/workshop1/giovanni_alberti)|
+|  |[*Grain boundaries in perimeter-minimizing partitions with many cells*](/workshop1/giovanni_alberti)|
 |10:30-11:00| *Coffee Break*|
 |11:00-12:00|André Guerra (ETH, Zurich)|
 |  |[*Harmonic maps and the vectorial obstacle problem*](/workshop1/andré_guerra)|
@@ -87,6 +87,6 @@ subtitle = "Schedule"
 |  |[*Cohesive fracture models: Variational approximation via phase-field functionals, and softening law reconstruction*](/workshop1/matteo_focardi)|
 |10:00-10:30| *Coffee Break*|
 |10:30-11:30|Emanuele Spadaro (University La Sapienza, Rome)|
-|  |[*The asymptotics of volume preserving geometric flows and a sharp quantitative Alexandrov inequality*](/workshop1/emanuele_spadaro)|
+|  |[*Generic Configurations in 2D Strongly Competing Systems: Only 3-points survive!*](/workshop1/emanuele_spadaro)|
 {{</ table2 >}}
 {{< br >}}
