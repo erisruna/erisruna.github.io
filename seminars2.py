@@ -236,14 +236,28 @@ def empty_str_if_na(s: str) -> str:
     return ""
 
 
+# def check_if_recrational(row):
+#     recreational_activity = "lunch,coffe,tea,dinner,opening,registration"
+#     title = empty_str_if_na(row['Title'])
+#     for s in recreational_activity.split(","):
+#         for ss in title.split(" "):
+#             if s.lower() == ss.lower():
+#                 print(f"{s} --> {title}")
+#                 return title
+#     return ""
+
 def check_if_recrational(row):
-    recreational_activity = "lunch,coffee,tea,dinner,opening,registration"
     title = empty_str_if_na(row['Title'])
-    for s in recreational_activity.split(","):
-        for ss in title.split(" "):
-            if s.lower() == ss.lower():
-                print(f"{s} --> {title}")
-                return title
+    speaker = empty_str_if_na(row['Speaker'])
+    if not speaker:
+        return title
+    # recreational_activity = "lunch,coffe,tea,dinner,opening,registration"
+    # title = empty_str_if_na(row['Title'])
+    # for s in recreational_activity.split(","):
+    #     for ss in title.split(" "):
+    #         if s.lower() == ss.lower():
+    #             print(f"{s} --> {title}")
+    #             return title
     return ""
 
 
