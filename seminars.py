@@ -39,6 +39,9 @@ def switch_schedule(idx: int, how):
 
 
 def get_google_link(name: str)-> str:
+    if pd.isna(name):
+        name = ""
+
     tmp_name = name.lower()
     url = ""
     if 'isef' in tmp_name or 'main lecture hall' in tmp_name:
