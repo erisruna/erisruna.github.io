@@ -190,6 +190,7 @@ $(function () {
         firstDay: 1,
         // weekNumbers: true,
         eventLimit: false,
+        displayEventEnd: true,
         //events: 'https://fullcalendar.io/demo-events.json',
         events: events,
          eventTimeFormat: {
@@ -283,7 +284,7 @@ def build_calendar():
             relative_url = f"/{row['Speaker'].strip().split(" ")[-1].lower()}"
             inject_txt += rf"""
             {{ 
-              title: '-{end_dt.strftime("%H:%M")} {row['Speaker'].strip().split(" ")[-1]}',
+              title: '{row['Speaker'].strip().split(" ")[-1]}',
               start: strToDT("{format_time(str(row['StartTime']))}  UTC+0200", 0),  
               end: strToDT("{format_time(str(row['EndTime']))} UTC+0200", 0),  
               allDay: false,
@@ -340,7 +341,7 @@ def build_calendar():
             {{ 
               title: '{title}',
               start: strToDT("{format_time(row['StartTime'])}  UTC+0200", 0),  
-              end: strToDT("{format_time(end_time)} UTC+0200", 0),  
+              // end: strToDT("{format_time(end_time)} UTC+0200", 0),  
               allDay: false,
               description: '',
               color: '{coffe_break_color}',
