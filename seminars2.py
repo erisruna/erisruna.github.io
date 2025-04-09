@@ -133,8 +133,8 @@ var events = [
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "workshop" }}
     { 
       title: '{{ .Title }}',
-      start: strToDT("{{ .Params.begin }} 2025 10:00:00  UTC+0200"),  
-      end: strToDT("{{ .Params.end }} 2025 23:00:00 UTC+0200", 1),
+      start: strToDT("{{ .Params.begin }} 2025 10:00:00"),  
+      end: strToDT("{{ .Params.end }} 2025 23:00:00", 1),
       allDay: true,
       description: 'workshop',
       color: 'workshop_color',
@@ -147,8 +147,8 @@ var events = [
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
     { 
       title: '{{ .Params.speaker }}',
-      start: strToDT("{{ .Params.begin }} UTC+0200"),  
-      end: strToDT("{{ .Params.end }} UTC+0200", 0),
+      start: strToDT("{{ .Params.begin }}"),  
+      end: strToDT("{{ .Params.end }}", 0),
       allDay: false,
       description: '{{ .Title }}',
       color: 'workshop_color',
@@ -285,8 +285,8 @@ def build_calendar():
             inject_txt += rf"""
             {{ 
               title: '{row['Speaker'].strip().split(" ")[-1]}',
-              start: strToDT("{format_time(str(row['StartTime']))}  UTC+0200", 0),  
-              end: strToDT("{format_time(str(row['EndTime']))} UTC+0200", 0),  
+              start: strToDT("{format_time(str(row['StartTime']))}", 0),  
+              end: strToDT("{format_time(str(row['EndTime']))}", 0),  
               allDay: false,
               description: 'Lecture',
               color: '{course_color}',
@@ -314,8 +314,8 @@ def build_calendar():
         inject_txt += rf"""
         {{ 
           title: '{cal_title.replace("given by", "by").replace("Prof.", "")}',
-          start: strToDT("{str(get_begin(fname))} 2025 UTC+0200", 0),  
-          end: strToDT("{str(get_end(fname))} 2025 UTC+0200", 0),  
+          start: strToDT("{str(get_begin(fname))} 2025", 0),  
+          end: strToDT("{str(get_end(fname))} 2025", 0),  
           allDay: true,
           description: 'Lecture',
           color: '{course_color}',
@@ -340,8 +340,8 @@ def build_calendar():
                 inject_txt += rf"""
             {{ 
               title: '{title}',
-              start: strToDT("{format_time(row['StartTime'])}  UTC+0200", 0),  
-              // end: strToDT("{format_time(end_time)} UTC+0200", 0),  
+              start: strToDT("{format_time(row['StartTime'])}", 0),  
+              // end: strToDT("{format_time(end_time)}", 0),  
               allDay: false,
               description: '',
               color: '{coffe_break_color}',
