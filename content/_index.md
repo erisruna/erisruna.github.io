@@ -33,7 +33,7 @@ The aim of the trimester is to gather leading experts, graduate students and you
 |                                         |                                  |                                     |
 |-----------------------------------------|----------------------------------|-------------------------------------|
 | [J. Bedrossian (UCLA)](/bedrossian)        | [A. Kiselev (Duke)](/kiselev)       | [F. Otto (MIS-MPG Leipzig)](/otto)     |
-| [O. Blondel (Lyon)](/blondel)              | [C. Lubich (Tübingen)](/lubich)     | [B. Pehersthofer (NYU)](/pehersthofer) |
+| [O. Blondel (Lyon)](/blondel)              | [C. Lubich (Tübingen)](/lubich)     | [B. Peherstorfer (NYU)](/peherstorfer) |
 | [M. Cicalese (TUM)](/cicalese)             | [A. Maspero (SISSA)](/maspero)      | [F. Poloni (Pisa)](/poloni)            |
 | [T. Gallay (Grenoble)](/gallay)            | [G. M. Graf (ETH)](/graf)           | [M. Rodrigues (Rennes)](/rodrigues)    |
 | [A. Giuliani (Rome)](/giuliani)            | [W. Michiels (KULeuven)](/michiels) | [L. Ryzhik (Stanford)](/ryzhik)        |

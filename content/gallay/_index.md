@@ -7,7 +7,7 @@ LinkTitle = "gallay"
 tags = "course"
 keywords = ""
 begin = "14 April"
-end = "18 April"
+end = "17 April"
 +++
 
 

@@ -7,7 +7,7 @@ LinkTitle = "rodrigues"
 tags = "course"
 keywords = ""
 begin = "14 April"
-end = "18 April"
+end = "17 April"
 +++
 
 The course is meant to be an introduction to the strategy of proof and
