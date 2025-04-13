@@ -1,8 +1,8 @@
 from typing import Any
+import os
 import click
 import sys
 import re
-import pdb
 import datetime
 import pandas as pd
 from functools import cache
@@ -144,11 +144,23 @@ def create_single_seminar_page_info(row):
         return
     Speaker = sanitize(Speaker)
     workshop = row['Workshop #']
+
+    if pd.isna(workshop):
+        return
+
     txt = row_to_md(row)
-    fname = f"content/{workshop}/{Speaker}.md"
-    with open(fname, "w") as f:
-        print(f"Creating {fname}")
-        _ = f.write(txt)
+    fname = ''
+    if 'workshop' in workshop.lower():
+        fname = f"content/{workshop}/{Speaker}.md"
+    elif 'seminar' in workshop.lower():
+        fname = f"content/seminars/{Speaker.replace('._', '_')}.md"
+    if fname:
+        if os.path.isfile(fname):
+            fname = fname[:-3]+"_.md"
+
+        with open(fname, "w") as f:
+            print(f"Creating {fname}")
+            _ = f.write(txt)
 
 
 def clean_built_files():
@@ -165,13 +177,33 @@ def clean_built_files():
                 os.remove(fname)
 
 
+def build_seminars():
+    df = get_data(url)
+    activity_type = df.columns[1]
+    use_col = df.columns[0]
+    df = df[~df[activity_type].isna()]
+    mask = df[activity_type].str.lower().str.contains('seminar')
+    mask = mask & (df[use_col].str.lower() == "yes")
+    ddf = df[mask]
+    for _, row in ddf.iterrows():
+        create_single_seminar_page_info(row)
+
+
 def build_single(idx, ignore_use=False):
     df = get_data(url)
     activity_type = df.columns[1]
     mask = df[activity_type] == f"workshop{idx}"
+
     if any(mask) is False:
         return
+
     ddf  = df.loc[mask]
+    if all(ddf['StartTime'].isna() == True):
+        return
+
+    if all(ddf['EndTime'].isna() == True):
+        return
+
     use_col = df.columns[0]
     ddf.loc[:, use_col] = ddf[use_col].str.upper()
 
@@ -225,6 +257,9 @@ def build():
     build_single(2)
     build_single(3)
     build_single(4)
+    build_seminars()
 
 if __name__ == "__main__":
+    # build_seminar()
+    # pass
     cli()

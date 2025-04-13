@@ -1,5 +1,5 @@
 +++
-title = "Stability of stratified density under incompressible flows"
+title = "No anomalous dissipation in two dimensional fluids"
 subtitle = "by Prof. Jaemin Park"
 speaker = "Jaemin Park"
 begin = "2025/04/08  14:30:00"
@@ -10,4 +10,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-In this talk, I will discuss asymptotic stability in the incompressible porous media equation in a periodic channel. It is well known that a stratified density, which strictly decreases in the vertical direction, is asymptotically stable under sufficiently small, smooth perturbations. We achieve improvements in the regularity assumptions on the perturbation and in the convergence rate. We apply a similar idea to the Stokes transport system. Instead of relying on the linearized equations, we directly address the nonlinear problem, and the decay of solutions will be obtained from the gradient flow structure of the equation.
+In this talk, we will discuss Leray-Hopf solutions to the incompressible Navier-Stokes equations with vanishing viscosity. We explore important features of turbulence, focusing around the anomalous energy dissipation phenomenon. As a related result, I will present a recent result proving that for two-dimensional fluids, assuming that  the initial vorticity is merely a Radon measure with nonnegative singular part, there is no anomalous energy dissipation. Our proof draws on several key observations from the work of J. Delort (1991) on constructing global weak solutions to the Euler equation. This is a joint work with Luigi De Rosa (GSSI).

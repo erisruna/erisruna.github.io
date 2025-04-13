@@ -10,4 +10,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-In this talk I will review some results concerning the existence of stationary solutions to the 3D Euler equations that are topologically equivalent, in some sense, to a given smooth divergence-free field. The rule of thumb is that, for “most” fields, there does not exist a C^1 topologically equivalent steady Euler flow, but there aways exists a (weakly) topologically equivalent steady Euler flow of class C^\alpha. The talk is based on joint work with Javier Peñafiel-Tomás and Daniel Peralta-Salas.
+In this talk I will review some results concerning the existence of stationary solutions to the 3D Euler equations that are topologically equivalent, in some sense, to a given smooth divergence-free field. The rule of thumb is that, for "most" fields, there does not exist a $C^1$ topologically equivalent steady Euler flow, but there aways exists a (weakly) topologically equivalent steady Euler flow of class $C^\alpha$. The talk is based on joint work with Javier Peñafiel-Tomás and Daniel Peralta-Salas.

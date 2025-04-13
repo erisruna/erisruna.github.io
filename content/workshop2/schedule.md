@@ -32,10 +32,10 @@ subtitle = "Schedule"
 |09:30-10:30|Elia Brué (Bocconi, Milano)|
 |  |[*Non-Uniqueness and Flexibility in Two-Dimensional Euler Equations*](/workshop2/elia_brué)|
 |10:30-11:00| *Coffee Break*|
-|11:00-12:00|Elio Marconi (University of Padova)|
-|  |[*BV like structure of bounded solutions to conservation laws*](/workshop2/elio_marconi)|
+|11:00-12:00|Martina Zizza (Max Planck Institute, Leipzig)|
+|  |[*On incompressible flows in discrete networks and Shnirelman’s inequality*](/workshop2/martina_zizza)|
 |14:30-15:30|Jaemin Park (Yonsei University)|
-|  |[*Stability of stratified density under incompressible flows*](/workshop2/jaemin_park)|
+|  |[*No anomalous dissipation in two dimensional fluids*](/workshop2/jaemin_park)|
 |15:30-16:00| *Coffee Break*|
 {{</ table2 >}}
 
@@ -62,8 +62,8 @@ subtitle = "Schedule"
 |09:30-10:30|Anna Mazzucato (Penn State University)|
 |  |[*On the Euler equations with in-flow and out-flow boundary conditions.*](/workshop2/anna_mazzucato)|
 |10:30-11:00| *Coffee Break*|
-|11:00-12:00|Martina Zizza (Max Planck Institute, Leipzig)|
-|  |[*On incompressible flows in discrete networks and Shnirelman’s inequality*](/workshop2/martina_zizza)|
+|11:00-12:00|Elio Marconi (University of Padova)|
+|  |[*BV like structure of bounded solutions to conservation laws*](/workshop2/elio_marconi)|
 |14:30-15:30|Gennaro Ciampa (University of L'Aquila)|
 |  |[*Large amplitude traveling waves for the non-resistive MHD system*](/workshop2/gennaro_ciampa)|
 |15:30-16:00| *Coffee Break*|
