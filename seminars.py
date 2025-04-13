@@ -201,8 +201,8 @@ def build_single(idx, ignore_use=False):
     if all(ddf['StartTime'].isna() == True):
         return
 
-    if all(ddf['EndTime'].isna() == True):
-        return
+    # if all(ddf['EndTime'].isna() == True):
+    #     return
 
     use_col = df.columns[0]
     ddf.loc[:, use_col] = ddf[use_col].str.upper()
