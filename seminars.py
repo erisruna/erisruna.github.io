@@ -155,6 +155,8 @@ def create_single_seminar_page_info(row):
     elif 'seminar' in workshop.lower():
         fname = f"content/seminars/{Speaker.replace('._', '_')}.md"
     if fname:
+        if not os.path.isdir("content/seminars"):
+            os.mkdir("content/seminars")
         if os.path.isfile(fname):
             fname = fname[:-3]+"_.md"
 
