@@ -199,7 +199,9 @@ def build_single(idx, ignore_use=False):
     if any(mask) is False:
         return
 
-    ddf  = df.loc[mask]
+    ddf: pd.DataFrame  = df.loc[mask]
+    switch_schedule(idx, False)
+
     if all(ddf['StartTime'].isna() == True):
         return
 
