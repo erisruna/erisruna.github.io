@@ -48,10 +48,6 @@ end = "6 June"
 
 {{< pbr text="" >}}
 
-{{< pbr text="" >}}
-
-
-
 Topological insulators are materials that are conducting at their edge,
 though not in the bulk. Their essential physical properties are encoded by
 an index. After reviewing the historical origins, and the Quantum Hall

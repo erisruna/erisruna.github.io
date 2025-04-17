@@ -48,10 +48,6 @@ end = "17 April"
 
 {{< pbr text="" >}}
 
-{{< pbr text="" >}}
-
-
-
 The course is meant to be an introduction to the strategy of proof and
 technical tools used to prove that spectral stability implies nonlinear
 stability for traveling waves of partial differential equations of
