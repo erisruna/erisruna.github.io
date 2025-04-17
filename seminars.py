@@ -52,7 +52,7 @@ def clean_lecture_timetable(txt):
     for end, l in enumerate(aaa[start:]):
         if ">}}" in l:
             break
-    res = "\n".join(aaa[:start] + aaa[end+start+1:]).strip() + "\n"
+    res = "\n".join(aaa[:start] + aaa[end+start+2:]).strip() + "\n"
     return res
 
 
@@ -101,7 +101,7 @@ def add_schedule_to_courses():
         to_inject = """{{< collapsible_button  
     title="Schedule" 
     text=`
-    """ + timetable_txt + "`\n>}}\n\n"
+    """ + timetable_txt + "`\n>}}\n\n{{< pbr text=\"\" >}}\n\n"
         to_inject = to_inject.replace('class="dataframe"', 'style="margin-left: auto; margin-right: auto;')
         txt = txt.replace("+++\n\n", "+++\n\n"+ to_inject)
 
