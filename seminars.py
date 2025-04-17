@@ -48,12 +48,25 @@ def clean_lecture_timetable(txt):
     for start, l in enumerate(aaa):
         if "{{< collapsible_button" in l:
               break
-
-    for end, l in enumerate(aaa[start:]):
+    check = False
+    for end, l in enumerate(aaa):
+        if end < start+1: continue
         if ">}}" in l:
-            break
-    res = "\n".join(aaa[:start] + aaa[end+start+2:]).strip() + "\n"
+            check = True
+            continue
+        if check:
+            not_empty =  re.match(" *$", l) is None
+            has_pbr = 'pbr' in l
+            if not_empty and not has_pbr:
+                break
+    res = "\n".join(aaa[:start] + aaa[end:]).strip() + "\n"
     return res
+
+with open("content/rodrigues/_index.md", 'r') as f:
+    txt = f.read()
+
+txt = clean_lecture_timetable(txt)
+
 
 
 
