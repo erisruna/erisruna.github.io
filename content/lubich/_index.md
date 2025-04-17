@@ -69,5 +69,7 @@ sums of Gaussians for approximating quantum dynamics and with neural
 networks for approximating the flow map of a system of ordinary
 differential equations illustrate and complement the theoretical results.
 The course is based on joint work with Jörg Nick, Caroline Lasser, and
-Michael Feischl (arXiv:2403.19234 <https://arxiv.org/abs/2403.19234>,
-arXiv:2501.12118 <https://arxiv.org/abs/2501.12118>).
+Michael Feischl:
+
+* [arXiv:2403.19234](https://arxiv.org/abs/2403.19234)
+* [arXiv:2501.12118](https://arxiv.org/abs/2501.12118)
