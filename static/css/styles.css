@@ -13244,3 +13244,26 @@ table.fc-border-separate {
     padding-top: -50vw;
     padding: 5px
 }
+
+.collapsible {
+  background-color: #44a;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #55b;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}

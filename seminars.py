@@ -1,5 +1,6 @@
 from typing import Any
 import os
+import re
 import click
 import sys
 import re
@@ -20,10 +21,140 @@ def format_time(data: str):
 
 
 @cache
-def get_data(url):
+def get_data(url) -> pd.DataFrame:
     df = pd.read_excel(url)
     df["Workshop #"] = df["Workshop #"].str.lower()
     return df
+
+
+def get_courses_files():
+    res = []
+    for x,y,z in os.walk("."):
+        for t in z:
+            fname= os.path.join(x, t)
+            if not fname.endswith('.md'): continue
+            with open(fname, 'r') as f:
+                txt = f.read()
+            if re.findall(r'tags *= *"course"', txt):
+                res.append(fname)
+    return res
+
+
+
+aaa = """{{< collapsible_button  
+title="Schedule" 
+text=`
+<table border="1" class="dataframe">
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Lecture 1</td>
+      <td>14:15-15:45, 14.04.2025</td>
+      <td>&lt;a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+V
+iale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy
+/@42.3445687,13.31408'&gt;Main Lecture Hall, Ex-Isef&lt;/a&gt;</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Lecture 2</td>
+      <td>10:45-12:15, 15.04.2025</td>
+      <td>&lt;a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+V
+iale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy
+/@42.3445687,13.31408'&gt;Main Lecture Hall, Ex-Isef&lt;/a&gt;</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Lecture 3</td>
+      <td>09:00-10:30, 16.04.2025</td>
+      <td>&lt;a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+V
+iale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy
+/@42.3445687,13.31408'&gt;Main Lecture Hall, Ex-Isef&lt;/a&gt;</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Lecture 4</td>
+      <td>14:15-15:45, 17.04.2025</td>
+      <td>&lt;a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+V
+iale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy
+/@42.3445687,13.31408'&gt;Main Lecture Hall, Ex-Isef&lt;/a&gt;</td>
+    </tr>
+  </tbody>
+</table>
+
+` 
+>}}"""
+
+
+
+def clean_lecture_timetable(txt):
+    aaa = txt.split("\n")
+    start = 0
+    end = len(aaa)
+    for start, l in enumerate(aaa):
+        if "{{< collapsible_button" in l:
+              break
+
+    for end, l in enumerate(aaa[start:]):
+        if ">}}" in l:
+            break
+    res = "\n".join(aaa[:start] + aaa[end+start+1:]).strip() + "\n"
+    return res
+
+
+
+def add_schedule_to_courses():
+    df: pd.DataFrame = get_data(url)
+    activity_type = df.columns[1]
+    fnames = get_courses_files()
+
+    def duration(s, e)-> str:
+        return s.strftime("%H:%M-") + e.strftime("%H:%M, ") + s.strftime("%d.%m.%Y")
+
+    for fname in fnames:
+        to_search = re.findall(r'content/(\w*)/_index.md', fname)[0].replace("_", " *")
+        mask = df['Speaker'].str.lower().apply(lambda x: True if re.findall(to_search.lower(), str(x)) else False)
+        mask = mask & df[activity_type].str.contains("week")
+        if True not in mask.unique():
+            continue
+        ddf = df.loc[mask].reset_index()
+        res = []
+        for _, row in ddf.iterrows():
+            lecture_num = _ + 1
+            s = pd.to_datetime(row['StartTime'])
+            e = pd.to_datetime(row['EndTime'])
+            _time = duration(s, e)
+            _place = row['SeminarLocation']
+            res.append(dict(
+                Lecture=f"Lecture {lecture_num}",
+                Time=_time,
+                Place=get_google_link(_place)
+            ))
+        df_timetable = pd.DataFrame(res)
+        
+        with open(fname, "r") as f:
+            txt = f.read()
+
+        txt = clean_lecture_timetable(txt)
+        timetable_txt = df_timetable.to_html(
+            index=False,  # Exclude the index
+            header=True, # Include the header
+            border=0,    # Remove borders
+            table_id=None, # Remove table ID
+            classes=None,  # Remove CSS classes
+            escape=False
+        )
+        to_inject = """{{< collapsible_button  
+    title="Schedule" 
+    text=`
+    """ + timetable_txt + "`\n>}}\n\n"
+        to_inject = to_inject.replace('class="dataframe"', 'style="margin-left: auto; margin-right: auto;')
+
+
+
+        txt = txt.replace("+++\n\n", "+++\n\n"+ to_inject)
+        with open(fname, 'w') as f:
+            f.write(txt)
+
 
 def switch_schedule(idx: int, how):
     dir_name = f"content/workshop{idx}"
@@ -262,6 +393,7 @@ def build():
     build_single(3)
     build_single(4)
     build_seminars()
+    add_schedule_to_courses()
 
 if __name__ == "__main__":
     # build_seminar()

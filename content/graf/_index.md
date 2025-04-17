@@ -10,6 +10,45 @@ begin = "3 June"
 end = "6 June"
 +++
 
+{{< collapsible_button  
+    title="Schedule" 
+    text=`
+    <table style="margin-left: auto; margin-right: auto;>
+  <thead>
+    <tr style="text-align: right;">
+      <th>Lecture</th>
+      <th>Time</th>
+      <th>Place</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lecture 1</td>
+      <td>14:15-15:45, 03.06.2025</td>
+      <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+    </tr>
+    <tr>
+      <td>Lecture 2</td>
+      <td>14:15-15:45, 05.06.2025</td>
+      <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+    </tr>
+    <tr>
+      <td>Lecture 3</td>
+      <td>09:00-10:45, 06.06.2025</td>
+      <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+    </tr>
+    <tr>
+      <td>Lecture 4</td>
+      <td>14:15-15:45, 06.06.2025</td>
+      <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+    </tr>
+  </tbody>
+</table>`
+>}}
+
+
+
+
 
 Topological insulators are materials that are conducting at their edge,
 though not in the bulk. Their essential physical properties are encoded by

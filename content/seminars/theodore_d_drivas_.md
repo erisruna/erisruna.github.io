@@ -2,9 +2,9 @@
 title = "Vibrodynamics of constrained mechanical systems, Part II"
 subtitle = "by Prof. Theodore D. Drivas"
 speaker = "Theodore D. Drivas"
-begin = "2025/04/24  14:30:00"
-end = "2025/04/24  14:30:00"
-datetime = "14:30-15:30 Thursday, 24 April 2025"
+begin = "2025/04/24  11:00:00"
+end = "2025/04/24  11:00:00"
+datetime = "11:00-12:00 Thursday, 24 April 2025"
 location = "<a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a>"
 tags = "a_s_w"
 +++
