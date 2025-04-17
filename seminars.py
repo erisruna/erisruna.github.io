@@ -41,51 +41,6 @@ def get_courses_files():
 
 
 
-aaa = """{{< collapsible_button  
-title="Schedule" 
-text=`
-<table border="1" class="dataframe">
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Lecture 1</td>
-      <td>14:15-15:45, 14.04.2025</td>
-      <td>&lt;a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+V
-iale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy
-/@42.3445687,13.31408'&gt;Main Lecture Hall, Ex-Isef&lt;/a&gt;</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Lecture 2</td>
-      <td>10:45-12:15, 15.04.2025</td>
-      <td>&lt;a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+V
-iale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy
-/@42.3445687,13.31408'&gt;Main Lecture Hall, Ex-Isef&lt;/a&gt;</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Lecture 3</td>
-      <td>09:00-10:30, 16.04.2025</td>
-      <td>&lt;a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+V
-iale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy
-/@42.3445687,13.31408'&gt;Main Lecture Hall, Ex-Isef&lt;/a&gt;</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Lecture 4</td>
-      <td>14:15-15:45, 17.04.2025</td>
-      <td>&lt;a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+V
-iale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy
-/@42.3445687,13.31408'&gt;Main Lecture Hall, Ex-Isef&lt;/a&gt;</td>
-    </tr>
-  </tbody>
-</table>
-
-` 
->}}"""
-
-
-
 def clean_lecture_timetable(txt):
     aaa = txt.split("\n")
     start = 0
@@ -148,10 +103,8 @@ def add_schedule_to_courses():
     text=`
     """ + timetable_txt + "`\n>}}\n\n"
         to_inject = to_inject.replace('class="dataframe"', 'style="margin-left: auto; margin-right: auto;')
-
-
-
         txt = txt.replace("+++\n\n", "+++\n\n"+ to_inject)
+
         with open(fname, 'w') as f:
             f.write(txt)
 
