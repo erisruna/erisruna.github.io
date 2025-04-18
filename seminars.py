@@ -155,7 +155,7 @@ def get_google_link(name: str)-> str:
 
 def sanitize(speaker: str) -> str:
     speaker = speaker.strip().lower()
-    speaker = speaker.replace(" ", "_").replace("*", "")
+    speaker = speaker.replace(" ", "_").replace("*", "").replace("._", "_")
     return speaker
 
 def escape_string(s: str) -> str:
@@ -248,7 +248,7 @@ def create_single_seminar_page_info(row):
     txt = row_to_md(row)
     fname = ''
     if 'workshop' in workshop.lower():
-        fname = f"content/{workshop}/{Speaker}.md"
+        fname = f"content/{workshop}/{Speaker.replace('._', '_')}.md"
     elif 'seminar' in workshop.lower():
         fname = f"content/seminars/{Speaker.replace('._', '_')}.md"
     if fname:
