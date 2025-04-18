@@ -247,7 +247,7 @@ def empty_str_if_na(s: str) -> str:
 #                 return title
 #     return ""
 
-def check_if_recrational(row):
+def check_if_recrational(row)-> str:
     title = empty_str_if_na(row['Title'])
     speaker = empty_str_if_na(row['Speaker'])
     if not speaker:
@@ -337,6 +337,11 @@ def build_calendar():
                     end_time = pd.Timestamp(end_time)
                 else:
                     end_time = row['EndTime']
+
+                if 'contributed' in title.lower() or 'special' in title.lower():
+                    _color = workshop_color
+                else:
+                    _color = coffe_break_color
                 inject_txt += rf"""
             {{ 
               title: '{title}',
@@ -344,7 +349,7 @@ def build_calendar():
               // end: strToDT("{format_time(end_time)}", 0),  
               allDay: false,
               description: '',
-              color: '{coffe_break_color}',
+              color: '{_color}',
               url: ''
              }},
             """
