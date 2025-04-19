@@ -338,7 +338,8 @@ def build_calendar():
                 else:
                     end_time = row['EndTime']
 
-                if 'contributed' in title.lower() or 'special' in title.lower():
+                _title = title.lower()
+                if 'contributed' in _title or 'special' in _title or 'discussion' in _title:
                     _color = workshop_color
                 else:
                     _color = coffe_break_color
