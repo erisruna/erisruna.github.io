@@ -48,9 +48,6 @@ end = "30 April"
 
 {{< pbr text="" >}}
 
-
-
-
 This course is about the numerical approximation of evolution equations
 by nonlinear parametrizations $u(t)=\Phi(q(t))$ with time-dependent
 parameters $q(t)$, which are to be determined in the computation. The
