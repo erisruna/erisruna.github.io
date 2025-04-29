@@ -57,3 +57,10 @@ We first study the idealized situation where the initial vorticity is a point vo
 We then consider the more realistic case where the initial vorticity is a sharply concentrated Gaussian vortex. Such data can be described as ill-prepared, in the sense that the evolution exhibits a transient regime near initial time where the solution quickly relaxes to the approximation computed in the previous step. This phenomenon, which is due to enhanced dissipation in the vortex core, occurs on a time scale that depends on the Reynolds number and is much shorter than the diffusive time scale.
 
 The material presented in these lectures is based on joint work with Martin Donati (Grenoble).
+
+
+
+
+### Material
+
+* [Lecture Notes](/pdfs/gallay/NotesGallayLAquila.pdf)
