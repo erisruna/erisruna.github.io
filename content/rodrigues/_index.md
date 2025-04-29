@@ -67,3 +67,14 @@ Duchêne, Grégory Faye and Louis Garénaux)
 * an example, for a family of viscous waves, of a stability result
 (obtained by the speaker jointly with Paul Blochas) uniform with respect to
 the singular vanishing viscosity limit despite shock layers.
+
+
+
+### Material
+
+#### Videos
+* [Video Lecture 1](https://www.youtube.com/watch?v=POlXn01sEfE)
+* [Video Lecture 2](https://www.youtube.com/watch?v=D5WnDW5YvOk)
+* [Video Lecture 3](https://www.youtube.com/watch?v=NVLrPkGb6_o)
+* [Video Lecture 4](https://www.youtube.com/watch?v=ZG7zM9fXJXY)
+

@@ -57,6 +57,13 @@ In this lecture, I will introduce these new research topics, mainly focusing on 
 
 ### Material
 
+#### Videos
+* [Video Lecture 1](https://www.youtube.com/watch?v=AOZX9Ybk63g)
+* [Video Lecture 2](https://www.youtube.com/watch?v=CaZ1QKqcIJM)
+* [Video Lecture 3](https://www.youtube.com/watch?v=1QxpOVG1RpQ)
+* [Video Lecture 4](https://www.youtube.com/watch?v=IfiMK-Em5uw)
+
+#### Pdfs
 * [Lecture 1+2](/pdfs/sasada/day1_and_day2.pdf)
 * [Lecture 3](/pdfs/sasada/day3.pdf)
 * [Lecture 4](/pdfs/sasada/day4.pdf)

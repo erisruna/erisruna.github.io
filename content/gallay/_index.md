@@ -63,4 +63,13 @@ The material presented in these lectures is based on joint work with Martin Dona
 
 ### Material
 
-* [Lecture Notes](/pdfs/gallay/NotesGallayLAquila.pdf)
+#### Videos
+* [Video Lecture 1](https://www.youtube.com/watch?v=6AaGtYWkv4I)
+* [Video Lecture 2](https://www.youtube.com/watch?v=RMJqg0rQZKo)
+* [Video Lecture 3](https://www.youtube.com/watch?v=9f0kvA7PBDs)
+* [Video Lecture 4](https://www.youtube.com/watch?v=xwYsRIKAYrs)
+
+#### Pdfs
+* [Lecture Notes (pdf)](/pdfs/gallay/NotesGallayLAquila.pdf)
+
+
