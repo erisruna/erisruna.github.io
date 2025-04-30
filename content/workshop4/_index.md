@@ -40,10 +40,6 @@ The workshop will include invited presentations and contributed talks.
 
 ##### **Contributed talks:**
 
-Prospective participants are welcome to submit an extended abstract using the following [indico page](https://indico.gssi.it/event/759), with up to 2 pages of technical content, including references. When submitting, please use the following [template](https://ftudisco.gitlab.io/data/template_abstract.tex). It is not necessary to entirely fill the two pages, especially if you have a paper published on the topic, in which case please provide the link to that paper when submitting the abstract.
-
-Accepted abstracts will be assigned to either an oral or poster presentation (you can indicate your preference when [indico page](https://indico.gssi.it/event/759)).
-
-Deadline for submission: **28 February 2025**.
+[Workshop Schedule](https://docs.google.com/spreadsheets/d/1LDm_4bK7HaQaqjQab1cof-E8x5-qWm9qDWEuNUpeqnU/edit?usp=sharing)
 
 The workshop is organized as part of the intensive thematic semester [Particles, Fluids and Patterns: Analytical and Computational Challenges](https://trimester2025.math.gssi.it/) within the school of mathematics at GSSI, and is funded by the program grant "Pattern Analysis and Engineering", within the "Dipartimenti di Eccellenza" framework.
