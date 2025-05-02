@@ -10,25 +10,26 @@ subtitle = "Schedule"
 |   |   |
 |---|---|
 |08:20-08:30| *Welcome*|
-|08:30-09:20|[Keynote] Christian Lubich |
+|08:30-09:20|**Christian Lubich** |
 |  |[*TBA*](/workshop4/christian_lubich)|
-|09:20-10:10|[Keynote] Beatrice Meini (Universita di Pisa)|
-|  |[*On the stochastic approximation of the $p$th root of a stochastic matrix*](/workshop4/beatrice_meini)|
+|09:20-10:10|**Beatrice Meini** (Universita di Pisa)|
+|  |[*On the stochastic approximation of the $p$th root of a stochastic matrix*](https://indico.gssi.it/event/759/attachments/1496/2622/abstract_pdf_1579_meini_abstract_gssi2025.pdf)|
 |10:10-10:35| *Coffee*|
-|10:35-11:00|[Contributed] Chiara Piazzola (Technical University of Munich)|
+|10:35-11:00|Chiara Piazzola (Technical University of Munich)|
 |  |[*Equilibria and bifurcations of reaction-diffusion PDEs with random coefficients*](/workshop4/chiara_piazzola)|
-|11:00-11:25|[Contributed] Alessandro Alla (Sapienza Universita di Roma)|
+|11:00-11:25|Alessandro Alla (Sapienza Universita di Roma)|
 |  |[*Data-Driven Algorithms for Online Identification and Control of Partial Differential Equations*](/workshop4/alessandro_alla)|
-|11:25-11:50|[Contributed] Giovanni Pagano (Department of Agricultural Sciences, University of Naples Federico II, Italy)|
+|11:25-11:50|Giovanni Pagano (Department of Agricultural Sciences, University of Naples Federico II, Italy)|
 |  |[*Derivation of time-discrete Physics-Informed Neural Networks for PDEs models*](/workshop4/giovanni_pagano)|
-|11:50-12:15|[Contributed] Mattia Manucci (University of Stuttgart)|
+|11:50-12:15|Mattia Manucci (University of Stuttgart)|
 |  |[*Solving Generalized Lyapunov Equations with guarantees: application to the Reduction of Switched Linear Systems*](/workshop4/mattia_manucci)|
 |12:15-13:45| *Lunch*|
 |13:45-14:35|Matthew Colbrook (University of Cambridge)|
 |  |[*Navigating Limits in Learning Complex Systems*](/workshop4/matthew_colbrook)|
 |14:35-15:25|Michele Buzzicotti (University of Rome Tor Vergata and INFN)|
 |  |[*Generation and Reconstruction of Lagrangian Turbulence with Stochastic Generative Models*](/workshop4/michele_buzzicotti)|
-|15:25-17:30| *Poster Session*|
+|15:25-17:30|Poster Session |
+|  |[*List of posters presenters and abstracts*](/workshop4/poster_session)|
 {{</ table2 >}}
 
 #####  Tuesday, 20 May 2025

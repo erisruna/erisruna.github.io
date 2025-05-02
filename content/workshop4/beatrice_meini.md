@@ -1,7 +1,7 @@
 +++
 title = "On the stochastic approximation of the $p$th root of a stochastic matrix"
-subtitle = "by Prof. [Keynote] Beatrice Meini"
-speaker = "[Keynote] Beatrice Meini"
+subtitle = "by Prof. **Beatrice Meini**"
+speaker = "**Beatrice Meini**"
 begin = "2025/05/19  09:20:00"
 end = "2025/05/19  09:20:00"
 datetime = "09:20-10:10 Monday, 19 May 2025"

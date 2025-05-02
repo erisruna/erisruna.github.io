@@ -21,10 +21,15 @@ def format_time(data: str):
 
 
 @cache
-def get_data(url) -> pd.DataFrame:
-    df = pd.read_excel(url)
-    df["Workshop #"] = df["Workshop #"].str.lower()
+def _get_data(url) -> pd.DataFrame:
+    df: pd.DataFrame = pd.read_excel(url)
+    activity_type = df.columns[1]
+    df["Workshop #"] = df[activity_type].str.lower()
     return df
+
+def get_data(url) -> pd.DataFrame:
+    return _get_data(url).copy()
+
 
 
 def get_courses_files():
@@ -61,14 +66,6 @@ def clean_lecture_timetable(txt):
                 break
     res = "\n".join(aaa[:start] + aaa[end:]).strip() + "\n"
     return res
-
-with open("content/rodrigues/_index.md", 'r') as f:
-    txt = f.read()
-
-txt = clean_lecture_timetable(txt)
-
-
-
 
 def add_schedule_to_courses():
     df: pd.DataFrame = get_data(url)
@@ -193,12 +190,20 @@ def row_to_line(row: dict[str, Any]) -> str:
     workshop = empty_str_if_na(row['Workshop #'])
     Affiliation = f"({row['Affiliation']})" if  not pd.isna(row['Affiliation']) else ""
     Title = f"{empty_str_if_na(escape_string(row['Title']))}"
+
+    Abstract = empty_str_if_na(row['Abstract'])
     if not Title:
         Title = "TBA"
     Title = f"*{Title.strip()}*"
     if Speaker + Affiliation:
+        cond1 = re.findall("redirect *url", Abstract.lower())
+        cond2 = re.findall("http.*pdf", Abstract.lower())
+        if cond1 and cond2:
+            link = cond2[0]
+        else:
+            link = f"/{workshop}/{sanitize(Speaker)}"
         res = f"""|{dt_start.strftime('%H:%M')}-{strf_f_dt(dt_end)}|{Speaker} {Affiliation}|
-|  |[{Title}](/{workshop}/{sanitize(Speaker)})|"""
+|  |[{Title}]({link})|"""
     else:
         res = f"""|{dt_start.strftime('%H:%M')}-{strf_f_dt(dt_end)}| {Title}|"""
     return res
@@ -241,7 +246,9 @@ def create_single_seminar_page_info(row):
     if not Speaker:
         return
     Speaker = sanitize(Speaker)
-    workshop = row['Workshop #']
+
+    activity_type = get_data(url).columns[1]
+    workshop = row[activity_type]
 
     if pd.isna(workshop):
         return

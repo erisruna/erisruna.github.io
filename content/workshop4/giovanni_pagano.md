@@ -1,7 +1,7 @@
 +++
 title = "Derivation of time-discrete Physics-Informed Neural Networks for PDEs models"
-subtitle = "by Prof. [Contributed] Giovanni Pagano"
-speaker = "[Contributed] Giovanni Pagano"
+subtitle = "by Prof. Giovanni Pagano"
+speaker = "Giovanni Pagano"
 begin = "2025/05/19  11:25:00"
 end = "2025/05/19  11:25:00"
 datetime = "11:25-11:50 Monday, 19 May 2025"

@@ -1,7 +1,7 @@
 +++
 title = "Data-Driven Algorithms for Online Identification and Control of Partial Differential Equations"
-subtitle = "by Prof. [Contributed] Alessandro Alla"
-speaker = "[Contributed] Alessandro Alla"
+subtitle = "by Prof. Alessandro Alla"
+speaker = "Alessandro Alla"
 begin = "2025/05/19  11:00:00"
 end = "2025/05/19  11:00:00"
 datetime = "11:00-11:25 Monday, 19 May 2025"

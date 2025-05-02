@@ -1,7 +1,7 @@
 +++
 title = "TBA"
-subtitle = "by Prof. [Keynote] Christian Lubich"
-speaker = "[Keynote] Christian Lubich"
+subtitle = "by Prof. **Christian Lubich**"
+speaker = "**Christian Lubich**"
 begin = "2025/05/19  08:30:00"
 end = "2025/05/19  08:30:00"
 datetime = "08:30-09:20 Monday, 19 May 2025"

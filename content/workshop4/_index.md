@@ -40,6 +40,4 @@ The workshop will include invited presentations and contributed talks.
 
 ##### **Contributed talks:**
 
-[Workshop Schedule](https://docs.google.com/spreadsheets/d/1LDm_4bK7HaQaqjQab1cof-E8x5-qWm9qDWEuNUpeqnU/edit?usp=sharing)
-
 The workshop is organized as part of the intensive thematic semester [Particles, Fluids and Patterns: Analytical and Computational Challenges](https://trimester2025.math.gssi.it/) within the school of mathematics at GSSI, and is funded by the program grant "Pattern Analysis and Engineering", within the "Dipartimenti di Eccellenza" framework.

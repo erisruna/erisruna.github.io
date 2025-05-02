@@ -1,7 +1,7 @@
 +++
 title = "Solving Generalized Lyapunov Equations with guarantees: application to the Reduction of Switched Linear Systems"
-subtitle = "by Prof. [Contributed] Mattia Manucci"
-speaker = "[Contributed] Mattia Manucci"
+subtitle = "by Prof. Mattia Manucci"
+speaker = "Mattia Manucci"
 begin = "2025/05/19  11:50:00"
 end = "2025/05/19  11:50:00"
 datetime = "11:50-12:15 Monday, 19 May 2025"
