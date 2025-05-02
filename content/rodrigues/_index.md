@@ -77,4 +77,3 @@ the singular vanishing viscosity limit despite shock layers.
 * [Video Lecture 2](https://www.youtube.com/watch?v=D5WnDW5YvOk)
 * [Video Lecture 3](https://www.youtube.com/watch?v=NVLrPkGb6_o)
 * [Video Lecture 4](https://www.youtube.com/watch?v=ZG7zM9fXJXY)
-

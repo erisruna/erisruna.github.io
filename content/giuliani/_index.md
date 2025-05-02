@@ -57,4 +57,3 @@ The emergence of long range order at low temperatures in atomistic systems with 
 
 * [Lecture1](/pdfs/giuliani/giuliani_lecture1.pdf)
 * [Lecture2](/pdfs/giuliani/giuliani_lecture2.pdf)
-

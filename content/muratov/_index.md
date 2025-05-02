@@ -10,7 +10,43 @@ begin = "26 May"
 end = "30 May"
 +++
 
+{{< collapsible_button  
+    title="Schedule" 
+    text=`
+    <table style="margin-left: auto; margin-right: auto;>
+  <thead>
+    <tr style="text-align: right;">
+      <th>Lecture</th>
+      <th>Time</th>
+      <th>Place</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lecture 1</td>
+      <td>09:00-10:45, 26.05.2025</td>
+      <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+    </tr>
+    <tr>
+      <td>Lecture 2</td>
+      <td>14:15-15:45, 27.05.2025</td>
+      <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+    </tr>
+    <tr>
+      <td>Lecture 3</td>
+      <td>10:45-12:15, 28.05.2025</td>
+      <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+    </tr>
+    <tr>
+      <td>Lecture 4</td>
+      <td>09:00-10:45, 29.05.2025</td>
+      <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+    </tr>
+  </tbody>
+</table>`
+>}}
 
+{{< pbr text="" >}}
 
 ### Abstract:
 

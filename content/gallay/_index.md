@@ -71,5 +71,3 @@ The material presented in these lectures is based on joint work with Martin Dona
 
 #### Pdfs
 * [Lecture Notes (pdf)](/pdfs/gallay/NotesGallayLAquila.pdf)
-
-
