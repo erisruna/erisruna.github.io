@@ -58,7 +58,7 @@ var events = [
     // >>>>>>>>>>>>>>>>>>>>>> FOR2
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
     { 
-      title: '{{ .Params.speaker }}',
+      title: '{{ .Params.calendar_speaker }}',
       start: strToDT("{{ .Params.begin }}"),  
       end: strToDT("{{ .Params.end }}", 0),
       allDay: false,
@@ -608,23 +608,13 @@ var events = [
              },
             
         { 
-          title: 'Course by  L. Ryzhik (Stanford)',
-          start: strToDT("9 June 2025", 0),  
-          end: strToDT("13 June 2025", 0),  
+          title: 'Course by  A. Kiselev (Duke)',
+          start: strToDT("16 June 2025", 0),  
+          end: strToDT("20 June 2025", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
-          url: '/ryzhik'
-         },
-        
-        { 
-          title: 'Course by  F. Otto (MIS-MPG Leipzig)',
-          start: strToDT("23 June 2025", 0),  
-          end: strToDT("27 June 2025", 0),  
-          allDay: true,
-          description: 'Lecture',
-          color: '#990011',
-          url: '/otto'
+          url: '/kiselev'
          },
         
         { 
@@ -638,23 +628,13 @@ var events = [
          },
         
         { 
-          title: 'Course by  A. Kiselev (Duke)',
-          start: strToDT("16 June 2025", 0),  
-          end: strToDT("20 June 2025", 0),  
+          title: 'Course by  F. Otto (MIS-MPG Leipzig)',
+          start: strToDT("23 June 2025", 0),  
+          end: strToDT("27 June 2025", 0),  
           allDay: true,
           description: 'Lecture',
           color: '#990011',
-          url: '/kiselev'
-         },
-        
-        { 
-          title: 'Course by  J. Gomez-Serrano (Brown)',
-          start: strToDT("9 June 2025", 0),  
-          end: strToDT("13 June 2025", 0),  
-          allDay: true,
-          description: 'Lecture',
-          color: '#990011',
-          url: '/gomez_serrano'
+          url: '/otto'
          },
         
         { 
@@ -665,6 +645,26 @@ var events = [
           description: 'Lecture',
           color: '#990011',
           url: '/cicalese'
+         },
+        
+        { 
+          title: 'Course by  L. Ryzhik (Stanford)',
+          start: strToDT("9 June 2025", 0),  
+          end: strToDT("13 June 2025", 0),  
+          allDay: true,
+          description: 'Lecture',
+          color: '#990011',
+          url: '/ryzhik'
+         },
+        
+        { 
+          title: 'Course by  J. Gomez-Serrano (Brown)',
+          start: strToDT("9 June 2025", 0),  
+          end: strToDT("13 June 2025", 0),  
+          allDay: true,
+          description: 'Lecture',
+          color: '#990011',
+          url: '/gomez_serrano'
          },
         
         { 
@@ -701,6 +701,16 @@ var events = [
               title: 'Coffee Break',
               start: strToDT("2025/05/13  15:45:00", 0),  
               // end: strToDT("2025/05/13  16:15:00", 0),  
+              allDay: false,
+              description: '',
+              color: '#2C5F2D',
+              url: ''
+             },
+            
+            { 
+              title: 'Coffee Break',
+              start: strToDT("2025/05/27  15:45:00", 0),  
+              // end: strToDT("2025/05/27  16:15:00", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -998,6 +1008,16 @@ var events = [
              },
             
             { 
+              title: 'Lunch break',
+              start: strToDT("2025/05/05  12:00:00", 0),  
+              // end: strToDT("2025/05/05  14:30:00", 0),  
+              allDay: false,
+              description: '',
+              color: '#2C5F2D',
+              url: ''
+             },
+            
+            { 
               title: 'Coffee break',
               start: strToDT("2025/05/05  15:30:00", 0),  
               // end: strToDT("2025/05/05  16:00:00", 0),  
@@ -1011,6 +1031,16 @@ var events = [
               title: 'Coffee break',
               start: strToDT("2025/05/06  10:30:00", 0),  
               // end: strToDT("2025/05/06  11:00:00", 0),  
+              allDay: false,
+              description: '',
+              color: '#2C5F2D',
+              url: ''
+             },
+            
+            { 
+              title: 'Lunch break',
+              start: strToDT("2025/05/06  12:00:00", 0),  
+              // end: strToDT("2025/05/06  14:30:00", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -1058,6 +1088,16 @@ var events = [
              },
             
             { 
+              title: 'Lunch break',
+              start: strToDT("2025/05/07  12:00:00", 0),  
+              // end: strToDT("2025/05/07  14:00:00", 0),  
+              allDay: false,
+              description: '',
+              color: '#2C5F2D',
+              url: ''
+             },
+            
+            { 
               title: 'Social event',
               start: strToDT("2025/05/07  14:00:00", 0),  
               // end: strToDT("2025/05/07  18:00:00", 0),  
@@ -1081,6 +1121,16 @@ var events = [
               title: 'Coffee break',
               start: strToDT("2025/05/08  10:00:00", 0),  
               // end: strToDT("2025/05/08  10:20:00", 0),  
+              allDay: false,
+              description: '',
+              color: '#2C5F2D',
+              url: ''
+             },
+            
+            { 
+              title: 'Lunch break',
+              start: strToDT("2025/05/08  12:00:00", 0),  
+              // end: strToDT("2025/05/08  14:30:00", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',
@@ -1131,16 +1181,6 @@ var events = [
               title: 'Lunch',
               start: strToDT("2025/05/19  12:15:00", 0),  
               // end: strToDT("2025/05/19  13:45:00", 0),  
-              allDay: false,
-              description: '',
-              color: '#2C5F2D',
-              url: ''
-             },
-            
-            { 
-              title: 'Poster Session',
-              start: strToDT("2025/05/19  15:25:00", 0),  
-              // end: strToDT("2025/05/19  17:30:00", 0),  
               allDay: false,
               description: '',
               color: '#2C5F2D',

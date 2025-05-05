@@ -1,7 +1,8 @@
 +++
-title = "TBA"
-subtitle = "by Prof. Michael Overton"
-speaker = "Michael Overton"
+title = "Multifidelity Robust Controller Design with Gradient Sampling"
+subtitle = "by Prof. **Michael Overton**"
+speaker = "**Michael Overton**"
+calendar_speaker = "<strong>Michael Overton</strong>"
 begin = "2025/05/23  09:20:00"
 end = "2025/05/23  09:20:00"
 datetime = "09:20-10:10 Friday, 23 May 2025"

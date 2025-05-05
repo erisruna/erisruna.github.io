@@ -2,6 +2,7 @@
 title = "BV like structure of bounded solutions to conservation laws"
 subtitle = "by Prof. Elio Marconi"
 speaker = "Elio Marconi"
+calendar_speaker = "None"
 begin = "2025/04/10  11:00:00"
 end = "2025/04/10  11:00:00"
 datetime = "11:00-12:00 Thursday, 10 April 2025"

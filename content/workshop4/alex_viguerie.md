@@ -2,6 +2,7 @@
 title = "Aging among persons with HIV: developing numerical and data-driven tools for a growing health concern"
 subtitle = "by Prof. Alex Viguerie"
 speaker = "Alex Viguerie"
+calendar_speaker = "None"
 begin = "2025/05/22  16:40:00"
 end = "2025/05/22  16:40:00"
 datetime = "16:40-17:05 Thursday, 22 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/contributed/abstract_viguerie_alex.pdf" >}}

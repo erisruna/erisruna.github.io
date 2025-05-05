@@ -1,7 +1,8 @@
 +++
 title = "The implicit bias phenomenon in deep learning"
-subtitle = "by Prof. Holger Rauhut"
-speaker = "Holger Rauhut"
+subtitle = "by Prof. **Holger Rauhut**"
+speaker = "**Holger Rauhut**"
+calendar_speaker = "<strong>Holger Rauhut</strong>"
 begin = "2025/05/22  08:30:00"
 end = "2025/05/22  08:30:00"
 datetime = "08:30-09:20 Thursday, 22 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_rauhut_holger.pdf" >}}

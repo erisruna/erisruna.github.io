@@ -81,10 +81,16 @@ def get_end(fname: str) -> str:
 
 
 @cache
-def get_data(url):
-    df = pd.read_excel(url)
-    df["Workshop #"] = df["Workshop #"].str.lower()
+def _get_data(url) -> pd.DataFrame:
+    df: pd.DataFrame = pd.read_excel(url)
+    activity_type = df.columns[1]
+    df[activity_type] = df[activity_type].str.lower()
     return df
+
+def get_data(url) -> pd.DataFrame:
+    return _get_data(url).copy()
+
+
 
 template = r"""<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
 <link rel='stylesheet' href='https://fullcalendar.io/releases/core/4.2.0/main.min.css'>
@@ -146,7 +152,7 @@ var events = [
     // >>>>>>>>>>>>>>>>>>>>>> FOR2
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
     { 
-      title: '{{ .Params.speaker }}',
+      title: '{{ .Params.calendar_speaker }}',
       start: strToDT("{{ .Params.begin }}"),  
       end: strToDT("{{ .Params.end }}", 0),
       allDay: false,

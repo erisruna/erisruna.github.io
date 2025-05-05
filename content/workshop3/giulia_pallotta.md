@@ -2,6 +2,7 @@
 title = "Friedlin Wentzell solutions of discrete Hamilton Jacobi equations"
 subtitle = "by Prof. Giulia Pallotta"
 speaker = "Giulia Pallotta"
+calendar_speaker = "None"
 begin = "2025/05/07  11:40:00"
 end = "2025/05/07  11:40:00"
 datetime = "11:40-12:00 Wednesday, 7 May 2025"

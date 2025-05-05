@@ -2,6 +2,7 @@
 title = "Onset of phase separation for the  Stochastic Allen--Cahn equation"
 subtitle = "by Prof. Stella Brassesco"
 speaker = "Stella Brassesco"
+calendar_speaker = "None"
 begin = "2025/05/05  14:30:00"
 end = "2025/05/05  14:30:00"
 datetime = "14:30-15:30 Monday, 5 May 2025"

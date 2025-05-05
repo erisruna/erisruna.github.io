@@ -2,6 +2,7 @@
 title = "Mixing time of the Asymmetric Zero Range process on the segment"
 subtitle = "by Prof. Ons Rameh"
 speaker = "Ons Rameh"
+calendar_speaker = "None"
 begin = "2025/05/06  15:50:00"
 end = "2025/05/06  15:50:00"
 datetime = "15:50-16:10 Tuesday, 6 May 2025"

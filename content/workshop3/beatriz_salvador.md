@@ -2,6 +2,7 @@
 title = "Exclusion processes with non-reversible boundary: hydrodynamics and large deviations"
 subtitle = "by Prof. Beatriz Salvador"
 speaker = "Beatriz Salvador"
+calendar_speaker = "None"
 begin = "2025/05/06  16:30:00"
 end = "2025/05/06  16:30:00"
 datetime = "16:30-16:50 Tuesday, 6 May 2025"

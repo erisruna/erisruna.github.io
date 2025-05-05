@@ -2,6 +2,7 @@
 title = "A principle for minimizers of Tikhonov-regularized problems"
 subtitle = "by Prof. Alessandro Scagliotti"
 speaker = "Alessandro Scagliotti"
+calendar_speaker = "None"
 begin = "2025/05/20  11:00:00"
 end = "2025/05/20  11:00:00"
 datetime = "11:00-11:25 Tuesday, 20 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/contributed/abstract_scagliotti_alessandro.pdf" >}}

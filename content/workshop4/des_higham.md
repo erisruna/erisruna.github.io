@@ -1,7 +1,8 @@
 +++
 title = "Investigating Diffusion Models for Generative AI"
-subtitle = "by Prof. Des Higham"
-speaker = "Des Higham"
+subtitle = "by Prof. **Des Higham**"
+speaker = "**Des Higham**"
+calendar_speaker = "<strong>Des Higham</strong>"
 begin = "2025/05/21  09:00:00"
 end = "2025/05/21  09:00:00"
 datetime = "09:00-09:50 Wednesday, 21 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_higham_des.pdf" >}}

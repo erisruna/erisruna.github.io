@@ -2,6 +2,7 @@
 title = "No anomalous dissipation in two dimensional fluids"
 subtitle = "by Prof. Jaemin Park"
 speaker = "Jaemin Park"
+calendar_speaker = "None"
 begin = "2025/04/08  14:30:00"
 end = "2025/04/08  14:30:00"
 datetime = "14:30-15:30 Tuesday, 8 April 2025"

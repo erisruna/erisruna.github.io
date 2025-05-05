@@ -24,7 +24,7 @@ def format_time(data: str):
 def _get_data(url) -> pd.DataFrame:
     df: pd.DataFrame = pd.read_excel(url)
     activity_type = df.columns[1]
-    df["Workshop #"] = df[activity_type].str.lower()
+    df[activity_type] = df[activity_type].str.lower()
     return df
 
 def get_data(url) -> pd.DataFrame:
@@ -156,6 +156,12 @@ def sanitize(speaker: str) -> str:
     speaker = speaker.replace(" ", "_").replace("*", "").replace("._", "_")
     return speaker.strip()
 
+def speaker_to_html(speaker: str):
+    speaker = speaker.strip()
+    if speaker.startswith("**") or speaker.startswith("**"):
+        speaker = speaker.replace("**", "")
+        return f"<strong>{speaker.replace("**", "")}</strong>"
+
 def escape_string(s: str) -> str:
     try:
         s = s.replace("\\", "\\\\").replace("”", "\"")
@@ -217,10 +223,12 @@ def row_to_md(row: dict) -> str:
     Abstract = empty_str_if_na(row['Abstract'])
     if not Abstract:
         Abstract = "TBA"
+    speaker = row['Speaker']
     txt = f"""+++
 title = "{Title}"
 subtitle = "by Prof. {row['Speaker']}"
 speaker = "{row['Speaker']}"
+calendar_speaker = "{speaker_to_html(speaker)}"
 begin = "{format_time(dt)}"
 end = "{format_time(dt)}"
 datetime = "{dt.strftime("%H:%M")}-{dt_end.strftime("%H:%M")} {datetime_to_header(row['StartTime'])}"

@@ -1,7 +1,8 @@
 +++
 title = "Hidden structures in data-driven representations of dynamical systems"
-subtitle = "by Prof. Ivan Markovsky"
-speaker = "Ivan Markovsky"
+subtitle = "by Prof. **Ivan Markovsky**"
+speaker = "**Ivan Markovsky**"
+calendar_speaker = "<strong>Ivan Markovsky</strong>"
 begin = "2025/05/20  09:20:00"
 end = "2025/05/20  09:20:00"
 datetime = "09:20-10:10 Tuesday, 20 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_markovsky_ivan.pdf" >}}

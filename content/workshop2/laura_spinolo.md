@@ -2,6 +2,7 @@
 title = "On the local limit of nonlocal conservation laws"
 subtitle = "by Prof. Laura Spinolo"
 speaker = "Laura Spinolo"
+calendar_speaker = "None"
 begin = "2025/04/07  16:00:00"
 end = "2025/04/07  16:00:00"
 datetime = "16:00-17:00 Monday, 7 April 2025"

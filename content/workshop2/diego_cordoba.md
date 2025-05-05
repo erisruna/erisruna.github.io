@@ -2,6 +2,7 @@
 title = "Finite time singularities for incompressible fluids."
 subtitle = "by Prof. Diego Cordoba"
 speaker = "Diego Cordoba"
+calendar_speaker = "None"
 begin = "2025/04/07  11:00:00"
 end = "2025/04/07  11:00:00"
 datetime = "11:00-12:00 Monday, 7 April 2025"

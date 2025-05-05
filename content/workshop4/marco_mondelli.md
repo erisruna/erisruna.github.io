@@ -1,7 +1,8 @@
 +++
 title = "The Provable Emergence of Neural Collapse"
-subtitle = "by Prof. Marco Mondelli"
-speaker = "Marco Mondelli"
+subtitle = "by Prof. **Marco Mondelli**"
+speaker = "**Marco Mondelli**"
+calendar_speaker = "<strong>Marco Mondelli</strong>"
 begin = "2025/05/20  14:35:00"
 end = "2025/05/20  14:35:00"
 datetime = "14:35-15:25 Tuesday, 20 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_mondelli_marco.pdf" >}}

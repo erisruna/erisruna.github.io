@@ -2,6 +2,7 @@
 title = "One thousand and one ... flows"
 subtitle = "by Prof. Alessandra Pluda"
 speaker = "Alessandra Pluda"
+calendar_speaker = "None"
 begin = "2025/03/31  14:30:00"
 end = "2025/03/31  14:30:00"
 datetime = "14:30-15:30 Monday, 31 March 2025"

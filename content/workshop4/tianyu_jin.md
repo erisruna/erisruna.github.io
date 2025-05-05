@@ -2,6 +2,7 @@
 title = "Fast and accurate time partitioning model reduction for multiscale linear kinetic equations"
 subtitle = "by Prof. Tianyu Jin"
 speaker = "Tianyu Jin"
+calendar_speaker = "None"
 begin = "2025/05/20  17:05:00"
 end = "2025/05/20  17:05:00"
 datetime = "17:05-17:30 Tuesday, 20 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/contributed/abstract_jin_tianyu.pdf" >}}

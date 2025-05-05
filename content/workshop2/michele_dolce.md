@@ -2,6 +2,7 @@
 title = "A viscous vortex dipole and observations on viscous vortex crystals"
 subtitle = "by Prof. Michele Dolce"
 speaker = "Michele Dolce"
+calendar_speaker = "None"
 begin = "2025/04/11  09:00:00"
 end = "2025/04/11  09:00:00"
 datetime = "09:00-10:00 Friday, 11 April 2025"

@@ -2,6 +2,7 @@
 title = "Minimum-norm solutions of the non-symmetric semidefinite Procrustes problem"
 subtitle = "by Prof. Stefano Sicilia"
 speaker = "Stefano Sicilia"
+calendar_speaker = "None"
 begin = "2025/05/22  11:00:00"
 end = "2025/05/22  11:00:00"
 datetime = "11:00-11:25 Thursday, 22 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/contributed/abstract_sicilia_stefano.pdf" >}}

@@ -2,6 +2,7 @@
 title = "Non-Uniqueness and Flexibility in Two-Dimensional Euler Equations"
 subtitle = "by Prof. Elia Brué"
 speaker = "Elia Brué"
+calendar_speaker = "None"
 begin = "2025/04/08  09:30:00"
 end = "2025/04/08  09:30:00"
 datetime = "09:30-10:30 Tuesday, 8 April 2025"

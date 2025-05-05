@@ -1,7 +1,8 @@
 +++
-title = "TBA"
-subtitle = "by Prof. Jonas Latz"
-speaker = "Jonas Latz"
+title = "Losing momentum in continuous-time stochastic optimisation"
+subtitle = "by Prof. **Jonas Latz**"
+speaker = "**Jonas Latz**"
+calendar_speaker = "<strong>Jonas Latz</strong>"
 begin = "2025/05/22  13:45:00"
 end = "2025/05/22  13:45:00"
 datetime = "13:45-14:35 Thursday, 22 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_latz_jonas.pdf" >}}

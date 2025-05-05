@@ -1,7 +1,8 @@
 +++
 title = "Mixed-Precision Algorithms for Training Deep Neural Networks"
-subtitle = "by Prof. Lars Ruthotto"
-speaker = "Lars Ruthotto"
+subtitle = "by Prof. **Lars Ruthotto**"
+speaker = "**Lars Ruthotto**"
+calendar_speaker = "<strong>Lars Ruthotto</strong>"
 begin = "2025/05/20  08:30:00"
 end = "2025/05/20  08:30:00"
 datetime = "08:30-09:20 Tuesday, 20 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_ruthotto_lars.pdf" >}}

@@ -1,7 +1,8 @@
 +++
 title = "Stable Nonlinear Dynamical Approximation with Dynamical Sampling"
-subtitle = "by Prof. Olga Mula"
-speaker = "Olga Mula"
+subtitle = "by Prof. **Olga Mula**"
+speaker = "**Olga Mula**"
+calendar_speaker = "<strong>Olga Mula</strong>"
 begin = "2025/05/23  08:30:00"
 end = "2025/05/23  08:30:00"
 datetime = "08:30-09:20 Friday, 23 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_mula_olga.pdf" >}}

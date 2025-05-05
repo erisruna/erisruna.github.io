@@ -2,6 +2,7 @@
 title = "Sparse recovery problem in a hierarchical Bayesian framework"
 subtitle = "by Prof. Monica Pragliola"
 speaker = "Monica Pragliola"
+calendar_speaker = "None"
 begin = "2025/05/22  15:50:00"
 end = "2025/05/22  15:50:00"
 datetime = "15:50-16:15 Thursday, 22 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/contributed/abstract_pragiola_monica.pdf" >}}

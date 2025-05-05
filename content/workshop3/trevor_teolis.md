@@ -2,6 +2,7 @@
 title = "Hydrodynamics and collective dynamics of interacting particle systems"
 subtitle = "by Prof. Trevor Teolis"
 speaker = "Trevor Teolis"
+calendar_speaker = "None"
 begin = "2025/05/06  16:10:00"
 end = "2025/05/06  16:10:00"
 datetime = "16:10-16:30 Tuesday, 6 May 2025"

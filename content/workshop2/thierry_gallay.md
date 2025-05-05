@@ -2,6 +2,7 @@
 title = "Axisymmetric Vortex Rings at High Reynolds Number"
 subtitle = "by Prof. Thierry Gallay"
 speaker = "Thierry Gallay"
+calendar_speaker = "None"
 begin = "2025/04/11  10:30:00"
 end = "2025/04/11  10:30:00"
 datetime = "10:30-11:30 Friday, 11 April 2025"

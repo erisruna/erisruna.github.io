@@ -2,6 +2,7 @@
 title = "Equilibria and bifurcations of reaction-diffusion PDEs with random coefficients"
 subtitle = "by Prof. Chiara Piazzola"
 speaker = "Chiara Piazzola"
+calendar_speaker = "None"
 begin = "2025/05/19  10:35:00"
 end = "2025/05/19  10:35:00"
 datetime = "10:35-11:00 Monday, 19 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/contributed/abstract_piazzola_chiara.pdf" >}}

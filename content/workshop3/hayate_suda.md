@@ -2,6 +2,7 @@
 title = "Scaling limits of a tagged soliton in the randomized box-ball system"
 subtitle = "by Prof. Hayate Suda"
 speaker = "Hayate Suda"
+calendar_speaker = "None"
 begin = "2025/05/08  14:30:00"
 end = "2025/05/08  14:30:00"
 datetime = "14:30-15:30 Thursday, 8 May 2025"

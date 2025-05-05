@@ -2,6 +2,7 @@
 title = "KPZ scaling and the Tracy-Widom distribution in the Ising model"
 subtitle = "by Prof. Senya Shlosman"
 speaker = "Senya Shlosman"
+calendar_speaker = "None"
 begin = "2025/05/07  09:00:00"
 end = "2025/05/07  09:00:00"
 datetime = "09:00-10:00 Wednesday, 7 May 2025"

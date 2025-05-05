@@ -2,6 +2,7 @@
 title = "Large deviations for the number of collisions in kinetic models"
 subtitle = "by Prof. Lorenzo Bertini"
 speaker = "Lorenzo Bertini"
+calendar_speaker = "None"
 begin = "2025/05/06  14:30:00"
 end = "2025/05/06  14:30:00"
 datetime = "14:30-15:30 Tuesday, 6 May 2025"

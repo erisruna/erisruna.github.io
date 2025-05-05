@@ -2,6 +2,7 @@
 title = "Lattice tilings with minimal perimeter and unequal volumes"
 subtitle = "by Prof. Matteo Novaga"
 speaker = "Matteo Novaga"
+calendar_speaker = "None"
 begin = "2025/04/02  09:30:00"
 end = "2025/04/02  09:30:00"
 datetime = "09:30-10:30 Wednesday, 2 April 2025"

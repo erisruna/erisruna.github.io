@@ -1,7 +1,8 @@
 +++
 title = "The Dominant Spectral Subspace for Nodal Decomposition of a Network Interconnecting Tight-Knit Communities"
-subtitle = "by Prof. Nikos Pitsianis"
-speaker = "Nikos Pitsianis"
+subtitle = "by Prof. **Nikos Pitsianis**"
+speaker = "**Nikos Pitsianis**"
+calendar_speaker = "<strong>Nikos Pitsianis</strong>"
 begin = "2025/05/23  10:35:00"
 end = "2025/05/23  10:35:00"
 datetime = "10:35-11:25 Friday, 23 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_pitsianis_nikos.pdf" >}}

@@ -2,6 +2,7 @@
 title = "Generalized Lotka-Volterra model with sparse interactions: non-Gaussian effects and a topological multiple-equilibria phase"
 subtitle = "by Prof. Tommaso Tonolo"
 speaker = "Tommaso Tonolo"
+calendar_speaker = "None"
 begin = "2025/05/08  11:40:00"
 end = "2025/05/08  11:40:00"
 datetime = "11:40-12:00 Thursday, 8 May 2025"

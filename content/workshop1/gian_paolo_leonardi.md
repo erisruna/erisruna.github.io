@@ -2,6 +2,7 @@
 title = "Free-boundary regularity for almost-minimizers in non-smooth domains"
 subtitle = "by Prof. Gian Paolo Leonardi"
 speaker = "Gian Paolo Leonardi"
+calendar_speaker = "None"
 begin = "2025/04/03  11:00:00"
 end = "2025/04/03  11:00:00"
 datetime = "11:00-12:00 Thursday, 3 April 2025"

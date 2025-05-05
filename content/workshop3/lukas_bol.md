@@ -2,6 +2,7 @@
 title = "Two-dimensional signal-dependent parabolic-elliptic Keller-Segel sysmte and its mean field derivation"
 subtitle = "by Prof. Lukas Bol"
 speaker = "Lukas Bol"
+calendar_speaker = "None"
 begin = "2025/05/08  11:20:00"
 end = "2025/05/08  11:20:00"
 datetime = "11:20-11:40 Thursday, 8 May 2025"

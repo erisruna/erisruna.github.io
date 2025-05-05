@@ -2,6 +2,7 @@
 title = "Surface tension revisited: from minimal surfaces to the soap films capillarity model"
 subtitle = "by Prof. Salvatore Stuvard"
 speaker = "Salvatore Stuvard"
+calendar_speaker = "None"
 begin = "2025/04/01  09:30:00"
 end = "2025/04/01  09:30:00"
 datetime = "09:30-10:30 Tuesday, 1 April 2025"

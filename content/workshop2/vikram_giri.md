@@ -2,6 +2,7 @@
 title = "Nash iterations for the incompressible Euler equations"
 subtitle = "by Prof. Vikram Giri"
 speaker = "Vikram Giri"
+calendar_speaker = "None"
 begin = "2025/04/09  09:30:00"
 end = "2025/04/09  09:30:00"
 datetime = "09:30-10:30 Wednesday, 9 April 2025"

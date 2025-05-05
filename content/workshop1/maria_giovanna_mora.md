@@ -2,6 +2,7 @@
 title = "Shape optimization for nonlocal anisotropic energies"
 subtitle = "by Prof. Maria Giovanna Mora"
 speaker = "Maria Giovanna Mora"
+calendar_speaker = "None"
 begin = "2025/04/02  08:30:00"
 end = "2025/04/02  08:30:00"
 datetime = "08:30-09:30 Wednesday, 2 April 2025"

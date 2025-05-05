@@ -2,6 +2,7 @@
 title = "Low-rank approximations for large-scale nonlinear feedback control"
 subtitle = "by Prof. Sergey Dolgov"
 speaker = "Sergey Dolgov"
+calendar_speaker = "None"
 begin = "2025/05/20  10:35:00"
 end = "2025/05/20  10:35:00"
 datetime = "10:35-11:00 Tuesday, 20 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/contributed/abstract_dolgov_sergey.pdf" >}}

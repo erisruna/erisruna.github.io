@@ -2,6 +2,7 @@
 title = "On the stochastic approximation of the $p$th root of a stochastic matrix"
 subtitle = "by Prof. **Beatrice Meini**"
 speaker = "**Beatrice Meini**"
+calendar_speaker = "<strong>Beatrice Meini</strong>"
 begin = "2025/05/19  09:20:00"
 end = "2025/05/19  09:20:00"
 datetime = "09:20-10:10 Monday, 19 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-{{< redirect url="https://indico.gssi.it/event/759/attachments/1496/2622/Abstract_PDF_1579_meini_abstract_gssi2025.pdf" >}}
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_meini_beatrice.pdf" >}}

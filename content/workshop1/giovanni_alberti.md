@@ -2,6 +2,7 @@
 title = "Grain boundaries in perimeter-minimizing partitions with many cells"
 subtitle = "by Prof. Giovanni Alberti"
 speaker = "Giovanni Alberti"
+calendar_speaker = "None"
 begin = "2025/03/31  09:30:00"
 end = "2025/03/31  09:30:00"
 datetime = "09:30-10:30 Monday, 31 March 2025"

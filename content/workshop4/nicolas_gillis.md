@@ -1,7 +1,8 @@
 +++
 title = "Nonnegative Tucker Decomposition: Introduction, Identifiability and Algorithms"
-subtitle = "by Prof. Nicolas Gillis"
-speaker = "Nicolas Gillis"
+subtitle = "by Prof. **Nicolas Gillis**"
+speaker = "**Nicolas Gillis**"
+calendar_speaker = "<strong>Nicolas Gillis</strong>"
 begin = "2025/05/21  09:50:00"
 end = "2025/05/21  09:50:00"
 datetime = "09:50-10:40 Wednesday, 21 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_gillis_nicolas.pdf" >}}

@@ -2,6 +2,7 @@
 title = "On the Computation of the Maximum Conic Singular Values"
 subtitle = "by Prof. Giovanni Barbarino"
 speaker = "Giovanni Barbarino"
+calendar_speaker = "None"
 begin = "2025/05/22  11:50:00"
 end = "2025/05/22  11:50:00"
 datetime = "11:50-12:15 Thursday, 22 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/contributed/abstract_barbarino_giovanni.pdf" >}}

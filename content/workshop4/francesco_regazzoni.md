@@ -1,7 +1,8 @@
 +++
 title = "Discovering compact latent structures in PDE solution manifolds"
-subtitle = "by Prof. Francesco Regazzoni"
-speaker = "Francesco Regazzoni"
+subtitle = "by Prof. **Francesco Regazzoni**"
+speaker = "**Francesco Regazzoni**"
+calendar_speaker = "<strong>Francesco Regazzoni</strong>"
 begin = "2025/05/20  13:45:00"
 end = "2025/05/20  13:45:00"
 datetime = "13:45-14:35 Tuesday, 20 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_regazzoni_francesco.pdf" >}}

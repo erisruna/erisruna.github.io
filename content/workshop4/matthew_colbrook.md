@@ -1,7 +1,8 @@
 +++
 title = "Navigating Limits in Learning Complex Systems"
-subtitle = "by Prof. Matthew Colbrook"
-speaker = "Matthew Colbrook"
+subtitle = "by Prof. **Matthew Colbrook**"
+speaker = "**Matthew Colbrook**"
+calendar_speaker = "<strong>Matthew Colbrook</strong>"
 begin = "2025/05/19  13:45:00"
 end = "2025/05/19  13:45:00"
 datetime = "13:45-14:35 Monday, 19 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_colbrook_matthew.pdf" >}}

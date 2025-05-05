@@ -2,6 +2,7 @@
 title = "Cohesive fracture models: Variational approximation via phase-field functionals, and softening law reconstruction"
 subtitle = "by Prof. Matteo Focardi"
 speaker = "Matteo Focardi"
+calendar_speaker = "None"
 begin = "2025/04/04  09:00:00"
 end = "2025/04/04  09:00:00"
 datetime = "09:00-10:00 Friday, 4 April 2025"

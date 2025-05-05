@@ -2,6 +2,7 @@
 title = "The integrable KMP model and macroscopic fluctuation theory on a lattice"
 subtitle = "by Prof. Cristian Giardinà"
 speaker = "Cristian Giardinà"
+calendar_speaker = "None"
 begin = "2025/05/08  10:20:00"
 end = "2025/05/08  10:20:00"
 datetime = "10:20-11:20 Thursday, 8 May 2025"

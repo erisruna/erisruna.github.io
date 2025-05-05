@@ -1,7 +1,8 @@
 +++
 title = "Metrics in dynamical systems and training in reverse"
-subtitle = "by Prof. Anders Karlsonn"
-speaker = "Anders Karlsonn"
+subtitle = "by Prof. **Anders Karlsonn**"
+speaker = "**Anders Karlsonn**"
+calendar_speaker = "<strong>Anders Karlsonn</strong>"
 begin = "2025/05/21  11:10:00"
 end = "2025/05/21  11:10:00"
 datetime = "11:10-12:00 Wednesday, 21 May 2025"
@@ -10,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_karlsonn_anders.pdf" >}}
