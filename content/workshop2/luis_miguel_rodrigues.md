@@ -2,7 +2,7 @@
 title = "Singular waves of hyperbolic systems, a frontier in nonlinear wave stability"
 subtitle = "by Prof. Luis Miguel Rodrigues"
 speaker = "Luis Miguel Rodrigues"
-calendar_speaker = "None"
+calendar_speaker = "Luis Miguel Rodrigues"
 begin = "2025/04/09  08:30:00"
 end = "2025/04/09  08:30:00"
 datetime = "08:30-09:30 Wednesday, 9 April 2025"

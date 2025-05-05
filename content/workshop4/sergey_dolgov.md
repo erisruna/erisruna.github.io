@@ -2,7 +2,7 @@
 title = "Low-rank approximations for large-scale nonlinear feedback control"
 subtitle = "by Prof. Sergey Dolgov"
 speaker = "Sergey Dolgov"
-calendar_speaker = "None"
+calendar_speaker = "Sergey Dolgov"
 begin = "2025/05/20  10:35:00"
 end = "2025/05/20  10:35:00"
 datetime = "10:35-11:00 Tuesday, 20 May 2025"

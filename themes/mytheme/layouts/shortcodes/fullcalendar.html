@@ -58,7 +58,11 @@ var events = [
     // >>>>>>>>>>>>>>>>>>>>>> FOR2
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
     { 
-      title: '{{ .Params.calendar_speaker }}',
+      {{ if in .Params.speaker "**" }}
+      title: '<strong>{{ .Params.calendar_speaker}}</strong>',
+      {{ else }}
+      title: '{{ .Params.speaker }}',
+      {{ end }}
       start: strToDT("{{ .Params.begin }}"),  
       end: strToDT("{{ .Params.end }}", 0),
       allDay: false,
@@ -1346,6 +1350,9 @@ $(function () {
         eventResizableFromEnd: true,
         eventDurationEditable: true,
         eventRender: function (info) {
+
+            info.el.querySelectorAll('.fc-title')[0].innerHTML = info.el.querySelectorAll('.fc-title')[0].innerText;
+
             if (info.view.type === "listMonth") {
                 return;
             }

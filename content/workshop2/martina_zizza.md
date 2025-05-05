@@ -2,7 +2,7 @@
 title = "On incompressible flows in discrete networks and Shnirelman’s inequality"
 subtitle = "by Prof. Martina Zizza"
 speaker = "Martina Zizza"
-calendar_speaker = "None"
+calendar_speaker = "Martina Zizza"
 begin = "2025/04/08  11:00:00"
 end = "2025/04/08  11:00:00"
 datetime = "11:00-12:00 Tuesday, 8 April 2025"

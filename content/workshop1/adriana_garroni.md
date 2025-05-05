@@ -2,7 +2,7 @@
 title = "Emergence of defects at grain boundaries: Variational analysis"
 subtitle = "by Prof. Adriana Garroni"
 speaker = "Adriana Garroni"
-calendar_speaker = "None"
+calendar_speaker = "Adriana Garroni"
 begin = "2025/04/03  14:30:00"
 end = "2025/04/03  14:30:00"
 datetime = "14:30-15:30 Thursday, 3 April 2025"

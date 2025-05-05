@@ -2,7 +2,7 @@
 title = "Nonlocal systems and partial regularity"
 subtitle = "by Prof. Cristiana De Filippis"
 speaker = "Cristiana De Filippis"
-calendar_speaker = "None"
+calendar_speaker = "Cristiana De Filippis"
 begin = "2025/04/01  08:30:00"
 end = "2025/04/01  08:30:00"
 datetime = "08:30-09:30 Tuesday, 1 April 2025"

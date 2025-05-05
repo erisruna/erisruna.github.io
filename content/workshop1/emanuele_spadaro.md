@@ -2,7 +2,7 @@
 title = "Generic Configurations in 2D Strongly Competing Systems: Only 3-points survive!"
 subtitle = "by Prof. Emanuele Spadaro"
 speaker = "Emanuele Spadaro"
-calendar_speaker = "None"
+calendar_speaker = "Emanuele Spadaro"
 begin = "2025/04/04  10:30:00"
 end = "2025/04/04  10:30:00"
 datetime = "10:30-11:30 Friday, 4 April 2025"

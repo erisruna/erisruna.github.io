@@ -152,7 +152,11 @@ var events = [
     // >>>>>>>>>>>>>>>>>>>>>> FOR2
 {{ range where  (sort .Site.Pages "LinkTitle") ".Params.tags" "in" "a_s_w" }}
     { 
-      title: '{{ .Params.calendar_speaker }}',
+      {{ if in .Params.speaker "**" }}
+      title: '<strong>{{ .Params.calendar_speaker}}</strong>',
+      {{ else }}
+      title: '{{ .Params.speaker }}',
+      {{ end }}
       start: strToDT("{{ .Params.begin }}"),  
       end: strToDT("{{ .Params.end }}", 0),
       allDay: false,
@@ -210,6 +214,9 @@ $(function () {
         eventResizableFromEnd: true,
         eventDurationEditable: true,
         eventRender: function (info) {
+
+            info.el.querySelectorAll('.fc-title')[0].innerHTML = info.el.querySelectorAll('.fc-title')[0].innerText;
+
             if (info.view.type === "listMonth") {
                 return;
             }
@@ -274,7 +281,9 @@ def build_calendar():
     valid_speakers = []
     df = get_data(url)
     use_col = df.columns[0]
-    mask =  ~df["Workshop #"].isna() &df["Workshop #"].str.contains("week") #& (df['Use'] == "Yes")
+
+    activity_col = df.columns[1]
+    mask =  ~df[activity_col].isna() &df[activity_col].str.contains("week") #& (df['Use'] == "Yes")
     ddf = df.loc[mask]
 
     inject_txt = ""

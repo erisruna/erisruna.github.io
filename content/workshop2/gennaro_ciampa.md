@@ -2,7 +2,7 @@
 title = "Large amplitude traveling waves for the non-resistive MHD system"
 subtitle = "by Prof. Gennaro Ciampa"
 speaker = "Gennaro Ciampa"
-calendar_speaker = "None"
+calendar_speaker = "Gennaro Ciampa"
 begin = "2025/04/10  14:30:00"
 end = "2025/04/10  14:30:00"
 datetime = "14:30-15:30 Thursday, 10 April 2025"

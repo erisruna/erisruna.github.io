@@ -2,7 +2,7 @@
 title = "A principle for minimizers of Tikhonov-regularized problems"
 subtitle = "by Prof. Alessandro Scagliotti"
 speaker = "Alessandro Scagliotti"
-calendar_speaker = "None"
+calendar_speaker = "Alessandro Scagliotti"
 begin = "2025/05/20  11:00:00"
 end = "2025/05/20  11:00:00"
 datetime = "11:00-11:25 Tuesday, 20 May 2025"

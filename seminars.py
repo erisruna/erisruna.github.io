@@ -161,6 +161,7 @@ def speaker_to_html(speaker: str):
     if speaker.startswith("**") or speaker.startswith("**"):
         speaker = speaker.replace("**", "")
         return f"<strong>{speaker.replace("**", "")}</strong>"
+    return speaker
 
 def escape_string(s: str) -> str:
     try:

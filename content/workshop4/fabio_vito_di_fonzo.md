@@ -2,7 +2,7 @@
 title = "Physics Informed Neural Networks for Learning the Horizon Size in Bond-Based Peridynamic Models"
 subtitle = "by Prof. Fabio Vito Di Fonzo"
 speaker = "Fabio Vito Di Fonzo"
-calendar_speaker = "None"
+calendar_speaker = "Fabio Vito Di Fonzo"
 begin = "2025/05/20  11:50:00"
 end = "2025/05/20  11:50:00"
 datetime = "11:50-12:15 Tuesday, 20 May 2025"

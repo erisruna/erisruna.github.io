@@ -2,7 +2,7 @@
 title = "A Nash-Kuiper theorem for isometric immersions beyond Borisov's exponent"
 subtitle = "by Prof. Jonas Hirsch"
 speaker = "Jonas Hirsch"
-calendar_speaker = "None"
+calendar_speaker = "Jonas Hirsch"
 begin = "2025/04/01  16:00:00"
 end = "2025/04/01  16:00:00"
 datetime = "16:00-17:00 Tuesday, 1 April 2025"

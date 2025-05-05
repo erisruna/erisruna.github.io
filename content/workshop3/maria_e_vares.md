@@ -2,7 +2,7 @@
 title = "Studying phase transitions for a contact process with moving agents"
 subtitle = "by Prof. Maria E. Vares"
 speaker = "Maria E. Vares"
-calendar_speaker = "None"
+calendar_speaker = "Maria E. Vares"
 begin = "2025/05/05  09:30:00"
 end = "2025/05/05  09:30:00"
 datetime = "09:30-10:30 Monday, 5 May 2025"

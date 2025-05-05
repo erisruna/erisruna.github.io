@@ -2,7 +2,7 @@
 title = "Minimization of fractional seminars on the real line and applications to misfit dislocations"
 subtitle = "by Prof. Lucia De Luca"
 speaker = "Lucia De Luca"
-calendar_speaker = "None"
+calendar_speaker = "Lucia De Luca"
 begin = "2025/04/03  16:00:00"
 end = "2025/04/03  16:00:00"
 datetime = "16:00-17:00 Thursday, 3 April 2025"

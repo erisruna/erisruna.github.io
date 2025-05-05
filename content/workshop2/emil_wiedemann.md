@@ -2,7 +2,7 @@
 title = "Strong Convergence of Vorticity in the 2D Incompressible Viscosity Limit"
 subtitle = "by Prof. Emil Wiedemann"
 speaker = "Emil Wiedemann"
-calendar_speaker = "None"
+calendar_speaker = "Emil Wiedemann"
 begin = "2025/04/10  16:00:00"
 end = "2025/04/10  16:00:00"
 datetime = "16:00-17:00 Thursday, 10 April 2025"

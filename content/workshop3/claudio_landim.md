@@ -2,7 +2,7 @@
 title = "Critical dynamical fluctuations in reaction-diffusion processes"
 subtitle = "by Prof. Claudio Landim"
 speaker = "Claudio Landim"
-calendar_speaker = "None"
+calendar_speaker = "Claudio Landim"
 begin = "2025/05/06  09:30:00"
 end = "2025/05/06  09:30:00"
 datetime = "09:30-10:30 Tuesday, 6 May 2025"

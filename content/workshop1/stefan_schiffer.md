@@ -2,7 +2,7 @@
 title = "A-free truncation, extension and applications"
 subtitle = "by Prof. Stefan Schiffer"
 speaker = "Stefan Schiffer"
-calendar_speaker = "None"
+calendar_speaker = "Stefan Schiffer"
 begin = "2025/04/01  11:00:00"
 end = "2025/04/01  11:00:00"
 datetime = "11:00-12:00 Tuesday, 1 April 2025"

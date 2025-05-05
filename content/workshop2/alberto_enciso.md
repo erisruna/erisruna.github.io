@@ -2,7 +2,7 @@
 title = "Steady Euler flows via a topology-preserving convex integration scheme"
 subtitle = "by Prof. Alberto Enciso"
 speaker = "Alberto Enciso"
-calendar_speaker = "None"
+calendar_speaker = "Alberto Enciso"
 begin = "2025/04/07  14:30:00"
 end = "2025/04/07  14:30:00"
 datetime = "14:30-15:30 Monday, 7 April 2025"

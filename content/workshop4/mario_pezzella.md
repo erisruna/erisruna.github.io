@@ -2,7 +2,7 @@
 title = "Positivity-Preserving Patankar Approaches for Production-Destruction Systems: Simulation and Optimal Control"
 subtitle = "by Prof. Mario Pezzella"
 speaker = "Mario Pezzella"
-calendar_speaker = "None"
+calendar_speaker = "Mario Pezzella"
 begin = "2025/05/22  16:15:00"
 end = "2025/05/22  16:15:00"
 datetime = "16:15-16:40 Thursday, 22 May 2025"

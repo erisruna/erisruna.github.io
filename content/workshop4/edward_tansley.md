@@ -2,7 +2,7 @@
 title = "Scalable Second-Order Optimization Algorithms for Minimizing Low-Rank Functions"
 subtitle = "by Prof. Edward Tansley"
 speaker = "Edward Tansley"
-calendar_speaker = "None"
+calendar_speaker = "Edward Tansley"
 begin = "2025/05/22  17:05:00"
 end = "2025/05/22  17:05:00"
 datetime = "17:05-17:30 Thursday, 22 May 2025"

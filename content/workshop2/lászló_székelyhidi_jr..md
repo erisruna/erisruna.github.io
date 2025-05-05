@@ -2,7 +2,7 @@
 title = "Anomalous dissipation and Euler flows"
 subtitle = "by Prof. László Székelyhidi Jr."
 speaker = "László Székelyhidi Jr."
-calendar_speaker = "None"
+calendar_speaker = "László Székelyhidi Jr."
 begin = "2025/04/07  09:30:00"
 end = "2025/04/07  09:30:00"
 datetime = "09:30-10:30 Monday, 7 April 2025"

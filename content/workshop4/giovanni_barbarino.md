@@ -2,7 +2,7 @@
 title = "On the Computation of the Maximum Conic Singular Values"
 subtitle = "by Prof. Giovanni Barbarino"
 speaker = "Giovanni Barbarino"
-calendar_speaker = "None"
+calendar_speaker = "Giovanni Barbarino"
 begin = "2025/05/22  11:50:00"
 end = "2025/05/22  11:50:00"
 datetime = "11:50-12:15 Thursday, 22 May 2025"

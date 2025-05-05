@@ -2,7 +2,7 @@
 title = "Free energy of two-species systems with applications to colloids"
 subtitle = "by Prof. Dimitrios Tsagkarogiannis"
 speaker = "Dimitrios Tsagkarogiannis"
-calendar_speaker = "None"
+calendar_speaker = "Dimitrios Tsagkarogiannis"
 begin = "2025/05/05  16:00:00"
 end = "2025/05/05  16:00:00"
 datetime = "16:00-17:00 Monday, 5 May 2025"

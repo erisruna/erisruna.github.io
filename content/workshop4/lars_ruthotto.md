@@ -2,7 +2,7 @@
 title = "Mixed-Precision Algorithms for Training Deep Neural Networks"
 subtitle = "by Prof. **Lars Ruthotto**"
 speaker = "**Lars Ruthotto**"
-calendar_speaker = "<strong>Lars Ruthotto</strong>"
+calendar_speaker = "Lars Ruthotto"
 begin = "2025/05/20  08:30:00"
 end = "2025/05/20  08:30:00"
 datetime = "08:30-09:20 Tuesday, 20 May 2025"

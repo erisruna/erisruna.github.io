@@ -2,7 +2,7 @@
 title = "A continuum limit for dense spatial networks"
 subtitle = "by Prof. Sidney Holden"
 speaker = "Sidney Holden"
-calendar_speaker = "None"
+calendar_speaker = "Sidney Holden"
 begin = "2025/05/22  10:35:00"
 end = "2025/05/22  10:35:00"
 datetime = "10:35-11:00 Thursday, 22 May 2025"

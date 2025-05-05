@@ -2,7 +2,7 @@
 title = "A distributional approach to nonlocal curvature motions"
 subtitle = "by Prof. Massimiliano Morini"
 speaker = "Massimiliano Morini"
-calendar_speaker = "None"
+calendar_speaker = "Massimiliano Morini"
 begin = "2025/03/31  16:00:00"
 end = "2025/03/31  16:00:00"
 datetime = "16:00-17:00 Monday, 31 March 2025"

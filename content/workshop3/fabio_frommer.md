@@ -2,7 +2,7 @@
 title = "An inverse cluster expansion for the chemical potential"
 subtitle = "by Prof. Fabio Frommer"
 speaker = "Fabio Frommer"
-calendar_speaker = "None"
+calendar_speaker = "Fabio Frommer"
 begin = "2025/05/07  11:20:00"
 end = "2025/05/07  11:20:00"
 datetime = "11:20-11:40 Wednesday, 7 May 2025"

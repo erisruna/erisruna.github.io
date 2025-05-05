@@ -2,7 +2,7 @@
 title = "On the Euler equations with in-flow and out-flow boundary conditions."
 subtitle = "by Prof. Anna Mazzucato"
 speaker = "Anna Mazzucato"
-calendar_speaker = "None"
+calendar_speaker = "Anna Mazzucato"
 begin = "2025/04/10  09:30:00"
 end = "2025/04/10  09:30:00"
 datetime = "09:30-10:30 Thursday, 10 April 2025"

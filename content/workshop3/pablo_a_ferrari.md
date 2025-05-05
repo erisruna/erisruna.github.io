@@ -2,7 +2,7 @@
 title = "Gibbs conditioning principle for nonhomogeneous independent random variables"
 subtitle = "by Prof. Pablo A. Ferrari"
 speaker = "Pablo A. Ferrari"
-calendar_speaker = "None"
+calendar_speaker = "Pablo A. Ferrari"
 begin = "2025/05/05  11:00:00"
 end = "2025/05/05  11:00:00"
 datetime = "11:00-12:00 Monday, 5 May 2025"

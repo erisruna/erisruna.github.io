@@ -2,7 +2,7 @@
 title = "Best approximation of Lebesgue measure by discrete lattice measures in the Wasserstein metric"
 subtitle = "by Prof. Filippo Cagnetti"
 speaker = "Filippo Cagnetti"
-calendar_speaker = "None"
+calendar_speaker = "Filippo Cagnetti"
 begin = "2025/04/01  14:30:00"
 end = "2025/04/01  14:30:00"
 datetime = "14:30-15:30 Tuesday, 1 April 2025"

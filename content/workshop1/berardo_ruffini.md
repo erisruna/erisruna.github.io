@@ -2,7 +2,7 @@
 title = "Non-existence and existence of isoperimetric and spectral problems with competitive term"
 subtitle = "by Prof. Berardo Ruffini"
 speaker = "Berardo Ruffini"
-calendar_speaker = "None"
+calendar_speaker = "Berardo Ruffini"
 begin = "2025/04/02  11:00:00"
 end = "2025/04/02  11:00:00"
 datetime = "11:00-12:00 Wednesday, 2 April 2025"

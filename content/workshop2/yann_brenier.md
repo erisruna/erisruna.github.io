@@ -2,7 +2,7 @@
 title = "Multiphasic formulation of the incompressible porous medium equations"
 subtitle = "by Prof. Yann Brenier"
 speaker = "Yann Brenier"
-calendar_speaker = "None"
+calendar_speaker = "Yann Brenier"
 begin = "2025/04/08  08:30:00"
 end = "2025/04/08  08:30:00"
 datetime = "08:30-09:30 Tuesday, 8 April 2025"

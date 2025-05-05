@@ -2,7 +2,7 @@
 title = "Harmonic maps and the vectorial obstacle problem"
 subtitle = "by Prof. André Guerra"
 speaker = "André Guerra"
-calendar_speaker = "None"
+calendar_speaker = "André Guerra"
 begin = "2025/03/31  11:00:00"
 end = "2025/03/31  11:00:00"
 datetime = "11:00-12:00 Monday, 31 March 2025"

@@ -2,7 +2,7 @@
 title = "Rigidity of critical points of degenerate polyconvex energies"
 subtitle = "by Prof. Riccardo Tione"
 speaker = "Riccardo Tione"
-calendar_speaker = "None"
+calendar_speaker = "Riccardo Tione"
 begin = "2025/04/03  09:30:00"
 end = "2025/04/03  09:30:00"
 datetime = "09:30-10:30 Thursday, 3 April 2025"

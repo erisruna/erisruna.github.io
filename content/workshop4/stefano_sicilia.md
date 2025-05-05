@@ -2,7 +2,7 @@
 title = "Minimum-norm solutions of the non-symmetric semidefinite Procrustes problem"
 subtitle = "by Prof. Stefano Sicilia"
 speaker = "Stefano Sicilia"
-calendar_speaker = "None"
+calendar_speaker = "Stefano Sicilia"
 begin = "2025/05/22  11:00:00"
 end = "2025/05/22  11:00:00"
 datetime = "11:00-11:25 Thursday, 22 May 2025"

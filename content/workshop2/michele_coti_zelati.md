@@ -2,7 +2,7 @@
 title = "Alpha-unstable flows and the fast dynamo problem"
 subtitle = "by Prof. Michele Coti Zelati"
 speaker = "Michele Coti Zelati"
-calendar_speaker = "None"
+calendar_speaker = "Michele Coti Zelati"
 begin = "2025/04/09  11:00:00"
 end = "2025/04/09  11:00:00"
 datetime = "11:00-12:00 Wednesday, 9 April 2025"

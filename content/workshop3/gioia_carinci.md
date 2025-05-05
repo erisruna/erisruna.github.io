@@ -2,7 +2,7 @@
 title = "Phase transitions in auction models"
 subtitle = "by Prof. Gioia Carinci"
 speaker = "Gioia Carinci"
-calendar_speaker = "None"
+calendar_speaker = "Gioia Carinci"
 begin = "2025/05/08  16:00:00"
 end = "2025/05/08  16:00:00"
 datetime = "16:00-17:00 Thursday, 8 May 2025"

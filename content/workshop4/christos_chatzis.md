@@ -2,7 +2,7 @@
 title = "dCMF: Learning interpretable evolving patterns from temporal multiway data"
 subtitle = "by Prof. Christos Chatzis"
 speaker = "Christos Chatzis"
-calendar_speaker = "None"
+calendar_speaker = "Christos Chatzis"
 begin = "2025/05/20  11:25:00"
 end = "2025/05/20  11:25:00"
 datetime = "11:25-11:50 Tuesday, 20 May 2025"

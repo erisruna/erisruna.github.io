@@ -2,7 +2,7 @@
 title = "Intertwining and non-equilibrium steady states"
 subtitle = "by Prof. Frank Redig"
 speaker = "Frank Redig"
-calendar_speaker = "None"
+calendar_speaker = "Frank Redig"
 begin = "2025/05/08  09:00:00"
 end = "2025/05/08  09:00:00"
 datetime = "09:00-10:00 Thursday, 8 May 2025"

@@ -2,7 +2,7 @@
 title = "A comprehensive review of the weak Kardar-Parisi-Zhang universality in interacting particle systems"
 subtitle = "by Prof. Kohei Hayashi"
 speaker = "Kohei Hayashi"
-calendar_speaker = "None"
+calendar_speaker = "Kohei Hayashi"
 begin = "2025/05/07  10:20:00"
 end = "2025/05/07  10:20:00"
 datetime = "10:20-11:20 Wednesday, 7 May 2025"

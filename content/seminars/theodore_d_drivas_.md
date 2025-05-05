@@ -2,7 +2,7 @@
 title = "Vibrodynamics of constrained mechanical systems, Part II"
 subtitle = "by Prof. Theodore D. Drivas"
 speaker = "Theodore D. Drivas"
-calendar_speaker = "None"
+calendar_speaker = "Theodore D. Drivas"
 begin = "2025/04/24  11:00:00"
 end = "2025/04/24  11:00:00"
 datetime = "11:00-12:00 Thursday, 24 April 2025"

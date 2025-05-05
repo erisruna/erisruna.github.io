@@ -2,7 +2,7 @@
 title = "Large deviations for rational models and the matrix product ansatz"
 subtitle = "by Prof. Davide Gabrielli"
 speaker = "Davide Gabrielli"
-calendar_speaker = "None"
+calendar_speaker = "Davide Gabrielli"
 begin = "2025/05/06  11:00:00"
 end = "2025/05/06  11:00:00"
 datetime = "11:00-12:00 Tuesday, 6 May 2025"
