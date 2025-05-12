@@ -104,8 +104,8 @@ subtitle = "Schedule"
 |12:15-13:45| *Lunch*|
 |13:45-14:35|**Jonas Latz** (University of Manchester)|
 |  |[*Losing momentum in continuous-time stochastic optimisation*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_latz_jonas.pdf)|
-|14:35-15:25|**Konstantin Usevich** (CNRS and University of Lorraine)|
-|  |[*TBA*](/workshop4/konstantin_usevich)|
+|14:35-15:25|**Konstantin Usevich** (CNRS, CRAN, Nancy, France)|
+|  |[*Multilayer neural networks and tensor decompositions*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_usevich_konstantin.pdf)|
 |15:25-15:50| *Coffee*|
 |15:50-16:15|Monica Pragliola (University of Naples Federico II)|
 |  |[*Sparse recovery problem in a hierarchical Bayesian framework*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pragiola_monica.pdf)|

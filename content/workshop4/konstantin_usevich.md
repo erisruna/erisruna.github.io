@@ -1,5 +1,5 @@
 +++
-title = "TBA"
+title = "Multilayer neural networks and tensor decompositions"
 subtitle = "by Prof. **Konstantin Usevich**"
 speaker = "**Konstantin Usevich**"
 calendar_speaker = "<strong>Konstantin Usevich</strong>"
@@ -11,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_usevich_konstantin.pdf" >}}
