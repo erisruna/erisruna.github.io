@@ -77,7 +77,7 @@ subtitle = "Schedule"
 |  |[*Nonnegative Tucker Decomposition: Introduction, Identifiability and Algorithms*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_gillis_nicolas.pdf)|
 |10:40-11:10| *Coffee*|
 |11:10-12:00|**Anders Karlsonn** (University of Geneva and Uppsala University)|
-|  |[*Metrics in dynamical systems and training in reverse*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_karlsonn_anders.pdf)|
+|  |[*Metrics in dynamical systems and training in reverse*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_karlsson_anders.pdf)|
 |12:00-14:00| *Lunch*|
 |14:00-18:00| *Excursion*|
 |20:30-| *Dinner*|
