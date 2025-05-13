@@ -78,8 +78,8 @@ subtitle = "Schedule"
 |10:40-11:10| *Coffee*|
 |11:10-12:00|**Anders Karlsonn** (University of Geneva and Uppsala University)|
 |  |[*Metrics in dynamical systems and training in reverse*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_karlsson_anders.pdf)|
-|12:00-14:00| *Lunch*|
-|14:00-18:00| *Excursion*|
+|12:50-14:00| *Lunch*|
+|14:00-19:00| *Excursion*|
 |20:30-| *Dinner*|
 {{</ table2 >}}
 
@@ -131,10 +131,8 @@ subtitle = "Schedule"
 |  |[*The Dominant Spectral Subspace for Nodal Decomposition of a Network Interconnecting Tight-Knit Communities*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_pitsianis_nikos.pdf)|
 |11:25-12:15|**Armando Bazzani** (University of Bologna and INFN)|
 |  |[*Maximum entropy principles for Markov processes and their application to transport systems*](/workshop4/armando_bazzani)|
-|12:00-13:05|**Peter Markovich** (University of Vienna and KAUST)|
+|12:00-12:50|**Peter Markovich** (University of Vienna and KAUST)|
 |  |[*PDE Models for Deep Neural Networks: Learning Theory, Calculus of Variations and Optimal Control*](/workshop4/peter_markovich)|
-|12:15-13:05|**Peter Markovich** (University of Vienna and KAUST)|
-|  |[*PDE Models for Deep Neural Networks: Learning Theory, Calculus of Variations and Optimal Control*](/workshop4/peter_markovich)|
-|13:05-13:15| *Farewell*|
+|12:15-12:30| *Farewell*|
 {{</ table2 >}}
 {{< br >}}
