@@ -1,6 +1,6 @@
 +++
 title = "The implicit bias phenomenon in deep learning"
-subtitle = "by Prof. **Holger Rauhut**"
+subtitle = "by Prof. Holger Rauhut"
 speaker = "**Holger Rauhut**"
 calendar_speaker = "<strong>Holger Rauhut</strong>"
 begin = "2025/05/22  08:30:00"

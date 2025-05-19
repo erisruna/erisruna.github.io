@@ -1,6 +1,6 @@
 +++
 title = "Discovering compact latent structures in PDE solution manifolds"
-subtitle = "by Prof. **Francesco Regazzoni**"
+subtitle = "by Prof. Francesco Regazzoni"
 speaker = "**Francesco Regazzoni**"
 calendar_speaker = "<strong>Francesco Regazzoni</strong>"
 begin = "2025/05/20  13:45:00"

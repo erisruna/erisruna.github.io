@@ -227,7 +227,7 @@ def row_to_md(row: dict) -> str:
     speaker = row['Speaker']
     txt = f"""+++
 title = "{Title}"
-subtitle = "by Prof. {row['Speaker']}"
+subtitle = "by Prof. {row['Speaker'].replace('*', '')}"
 speaker = "{row['Speaker']}"
 calendar_speaker = "{speaker_to_html(speaker)}"
 begin = "{format_time(dt)}"

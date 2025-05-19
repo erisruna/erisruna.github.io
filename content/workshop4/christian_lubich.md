@@ -1,6 +1,6 @@
 +++
-title = "TBA"
-subtitle = "by Prof. **Christian Lubich**"
+title = "Regularized nonlinear parametric approximation of evolution equations"
+subtitle = "by Prof. Christian Lubich"
 speaker = "**Christian Lubich**"
 calendar_speaker = "<strong>Christian Lubich</strong>"
 begin = "2025/05/19  08:30:00"
@@ -11,4 +11,6 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-TBA
+This talk is about the numerical approximation of evolution equations by nonlinear parametrizations $u(t)=\Phi(q(t))$ with time-dependent parameters $q(t)$, which are to be determined in the computation. The motivation comes from approximations in quantum dynamics by multiple Gaussians and approximations of various dynamical problems by tensor networks and neural networks. In all these cases, the parametrization is typically irregular: the derivative $\Phi'(q)$ can have arbitrarily small singular values and may have varying rank. We derive approximation results for a regularized approach in the time-continuous case as well as in time-discretized cases. With a suitable choice of the regularization parameter and the time stepsize, the approach can be successfully applied in irregular situations, even though it runs counter to the basic principle in numerical analysis to avoid solving ill-posed subproblems when aiming for a stable algorithm. Numerical experiments with sums of Gaussians for approximating quantum dynamics and with neural networks for approximating the flow map of a system of ordinary differential equations illustrate and complement the theoretical results. 
+
+The talk is based on joint work with Jörg Nick, Caroline Lasser, and Michael Feischl (arXiv:2403.19234, arXiv:2501.12118).

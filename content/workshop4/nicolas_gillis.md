@@ -1,6 +1,6 @@
 +++
 title = "Nonnegative Tucker Decomposition: Introduction, Identifiability and Algorithms"
-subtitle = "by Prof. **Nicolas Gillis**"
+subtitle = "by Prof. Nicolas Gillis"
 speaker = "**Nicolas Gillis**"
 calendar_speaker = "<strong>Nicolas Gillis</strong>"
 begin = "2025/05/21  09:50:00"

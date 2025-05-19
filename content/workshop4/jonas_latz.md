@@ -1,6 +1,6 @@
 +++
 title = "Losing momentum in continuous-time stochastic optimisation"
-subtitle = "by Prof. **Jonas Latz**"
+subtitle = "by Prof. Jonas Latz"
 speaker = "**Jonas Latz**"
 calendar_speaker = "<strong>Jonas Latz</strong>"
 begin = "2025/05/22  13:45:00"

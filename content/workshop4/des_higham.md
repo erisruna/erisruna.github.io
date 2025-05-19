@@ -1,6 +1,6 @@
 +++
 title = "Investigating Diffusion Models for Generative AI"
-subtitle = "by Prof. **Des Higham**"
+subtitle = "by Prof. Des Higham"
 speaker = "**Des Higham**"
 calendar_speaker = "<strong>Des Higham</strong>"
 begin = "2025/05/21  09:00:00"

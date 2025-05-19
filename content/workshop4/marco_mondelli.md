@@ -1,6 +1,6 @@
 +++
 title = "The Provable Emergence of Neural Collapse"
-subtitle = "by Prof. **Marco Mondelli**"
+subtitle = "by Prof. Marco Mondelli"
 speaker = "**Marco Mondelli**"
 calendar_speaker = "<strong>Marco Mondelli</strong>"
 begin = "2025/05/20  14:35:00"

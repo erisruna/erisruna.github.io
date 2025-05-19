@@ -1,6 +1,6 @@
 +++
 title = "TBA"
-subtitle = "by Prof. **Konstantin Usevich**"
+subtitle = "by Prof. Konstantin Usevich"
 speaker = "**Konstantin Usevich**"
 calendar_speaker = "<strong>Konstantin Usevich</strong>"
 begin = "2025/05/22  14:35:00"

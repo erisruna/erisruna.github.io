@@ -1,6 +1,6 @@
 +++
 title = "Stable Nonlinear Dynamical Approximation with Dynamical Sampling"
-subtitle = "by Prof. **Olga Mula**"
+subtitle = "by Prof. Olga Mula"
 speaker = "**Olga Mula**"
 calendar_speaker = "<strong>Olga Mula</strong>"
 begin = "2025/05/23  08:30:00"

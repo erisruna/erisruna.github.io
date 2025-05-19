@@ -1,6 +1,6 @@
 +++
 title = "Metrics in dynamical systems and training in reverse"
-subtitle = "by Prof. **Anders Karlsonn**"
+subtitle = "by Prof. Anders Karlsonn"
 speaker = "**Anders Karlsonn**"
 calendar_speaker = "<strong>Anders Karlsonn</strong>"
 begin = "2025/05/21  11:10:00"

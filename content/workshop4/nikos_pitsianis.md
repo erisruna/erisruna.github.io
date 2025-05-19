@@ -1,6 +1,6 @@
 +++
 title = "The Dominant Spectral Subspace for Nodal Decomposition of a Network Interconnecting Tight-Knit Communities"
-subtitle = "by Prof. **Nikos Pitsianis**"
+subtitle = "by Prof. Nikos Pitsianis"
 speaker = "**Nikos Pitsianis**"
 calendar_speaker = "<strong>Nikos Pitsianis</strong>"
 begin = "2025/05/23  10:35:00"

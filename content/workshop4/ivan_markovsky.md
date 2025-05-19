@@ -1,6 +1,6 @@
 +++
 title = "Hidden structures in data-driven representations of dynamical systems"
-subtitle = "by Prof. **Ivan Markovsky**"
+subtitle = "by Prof. Ivan Markovsky"
 speaker = "**Ivan Markovsky**"
 calendar_speaker = "<strong>Ivan Markovsky</strong>"
 begin = "2025/05/20  09:20:00"

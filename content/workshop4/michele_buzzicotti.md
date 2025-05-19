@@ -1,6 +1,6 @@
 +++
 title = "Generation and Reconstruction of Lagrangian Turbulence with Stochastic Generative Models"
-subtitle = "by Prof. **Michele Buzzicotti**"
+subtitle = "by Prof. Michele Buzzicotti"
 speaker = "**Michele Buzzicotti**"
 calendar_speaker = "<strong>Michele Buzzicotti</strong>"
 begin = "2025/05/19  14:35:00"

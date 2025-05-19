@@ -1,6 +1,6 @@
 +++
 title = "Certification of physics-informed neural networks for solving PDEs"
-subtitle = "by Prof. **Karsten Urban**"
+subtitle = "by Prof. Karsten Urban"
 speaker = "**Karsten Urban**"
 calendar_speaker = "<strong>Karsten Urban</strong>"
 begin = "2025/05/22  09:20:00"

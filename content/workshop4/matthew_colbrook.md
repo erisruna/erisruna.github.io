@@ -1,6 +1,6 @@
 +++
 title = "Navigating Limits in Learning Complex Systems"
-subtitle = "by Prof. **Matthew Colbrook**"
+subtitle = "by Prof. Matthew Colbrook"
 speaker = "**Matthew Colbrook**"
 calendar_speaker = "<strong>Matthew Colbrook</strong>"
 begin = "2025/05/19  13:45:00"

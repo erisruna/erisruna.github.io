@@ -1,6 +1,6 @@
 +++
 title = "Multifidelity Robust Controller Design with Gradient Sampling"
-subtitle = "by Prof. **Michael Overton**"
+subtitle = "by Prof. Michael Overton"
 speaker = "**Michael Overton**"
 calendar_speaker = "<strong>Michael Overton</strong>"
 begin = "2025/05/23  09:20:00"
