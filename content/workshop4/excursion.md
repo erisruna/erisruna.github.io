@@ -11,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-{{< redirect url="https://maps.app.goo.gl/fvLZELWuXgbp3pgb7" >}}
+TBA
