@@ -42,6 +42,11 @@ end = "30 April"
       <td>16:15-17:45, 30.04.2025</td>
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
     </tr>
+    <tr>
+      <td>Office hours</td>
+      <td>14:00-15:00, 30.04.2025</td>
+      <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+    </tr>
   </tbody>
 </table>`
 >}}

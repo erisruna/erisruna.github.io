@@ -89,8 +89,14 @@ def add_schedule_to_courses():
             e = pd.to_datetime(row['EndTime'])
             _time = duration(s, e)
             _place = row['SeminarLocation']
+            lecture = empty_str_if_na(row['Title']).strip()
+            if lecture.lower() == "ricevimento":
+                lecture = "Office hours"
+            else:
+                lecture = f"Lecture {lecture_num}"
+
             res.append(dict(
-                Lecture=f"Lecture {lecture_num}",
+                Lecture=lecture,
                 Time=_time,
                 Place=get_google_link(_place)
             ))

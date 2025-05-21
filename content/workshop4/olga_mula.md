@@ -11,4 +11,4 @@ tags = "a_s_w"
 +++
 
 ### Abstract
-{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_mula_olga.pdf" >}}
+{{< redirect url="https://github.com/ftudisco/Workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-GSSI/blob/main/invited/abstract_mula_hernandez_olga.pdf" >}}

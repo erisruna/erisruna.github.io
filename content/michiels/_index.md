@@ -24,17 +24,17 @@ end = "30 May"
   <tbody>
     <tr>
       <td>Lecture 1</td>
-      <td>10:45-12:15, 26.05.2025</td>
+      <td>09:00-10:30, 26.05.2025</td>
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
     </tr>
     <tr>
       <td>Lecture 2</td>
-      <td>10:45-12:45, 27.05.2025</td>
+      <td>10:45-12:15, 27.05.2025</td>
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
     </tr>
     <tr>
       <td>Lecture 3</td>
-      <td>09:00-10:45, 28.05.2025</td>
+      <td>09:00-10:30, 28.05.2025</td>
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
     </tr>
     <tr>

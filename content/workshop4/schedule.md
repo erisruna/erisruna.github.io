@@ -42,13 +42,11 @@ subtitle = "Schedule"
 |09:20-10:10|**Ivan Markovsky** (ICREA and CIMNE)|
 |  |[*Hidden structures in data-driven representations of dynamical systems*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_markovsky_ivan.pdf)|
 |10:10-10:35| *Coffee*|
-|10:35-11:00|Sergey Dolgov (University of Bath)|
-|  |[*Low-rank approximations for large-scale nonlinear feedback control*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_dolgov_sergey.pdf)|
-|11:00-11:25|Alessandro Scagliotti (Technical University of Munich, and Munich Center for Machine Learning)|
+|10:35-11:00|Alessandro Scagliotti (Technical University of Munich, and Munich Center for Machine Learning)|
 |  |[*A principle for minimizers of Tikhonov-regularized problems*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_scagliotti_alessandro.pdf)|
-|11:25-11:50|Christos Chatzis (Simula Metropolitan Center for Digital Engineering)|
+|11:00-11:25|Christos Chatzis (Simula Metropolitan Center for Digital Engineering)|
 |  |[*dCMF: Learning interpretable evolving patterns from temporal multiway data*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_chatzis_christos.pdf)|
-|11:50-12:15|Fabio Vito Di Fonzo (LUM University)|
+|11:25-11:50|Fabio Vito Di Fonzo (LUM University)|
 |  |[*Physics Informed Neural Networks for Learning the Horizon Size in Bond-Based Peridynamic Models*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_difonzo_fabio_vito.pdf)|
 |12:15-13:45| *Lunch*|
 |13:45-14:35|**Francesco Regazzoni** (MOX, Department of Mathematics, Politecnico di Milano)|
@@ -71,15 +69,31 @@ subtitle = "Schedule"
 {{< table2 >}}
 |   |   |
 |---|---|
-|09:00-09:50|**Des Higham** (University of Edinburgh)|
+|08:30-09:20|**Des Higham** (University of Edinburgh)|
 |  |[*Investigating Diffusion Models for Generative AI*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_higham_des.pdf)|
-|09:50-10:40|**Nicolas Gillis** (University of Mons)|
+|09:20-10:10|**Nicolas Gillis** (University of Mons)|
 |  |[*Nonnegative Tucker Decomposition: Introduction, Identifiability and Algorithms*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_gillis_nicolas.pdf)|
-|10:40-11:10| *Coffee*|
-|11:10-12:00|**Anders Karlsonn** (University of Geneva and Uppsala University)|
-|  |[*Metrics in dynamical systems and training in reverse*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_karlsonn_anders.pdf)|
-|12:00-14:00| *Lunch*|
-|14:00-18:00| *Excursion*|
+|10:10-10:35| *Coffee*|
+|10:35-11:25|**Anders Karlsonn** (University of Geneva and Uppsala University)|
+|  |[*Metrics in dynamical systems and training in reverse*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_karlsson_anders.pdf)|
+|11:25-11:50|Miryam Gnazzo (University of Pisa)|
+|  |[*Riemann-Oracle: A general-purpose Riemannian optimizer to solve nearness problems in matrix theory*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_gnazzo_miryam.pdf)|
+|11:50-12:15|Sergey Dolgov (University of Bath)|
+|  |[*Low-rank approximations for large-scale nonlinear feedback control*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_dolgov_sergey.pdf)|
+|12:50-14:00| *Lunch*|
+|13:45-14:35|**Jonas Latz** (University of Manchester)|
+|  |[*Losing momentum in continuous-time stochastic optimisation*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_latz_jonas.pdf)|
+|14:35-15:25|**Konstantin Usevich** (CNRS, CRAN, Nancy, France)|
+|  |[*Multilayer neural networks and tensor decompositions*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_usevich_konstantin.pdf)|
+|15:25-15:50| *Coffee*|
+|15:50-16:15|Monica Pragliola (University of Naples Federico II)|
+|  |[*Sparse recovery problem in a hierarchical Bayesian framework*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pragiola_monica.pdf)|
+|16:15-16:40|Mario Pezzella (National Research Council of Italy, Institute for Applied Mathematics ‚ÄúMauro Picone")|
+|  |[*Positivity-Preserving Patankar Approaches for Production-Destruction Systems: Simulation and Optimal Control*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pezzella_mario.pdf)|
+|16:40-17:05|Maria Prat Colomer (Brown University)|
+|  |[*From PINNs to Computer-Assisted Proofs for Fluid Dynamics*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_prat_colomer_maria.pdf)|
+|17:05-17:30|Edward Tansley (University of Oxford)|
+|  |[*Scalable Second-Order Optimization Algorithms for Minimizing Low-Rank Functions*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_tansley_edward.pdf)|
 |20:30-| *Dinner*|
 {{</ table2 >}}
 
@@ -97,24 +111,10 @@ subtitle = "Schedule"
 |  |[*A continuum limit for dense spatial networks*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_holden_sidney.pdf)|
 |11:00-11:25|Stefano Sicilia (University of Mons)|
 |  |[*Minimum-norm solutions of the non-symmetric semidefinite Procrustes problem*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_sicilia_stefano.pdf)|
-|11:25-11:50|Miryam Gnazzo (Universita di Pisa)|
-|  |[*Riemann-Oracle: A general-purpose Riemannian optimizer to solve nearness problems in matrix theory*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_gnazzo_miryam.pdf)|
-|11:50-12:15|Giovanni Barbarino (University of Mons)|
+|11:25-11:50|Giovanni Barbarino (University of Mons)|
 |  |[*On the Computation of the Maximum Conic Singular Values*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_barbarino_giovanni.pdf)|
 |12:15-13:45| *Lunch*|
-|13:45-14:35|**Jonas Latz** (University of Manchester)|
-|  |[*Losing momentum in continuous-time stochastic optimisation*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_latz_jonas.pdf)|
-|14:35-15:25|**Konstantin Usevich** (CNRS and University of Lorraine)|
-|  |[*TBA*](/workshop4/konstantin_usevich)|
-|15:25-15:50| *Coffee*|
-|15:50-16:15|Monica Pragliola (University of Naples Federico II)|
-|  |[*Sparse recovery problem in a hierarchical Bayesian framework*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pragiola_monica.pdf)|
-|16:15-16:40|Mario Pezzella (National Research Council of Italy, Institute for Applied Mathematics ‚ÄúMauro Picone")|
-|  |[*Positivity-Preserving Patankar Approaches for Production-Destruction Systems: Simulation and Optimal Control*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pezzella_mario.pdf)|
-|16:40-17:05|Maria Prat Colomer (Brown University)|
-|  |[*From PINNs to Computer-Assisted Proofs for Fluid Dynamics*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_prat_colomer_maria.pdf)|
-|17:05-17:30|Edward Tansley (University of Oxford)|
-|  |[*Scalable Second-Order Optimization Algorithms for Minimizing Low-Rank Functions*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_tansley_edward.pdf)|
+|14:00-19:00| *Excursion*|
 {{</ table2 >}}
 
 #####  Friday, 23 May 2025
@@ -123,16 +123,14 @@ subtitle = "Schedule"
 |   |   |
 |---|---|
 |08:30-09:20|**Olga Mula** (TU Eindhoven)|
-|  |[*Stable Nonlinear Dynamical Approximation with Dynamical Sampling*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_mula_olga.pdf)|
+|  |[*Stable Nonlinear Dynamical Approximation with Dynamical Sampling*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_mula_hernandez_olga.pdf)|
 |09:20-10:10|**Michael Overton** (Courant Institute of Mathematical Sciences)|
-|  |[*Multifidelity Robust Controller Design with Gradient Sampling*](/workshop4/michael_overton)|
+|  |[*Multifidelity Robust Controller Design with Gradient Sampling*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_overton_michael.pdf)|
 |10:10-10:35| *Coffee*|
 |10:35-11:25|**Nikos Pitsianis** (Aristotle University of Thessaloniki, Greece and Duke University, USA)|
 |  |[*The Dominant Spectral Subspace for Nodal Decomposition of a Network Interconnecting Tight-Knit Communities*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_pitsianis_nikos.pdf)|
 |11:25-12:15|**Armando Bazzani** (University of Bologna and INFN)|
 |  |[*Maximum entropy principles for Markov processes and their application to transport systems*](/workshop4/armando_bazzani)|
-|12:15-13:05|**Peter Markovich** (University of Vienna and KAUST)|
-|  |[*PDE Models for Deep Neural Networks: Learning Theory, Calculus of Variations and Optimal Control*](/workshop4/peter_markovich)|
-|13:05-13:15| *Farewell*|
+|12:15-12:30| *Farewell*|
 {{</ table2 >}}
 {{< br >}}

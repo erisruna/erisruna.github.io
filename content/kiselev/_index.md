@@ -33,4 +33,3 @@ of solutions to fluid mechanics PDE, and its recent application to an
 equation proposed by Steinerberger
 in connection with describing the evolution of polynomial roots under
 differentiation.
-
