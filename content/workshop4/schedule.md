@@ -87,7 +87,7 @@ subtitle = "Schedule"
 |  |[*Multilayer neural networks and tensor decompositions*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_usevich_konstantin.pdf)|
 |15:25-15:50| *Coffee*|
 |15:50-16:15|Monica Pragliola (University of Naples Federico II)|
-|  |[*Sparse recovery problem in a hierarchical Bayesian framework*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pragiola_monica.pdf)|
+|  |[*Sparse recovery problem in a hierarchical Bayesian framework*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pragliola_monica.pdf)|
 |16:15-16:40|Mario Pezzella (National Research Council of Italy, Institute for Applied Mathematics ‚ÄúMauro Picone")|
 |  |[*Positivity-Preserving Patankar Approaches for Production-Destruction Systems: Simulation and Optimal Control*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pezzella_mario.pdf)|
 |16:40-17:05|Maria Prat Colomer (Brown University)|
