@@ -114,7 +114,7 @@ subtitle = "Schedule"
 |11:25-11:50|Giovanni Barbarino (University of Mons)|
 |  |[*On the Computation of the Maximum Conic Singular Values*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_barbarino_giovanni.pdf)|
 |12:15-13:45| *Lunch*|
-|14:00-19:00| *Excursion*|
+|13:20-19:00| *Excursion*|
 {{</ table2 >}}
 
 #####  Friday, 23 May 2025
