@@ -114,7 +114,7 @@ subtitle = "Schedule"
 |  |[*Minimum-norm solutions of the non-symmetric semidefinite Procrustes problem*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_sicilia_stefano.pdf)|
 |11:25-11:50|Giovanni Barbarino (University of Mons)|
 |  |[*On the Computation of the Maximum Conic Singular Values*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_barbarino_giovanni.pdf)|
-|12:15-13:45| *Lunch*|
+|11:50-13:15| *Lunch*|
 |13:20-19:00|Excursion |
 |  |[*Meeting Point*](/workshop4/excursion)|
 {{</ table2 >}}
