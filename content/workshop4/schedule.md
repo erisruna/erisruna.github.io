@@ -124,15 +124,15 @@ subtitle = "Schedule"
 {{< table2 >}}
 |   |   |
 |---|---|
-|08:30-09:20|**Olga Mula** (TU Eindhoven)|
+|09:00-09:50|**Olga Mula** (TU Eindhoven)|
 |  |[*Stable Nonlinear Dynamical Approximation with Dynamical Sampling*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_mula_hernandez_olga.pdf)|
-|09:20-10:10|**Michael Overton** (Courant Institute of Mathematical Sciences)|
+|09:50-10:40|**Michael Overton** (Courant Institute of Mathematical Sciences)|
 |  |[*Multifidelity Robust Controller Design with Gradient Sampling*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_overton_michael.pdf)|
-|10:10-10:35| *Coffee*|
-|10:35-11:25|**Nikos Pitsianis** (Aristotle University of Thessaloniki, Greece and Duke University, USA)|
+|10:40-11:05| *Coffee*|
+|11:05-11:55|**Nikos Pitsianis** (Aristotle University of Thessaloniki, Greece and Duke University, USA)|
 |  |[*The Dominant Spectral Subspace for Nodal Decomposition of a Network Interconnecting Tight-Knit Communities*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_pitsianis_nikos.pdf)|
-|11:25-12:15|**Armando Bazzani** (University of Bologna and INFN)|
+|11:55-12:45|**Armando Bazzani** (University of Bologna and INFN)|
 |  |[*Maximum entropy principles for Markov processes and their application to transport systems*](/workshop4/armando_bazzani)|
-|12:15-12:30| *Farewell*|
+|12:45-12:50| *Farewell*|
 {{</ table2 >}}
 {{< br >}}
