@@ -87,14 +87,15 @@ subtitle = "Schedule"
 |  |[*Multilayer neural networks and tensor decompositions*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_usevich_konstantin.pdf)|
 |15:25-15:50| *Coffee*|
 |15:50-16:15|Monica Pragliola (University of Naples Federico II)|
-|  |[*Sparse recovery problem in a hierarchical Bayesian framework*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pragiola_monica.pdf)|
+|  |[*Sparse recovery problem in a hierarchical Bayesian framework*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pragliola_monica.pdf)|
 |16:15-16:40|Mario Pezzella (National Research Council of Italy, Institute for Applied Mathematics ‚ÄúMauro Picone")|
 |  |[*Positivity-Preserving Patankar Approaches for Production-Destruction Systems: Simulation and Optimal Control*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_pezzella_mario.pdf)|
 |16:40-17:05|Maria Prat Colomer (Brown University)|
 |  |[*From PINNs to Computer-Assisted Proofs for Fluid Dynamics*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_prat_colomer_maria.pdf)|
 |17:05-17:30|Edward Tansley (University of Oxford)|
 |  |[*Scalable Second-Order Optimization Algorithms for Minimizing Low-Rank Functions*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_tansley_edward.pdf)|
-|20:30-| *Dinner*|
+|20:15-23:00|Social Dinner |
+|  |[*Ristorante Braceria La Corte*](/workshop4/social_dinner)|
 {{</ table2 >}}
 
 #####  Thursday, 22 May 2025
@@ -113,8 +114,9 @@ subtitle = "Schedule"
 |  |[*Minimum-norm solutions of the non-symmetric semidefinite Procrustes problem*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_sicilia_stefano.pdf)|
 |11:25-11:50|Giovanni Barbarino (University of Mons)|
 |  |[*On the Computation of the Maximum Conic Singular Values*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/contributed/abstract_barbarino_giovanni.pdf)|
-|12:15-13:45| *Lunch*|
-|14:00-19:00| *Excursion*|
+|11:50-13:15| *Lunch*|
+|13:20-19:00|Excursion |
+|  |[*Meeting Point*](/workshop4/excursion)|
 {{</ table2 >}}
 
 #####  Friday, 23 May 2025
@@ -122,15 +124,15 @@ subtitle = "Schedule"
 {{< table2 >}}
 |   |   |
 |---|---|
-|08:30-09:20|**Olga Mula** (TU Eindhoven)|
+|09:00-09:50|**Olga Mula** (TU Eindhoven)|
 |  |[*Stable Nonlinear Dynamical Approximation with Dynamical Sampling*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_mula_hernandez_olga.pdf)|
-|09:20-10:10|**Michael Overton** (Courant Institute of Mathematical Sciences)|
+|09:50-10:40|**Michael Overton** (Courant Institute of Mathematical Sciences)|
 |  |[*Multifidelity Robust Controller Design with Gradient Sampling*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_overton_michael.pdf)|
-|10:10-10:35| *Coffee*|
-|10:35-11:25|**Nikos Pitsianis** (Aristotle University of Thessaloniki, Greece and Duke University, USA)|
+|10:40-11:05| *Coffee*|
+|11:05-11:55|**Nikos Pitsianis** (Aristotle University of Thessaloniki, Greece and Duke University, USA)|
 |  |[*The Dominant Spectral Subspace for Nodal Decomposition of a Network Interconnecting Tight-Knit Communities*](https://github.com/ftudisco/workshop-hidden-structures-in-dynamical-systems-optimization-and-machine-learning-gssi/blob/main/invited/abstract_pitsianis_nikos.pdf)|
-|11:25-12:15|**Armando Bazzani** (University of Bologna and INFN)|
+|11:55-12:45|**Armando Bazzani** (University of Bologna and INFN)|
 |  |[*Maximum entropy principles for Markov processes and their application to transport systems*](/workshop4/armando_bazzani)|
-|12:15-12:30| *Farewell*|
+|12:45-12:50| *Farewell*|
 {{</ table2 >}}
 {{< br >}}
