@@ -62,3 +62,13 @@ The emergence of long range order at low temperatures in atomistic systems with 
 
 * [Lecture1](/pdfs/giuliani/giuliani_lecture1.pdf)
 * [Lecture2](/pdfs/giuliani/giuliani_lecture2.pdf)
+
+
+
+### Videos
+
+
+[Video Lecture 1](https://youtu.be/KXW_u75vg8w?feature=shared)
+[Video Lecture 2](https://youtu.be/yvnljTGf844?feature=shared)
+[Video Lecture 3](https://youtu.be/P1-xBEqItOU?feature=shared)
+[Video Lecture 4](https://youtu.be/PJ7aYcHfQ_U?feature=shared)

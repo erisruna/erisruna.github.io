@@ -54,3 +54,9 @@ end = "30 April"
 {{< pbr text="" >}}
 
 We will focus on weakly asymmetric exclusion processes on the line or half-line, and investigate their fluctuations out of equilibrium. We will review the various tools used in proving convergence to the KPZ equation in the strategy initiated in [Bertini-Giacomin '97] and discuss how they can be adapted to the singular initial condition that arises when one considers fluctuations of the facilitated exclusion process at the interface.
+
+### Videos
+[Video Lecture 1](https://youtu.be/zuoObZtikps?feature=shared)
+[Video Lecture 2](https://youtu.be/BvMI3p0aEmk?feature=shared)
+[Video Lecture 3](https://youtu.be/K8aE43lVrg4?feature=shared)
+[Video Lecture 4](https://youtu.be/DFryEUxZqL0?feature=shared)
