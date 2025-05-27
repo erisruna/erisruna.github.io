@@ -60,3 +60,6 @@ We will focus on weakly asymmetric exclusion processes on the line or half-line,
 * [Video Lecture 2](https://youtu.be/BvMI3p0aEmk?feature=shared)
 * [Video Lecture 3](https://youtu.be/K8aE43lVrg4?feature=shared)
 * [Video Lecture 4](https://youtu.be/DFryEUxZqL0?feature=shared)
+
+### Pdf
+[Lecture notes](/pdfs/gubinelli/lecture_notes_gubinelli.pdf)
