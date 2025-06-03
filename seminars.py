@@ -71,6 +71,7 @@ def add_schedule_to_courses():
     df: pd.DataFrame = get_data(url)
     activity_type = df.columns[1]
     fnames = get_courses_files()
+    print(fnames)
 
     def duration(s, e)-> str:
         return s.strftime("%H:%M-") + e.strftime("%H:%M, ") + s.strftime("%d.%m.%Y")
@@ -115,11 +116,13 @@ def add_schedule_to_courses():
             classes=None,  # Remove CSS classes
             escape=False
         )
-        to_inject = """{{< collapsible_button  
+        to_inject: str = """{{< collapsible_button  
     title="Schedule" 
     text=`
     """ + timetable_txt + "`\n>}}\n\n{{< pbr text=\"\" >}}\n\n"
         to_inject = to_inject.replace('class="dataframe"', 'style="margin-left: auto; margin-right: auto;')
+
+        txt = re.sub(r"\n\+\+\+\n", r"\n+++\n\n", txt)
         txt = txt.replace("+++\n\n", "+++\n\n"+ to_inject)
 
         with open(fname, 'w') as f:

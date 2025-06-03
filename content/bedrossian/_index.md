@@ -53,6 +53,7 @@ end = "20 June"
 
 {{< pbr text="" >}}
 
+
 ### Abstract
 
 The stability of equilibria solutions of the incompressible Euler and Navier-Stokes equations at high Reynolds number has been studied since the 1800s with the work of Kelvin, Rayleigh, Reynolds and others. However, only in recent years have we started to get a firm mathematical understanding of this field, even for the deceptively simple cases of parallel shear flows and vortices. I will introduce some of the new and old advances in the area, including inviscid damping, enhanced dissipation, and quantitative stability.

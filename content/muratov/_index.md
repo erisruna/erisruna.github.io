@@ -53,6 +53,7 @@ end = "30 May"
 
 {{< pbr text="" >}}
 
+
 ### Abstract:
 
 This mini-course will serve as an introduction to the phase field models of
