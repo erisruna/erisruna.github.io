@@ -1,5 +1,6 @@
 +++
-title = "Course given by Prof. F. Poloni (Pisa)"
+title = "Matrix equations in systems theory"
+subtitle = "Course given by Prof. F. Poloni (Pisa)"
 author = "F. Poloni (Pisa)"
 draft = false
 LinkTitle = "poloni"

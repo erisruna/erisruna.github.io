@@ -19,6 +19,7 @@ end = "16 May"
       <th>Lecture</th>
       <th>Time</th>
       <th>Place</th>
+      <th>ZoomLink</th>
     </tr>
   </thead>
   <tbody>
@@ -26,26 +27,31 @@ end = "16 May"
       <td>Lecture 1</td>
       <td>14:15-15:45, 13.05.2025</td>
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+      <td></td>
     </tr>
     <tr>
       <td>Lecture 2</td>
       <td>16:15-17:45, 14.05.2025</td>
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+      <td></td>
     </tr>
     <tr>
       <td>Lecture 3</td>
       <td>10:45-12:15, 15.05.2025</td>
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+      <td></td>
     </tr>
     <tr>
       <td>Lecture 4</td>
       <td>10:45-12:15, 16.05.2025</td>
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+      <td></td>
     </tr>
     <tr>
       <td>Office hours</td>
       <td>14:00-15:00, 16.05.2025</td>
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+      <td></td>
     </tr>
   </tbody>
 </table>`

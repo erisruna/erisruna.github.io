@@ -98,7 +98,8 @@ def add_schedule_to_courses():
             res.append(dict(
                 Lecture=lecture,
                 Time=_time,
-                Place=get_google_link(_place)
+                Place=get_google_link(_place),
+                ZoomLink= empty_str_if_na(row['ZoomLink'])
             ))
         df_timetable = pd.DataFrame(res)
         
