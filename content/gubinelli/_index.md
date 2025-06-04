@@ -64,4 +64,3 @@ I will present a complete proof of stochastic quantisation of a family of subcri
 
 ##### Course Material:
 * [Lecture Notes](/pdfs/gubinelli/lecture_notes_gubinelli.pdf)
-
