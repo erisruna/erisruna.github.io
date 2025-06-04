@@ -65,10 +65,3 @@ I will present a complete proof of stochastic quantisation of a family of subcri
 ##### Course Material:
 * [Lecture Notes](/pdfs/gubinelli/lecture_notes_gubinelli.pdf)
 
-
-#### Videos
-
-* [Video Lecture 1](https://youtu.be/64d8QfccniE?feature=shared)
-* [Video Lecture 2](https://youtu.be/9k4o74fJups?feature=shared)
-* [Video Lecture 3](https://youtu.be/MXJ1zWfTftU?feature=shared)
-* [Video Lecture 4](https://youtu.be/Maz-c-f0_RM?feature=shared)
