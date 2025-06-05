@@ -77,8 +77,6 @@ def add_schedule_to_courses():
         return s.strftime("%H:%M-") + e.strftime("%H:%M, ") + s.strftime("%d.%m.%Y")
 
     for fname in fnames:
-        if 'gomez' in fname:
-            __import__('pdb').set_trace()
         to_search = re.findall(r'content/(\w*)/_index.md', fname)[0].replace("_", ".*")
         mask = df['Speaker'].str.replace("-", "_").str.lower().apply(lambda x: True if re.findall(to_search.lower(), str(x)) else False)
         mask = mask & df[activity_type].str.contains("week")
