@@ -296,7 +296,7 @@ def build_calendar():
                 continue
             start_dt = row["StartTime"].to_pydatetime()
             end_dt = row["EndTime"].to_pydatetime()
-            relative_url = f"/{row['Speaker'].strip().split(" ")[-1].lower()}"
+            relative_url = f"/{row['Speaker'].strip().split(" ")[-1].lower().replace('-','_')}"
             inject_txt += rf"""
             {{ 
               title: '{row['Speaker'].strip().split(" ")[-1]}',
