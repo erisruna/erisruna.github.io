@@ -315,9 +315,11 @@ def build_calendar():
     for fname in fnames:
         if "course" not in get_tags(fname):
             continue
+        # if 'gomez' in fname.lower():
+        #     __import__("pdb").set_trace()
 
         linktitle = get_link_title(fname)
-        if linktitle in valid_speakers:
+        if linktitle in [x.replace("-", "_") for x in valid_speakers]:
             continue
 
         if not get_begin(fname):
