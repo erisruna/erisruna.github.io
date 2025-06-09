@@ -215,10 +215,12 @@ $(function () {
         eventDurationEditable: true,
         eventRender: function (info) {
 
-            info.el.querySelectorAll('.fc-title')[0].innerHTML = info.el.querySelectorAll('.fc-title')[0].innerText;
+            // if (info.view.type === "listMonth") {
+            //     return;
+            // }
 
-            if (info.view.type === "listMonth") {
-                return;
+            if (info.view.type != "listMonth") {
+            info.el.querySelectorAll('.fc-title')[0].innerHTML = info.el.querySelectorAll('.fc-title')[0];
             }
             let eventEl = info.el.querySelector(".fc-content");
             let eventID = info.event.extendedProps.issueKey;

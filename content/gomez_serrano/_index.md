@@ -54,8 +54,6 @@ end = "13 June"
 {{< pbr text="" >}}
 
 
-
-
 In this minicourse I will survey recent results on global existence as well
 as finite time singularities for equations coming from mathematical fluid
 mechanics such as Euler, SQG, or other models. The course will  emphasize
