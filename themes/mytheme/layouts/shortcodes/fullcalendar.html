@@ -1631,23 +1631,20 @@ $(function () {
         eventDurationEditable: true,
         eventRender: function (info) {
 
-            // if (info.view.type === "listMonth") {
-            //     return;
-            // }
+            if (info.view.type !== "listMonth") {
+                info.el.querySelectorAll('.fc-title')[0].innerHTML = info.el.querySelectorAll('.fc-title')[0].innerText;
 
-            if (info.view.type != "listMonth") {
-            info.el.querySelectorAll('.fc-title')[0].innerHTML = info.el.querySelectorAll('.fc-title')[0];
+                let eventEl = info.el.querySelector(".fc-content");
+                let eventID = info.event.extendedProps.issueKey;
+                if (!eventID || !eventEl)
+                    return;
+                let link = document.createElement("a");
+                link.innerHTML = eventID;
+                // link.title = "Open in Jira";
+                // link.href = "https://jira.dummyurl.com/browse/" + eventID;
+                link.classList.add("float-right");
+                eventEl.appendChild(link);
             }
-            let eventEl = info.el.querySelector(".fc-content");
-            let eventID = info.event.extendedProps.issueKey;
-            if (!eventID || !eventEl)
-                return;
-            let link = document.createElement("a");
-            link.innerHTML = eventID;
-            // link.title = "Open in Jira";
-            // link.href = "https://jira.dummyurl.com/browse/" + eventID;
-            link.classList.add("float-right");
-            eventEl.appendChild(link);
         }
     });
     calendar.render();
