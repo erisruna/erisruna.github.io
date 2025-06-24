@@ -25,19 +25,19 @@ end = "20 June"
   <tbody>
     <tr>
       <td>Lecture 1</td>
-      <td>16:15-17:45, 16.06.2025</td>
+      <td>16:15-17:00, 16.06.2025</td>
       <td>Online</td>
       <td></td>
     </tr>
     <tr>
       <td>Lecture 2</td>
-      <td>16:15-17:45, 17.06.2025</td>
+      <td>15:15-17:45, 17.06.2025</td>
       <td>Online</td>
       <td></td>
     </tr>
     <tr>
       <td>Lecture 3</td>
-      <td>16:15-17:45, 18.06.2025</td>
+      <td>16:15-17:45, 19.06.2025</td>
       <td>Online</td>
       <td></td>
     </tr>

@@ -37,7 +37,7 @@ end = "27 June"
     </tr>
     <tr>
       <td>Lecture 3</td>
-      <td>10:45-12:15, 25.06.2025</td>
+      <td>11:00-12:30, 25.06.2025</td>
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
       <td></td>
     </tr>
