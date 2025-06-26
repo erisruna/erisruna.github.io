@@ -61,4 +61,4 @@ The advantage of this approach lies in its robustness, which allows to apply it 
 
 ### Material
 #### Pdfs
-* [Slides](/pdfs/otto/slides_otto_day1.pdf)
+* [Slides](/pdfs/otto/slides_otto.pdf)
