@@ -49,7 +49,7 @@ end = "16 May"
     </tr>
     <tr>
       <td>Office hours</td>
-      <td>15:45-16:45, 16.05.2025</td>
+      <td>15:45-16:45, 15.05.2025</td>
       <td></td>
       <td></td>
     </tr>
