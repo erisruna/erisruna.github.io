@@ -46,6 +46,12 @@ end = "6 June"
       <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
       <td></td>
     </tr>
+    <tr>
+      <td>Office hours</td>
+      <td>17:00-18:00, 04.06.2025</td>
+      <td><a href='https://www.google.com/maps/dir//Gran+Sasso+Science+Institute,+Viale+Francesco+Crispi,+7+Rectorate,+Via+Michele+Iacobucci,+2,+67100+L'Aquila+AQ,+Italy/@42.3445687,13.31408'>Main Lecture Hall, Ex-Isef</a></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>`
 >}}
